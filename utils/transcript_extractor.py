@@ -9,7 +9,6 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from youtube_transcript_api import YouTubeTranscriptApi
 
-
 # *********************** Get each video's url from the playlist ***********************
 def init_selenium():
     """
@@ -110,12 +109,12 @@ def get_playlist_transcript(playlist_name, video_names, video_ids):
     Returns:
         None
     """
-    playlist_path = os.path.join(os.getcwd(), playlist_name)
+    playlist_path = os.path.join('../data/raw_dataset/youtube_dataset', playlist_name)
     if not os.path.exists(playlist_path):
         os.makedirs(playlist_path)
 
     for video_name, video_id in zip(video_names, video_ids):
-        print(f"Extracting subtitles from video: {video_name}... ", end='', flush=True)
+        print(f"\t{video_name} ... ", end='', flush=True)
         try:
             # 자동생성이 아닌 수동 입력된 자막을 추출
             # 오류 발생 시 아래 리스트에 수동 생성된 자막이 없다는 것이므로 오류의 (MANUALLY CREATED)에 있는 언어를 아래 리스트에 추가
@@ -125,19 +124,18 @@ def get_playlist_transcript(playlist_name, video_names, video_ids):
             
             with open(os.path.join(playlist_path, f"{video_name}.txt"), 'w') as f:
                 f.write('\n'.join(converted_transcript))
+            print("\tDone.")
         except Exception as e:
-            print(f"Error occurred: {e}")
-        print("Done.")
+            print(f"\tFailed by {e}\n")
     
     return None
 
 if __name__ == '__main__':
-    playlist_urls = [
-        'https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv',
-        'https://www.youtube.com/playlist?list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8',
-        'https://www.youtube.com/playlist?list=PLoROMvodv4rMp7MTFr4hQsDEcX7Bx6Odp',
-
-    ]
+    category = 'politics'
+    playlist_path = f'../data/youtube_urls/{category}_playlist.txt'
+    with open(playlist_path, 'r') as f:
+        playlist_urls = f.readlines()
+        playlist_urls = [url.strip() for url in playlist_urls]
 
     for idx, playlist_url in enumerate(playlist_urls):
         print(f"[Extracting playlist {idx+1}/{len(playlist_urls)}: {playlist_url}]")

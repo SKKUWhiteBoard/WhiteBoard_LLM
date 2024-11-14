@@ -3,7 +3,7 @@
 ```
 WhiteBoard_LLM/
 ├── LICENSE
-├── READEME.md
+├── README.md
 ├── data
 │   ├── preprocessed_dataset
 │   │   ├── opensource_dataset
@@ -12,9 +12,10 @@ WhiteBoard_LLM/
 │   │   ├── opensource_dataset
 │   │   └── youtube_dataset
 │   └── youtube_urls
-│       └── ai_playlist.txt
+│       └── <category>_playlist.txt
 ├── model
 └── utils
+    ├── preprocess.py
     ├── setup.sh
     └── transcript_extractor.py
 

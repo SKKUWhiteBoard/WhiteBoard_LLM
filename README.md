@@ -1,5 +1,6 @@
 # WhiteBoard SLLM (swe3032)
 
+```
 WhiteBoard_LLM/
 ├── LICENSE
 ├── READEME.md
@@ -17,4 +18,4 @@ WhiteBoard_LLM/
     ├── setup.sh
     └── transcript_extractor.py
 
-10 directories, 5 files
+```

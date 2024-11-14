@@ -48,13 +48,21 @@ def get_videos_from_playlist(playlist_url):
 
     try:
         video_elements = driver.find_elements(By.XPATH, '//a[@id="video-title"]')
-        
         video_urls = [video.get_attribute('href') for video in video_elements]
         video_names = [video.get_attribute('title') for video in video_elements]
-
-        playlist_name = driver.find_element(By.XPATH, '//span[@class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap"]').text
+        
+        # Try first XPath for playlist name
+        try:
+            playlist_name = driver.find_element(By.XPATH, '//span[@class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap"]').text
+        except:
+            # If first XPath fails, try the alternative XPath - used for youtube learning playlists
+            try:
+                playlist_name = driver.find_element(By.XPATH, '//yt-formatted-string[@id="text" and @disable-attributed-string]').text
+            except:
+                playlist_name = "Unknown Playlist"
+                
     except Exception as e:
-        print(f"Error occurred: {e}")
+        print(f"Error occurred while getting video elements: {e}")
 
     driver.quit()
 

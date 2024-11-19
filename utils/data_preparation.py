@@ -1,7 +1,7 @@
 import os
 from multiprocessing import Pool
 # Assume these are your custom functions for handling YouTube playlists
-from transcript_extractor_autoTranscript import get_videos_from_playlist, get_video_id_from_url, get_playlist_transcript
+from transcript_extractor_autoTranscript import get_videos_from_playlist, get_video_id_from_url, get_playlist_transcript, sanitize_filename
 from preprocess import preprocess_youtube_dataset
 
 def process_single_playlist(filepath, raw_transcript_dir, processed_transcript_dir):
@@ -9,30 +9,28 @@ def process_single_playlist(filepath, raw_transcript_dir, processed_transcript_d
     하나의 _playlist.txt 파일을 처리: transcript 추출 및 전처리.
     """
     try:
-        # 파일 이름에서 플레이리스트 이름 추출
-        playlist_name = os.path.splitext(os.path.basename(filepath))[0]
+        playlist_name = sanitize_filename(os.path.splitext(os.path.basename(filepath))[0])
         print(f"Processing file: {filepath}")
 
-        # 읽어들인 URL 리스트 처리
+        # 파일에서 URL 리스트 읽기
         with open(filepath, 'r') as file:
             playlist_urls = [line.strip() for line in file if line.strip()]
 
         for idx, playlist_url in enumerate(playlist_urls):
             print(f"[Extracting playlist {idx + 1}/{len(playlist_urls)}: {playlist_url}]")
-
             try:
-                # Transcript 추출
                 pl_name, video_names, video_urls = get_videos_from_playlist(playlist_url)
                 video_ids = get_video_id_from_url(video_urls)
                 get_playlist_transcript(pl_name, video_names, video_ids, raw_transcript_dir)
             except Exception as e:
                 print(f"Error processing playlist {playlist_url}: {e}")
 
-        # 전처리 수행
+        # 전처리
         preprocess_youtube_dataset(raw_transcript_dir, processed_transcript_dir)
         print(f"Preprocessing completed for: {playlist_name}")
     except Exception as e:
         print(f"Error processing file {filepath}: {e}")
+
 
 def process_all_playlists_in_parallel(input_dir, raw_transcript_dir, processed_transcript_dir, num_workers=4):
     """

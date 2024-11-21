@@ -7,7 +7,24 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
+
+
+import re
+
+def sanitize_filename(filename):
+    """
+    파일명에 사용할 수 없는 문자들을 제거하여 파일명을 안전하게 만듭니다.
+    
+    Args:
+        filename (str): 원본 파일명
+    
+    Returns:
+        str: 안전한 파일명
+    """
+    # 특수 문자 제거 및 길이 제한
+    filename = re.sub(r'[\\/*?:"<>|]', "", filename)
+    return filename[:100]  # 길이 제한 (필요시 조정 가능)
 
 # *********************** Get each video's url from the playlist ***********************
 def init_selenium():
@@ -104,7 +121,7 @@ def convert_transcript_format(transcript):
         converted_transcript.append(f"{start} {text}")
     return converted_transcript
 
-def get_playlist_transcript(playlist_name, video_names, video_ids):
+def get_playlist_transcript(playlist_name, video_names, video_ids, output_dir=os.getcwd()):
     """
     플레이리스트의 각 비디오로부터 자막 추출
     플레이리스트 이름으로 폴더 생성 후 각 비디오의 자막을 텍스트 파일로 저장, 각 파일의 이름은 <비디오 이름>.txt
@@ -117,33 +134,40 @@ def get_playlist_transcript(playlist_name, video_names, video_ids):
     Returns:
         None
     """
-    playlist_path = os.path.join('../data/raw_dataset/youtube_dataset', playlist_name)
+    playlist_path = os.path.join(output_dir, playlist_name)
     if not os.path.exists(playlist_path):
         os.makedirs(playlist_path)
 
     for video_name, video_id in zip(video_names, video_ids):
-        print(f"\t{video_name} ... ", end='', flush=True)
+        print(f"Extracting subtitles from video: {video_name}... ", end='', flush=True)
         try:
-            # 자동생성이 아닌 수동 입력된 자막을 추출
-            # 오류 발생 시 아래 리스트에 수동 생성된 자막이 없다는 것이므로 오류의 (MANUALLY CREATED)에 있는 언어를 아래 리스트에 추가
-            transcript_list = YouTubeTranscriptApi.list_transcripts(video_id).find_manually_created_transcript(['en', 'en-US'])
-            transcript = transcript_list.fetch()
-            converted_transcript = convert_transcript_format(transcript)
-            
-            with open(os.path.join(playlist_path, f"{video_name}.txt"), 'w') as f:
-                f.write('\n'.join(converted_transcript))
-            print("\tDone.")
-        except Exception as e:
-            print(f"\tFailed by {e}\n")
+            # 우선 수동으로 작성된 자막을 시도
+            transcript = YouTubeTranscriptApi.list_transcripts(video_id).find_manually_created_transcript(['en', 'en-US']).fetch()
+        except (TranscriptsDisabled, Exception):
+            # 수동 자막이 없을 경우 자동 생성 자막으로 대체
+            try:
+                transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=['en'])
+            except Exception as e:
+                print(f"Error occurred: {e}")
+                continue  # 자막이 없을 경우 해당 비디오를 건너뜁니다.
+
+        
+        # 파일 이름을 안전하게 처리
+        safe_video_name = sanitize_filename(video_name)
+        # 자막을 변환하고 저장
+        converted_transcript = convert_transcript_format(transcript)
+        with open(os.path.join(playlist_path, f"{safe_video_name}.txt"), 'w') as f:
+            f.write('\n'.join(converted_transcript))
+        print("Done.")
     
     return None
 
 if __name__ == '__main__':
-    category = 'politics'
-    playlist_path = f'../data/youtube_urls/{category}_playlist.txt'
-    with open(playlist_path, 'r') as f:
-        playlist_urls = f.readlines()
-        playlist_urls = [url.strip() for url in playlist_urls]
+    playlist_urls = [
+        'https://www.youtube.com/playlist?list=PLQrdx7rRsKfWwTsEG3KPPQx9rWa8AqMIk',
+        'https://www.youtube.com/playlist?list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5',
+
+    ]
 
     for idx, playlist_url in enumerate(playlist_urls):
         print(f"[Extracting playlist {idx+1}/{len(playlist_urls)}: {playlist_url}]")

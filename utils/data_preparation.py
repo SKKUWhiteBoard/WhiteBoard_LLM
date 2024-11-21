@@ -1,7 +1,7 @@
 import os
 from multiprocessing import Pool
 # Assume these are your custom functions for handling YouTube playlists
-from transcript_extractor_autoTranscript import get_videos_from_playlist, get_video_id_from_url, get_playlist_transcript, sanitize_filename
+from utils.transcript_extractor import get_videos_from_playlist, get_video_id_from_url, get_playlist_transcript, sanitize_filename
 from preprocess import preprocess_youtube_dataset
 
 def process_single_playlist(filepath, raw_transcript_dir, processed_transcript_dir):
@@ -62,6 +62,6 @@ if __name__ == '__main__':
     processed_transcript_dir = '../data/preprocessed_dataset/youtube_dataset'
 
     # Step: Process all playlists in parallel
-    process_all_playlists_in_parallel(url_dir, raw_transcript_dir, processed_transcript_dir, num_workers=20)
+    process_all_playlists_in_parallel(url_dir, raw_transcript_dir, processed_transcript_dir, num_workers=1)
 
     print("Transcripts extraction and preprocessing completed.")

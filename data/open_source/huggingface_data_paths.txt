@@ -1,0 +1,4 @@
+OpenSource Path 				version
+abisee/cnn_dailymail 			3.0.0
+FiscalNote/billsum
+ccdv/govreport-summarization

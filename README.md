@@ -36,4 +36,4 @@
 * `trainer.ipynb` : kaggle, colab에서 학습에 사용하는 코드
 
 * `trained_models`: 학습된 모델은 `huggingface` 업로드 후 사용
-    * [Our team Model Huggingface Link](https://huggingface.co/ht324/WhiteBoard_LLM_Models)
+    * [Our team Model Huggingface Link](https://huggingface.co/datasets/ht324/WhiteBoard_LLM_Data_response)

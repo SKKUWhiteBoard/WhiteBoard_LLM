@@ -54,6 +54,12 @@ def preprocess_youtube_dataset_light(unprocessed_path, processed_path):
         transcript_file_names = os.listdir(playlist_path)
 
         for file_name in transcript_file_names:
+            # Normalize file name to avoid `.txt.txt`
+            if file_name.endswith('.txt.txt'):
+                normalized_file_name = file_name.replace('.txt.txt', '.txt')
+            else:
+                normalized_file_name = file_name
+
             with open(os.path.join(playlist_path, file_name), 'r') as f:
                 transcript = f.readlines()
 
@@ -66,7 +72,8 @@ def preprocess_youtube_dataset_light(unprocessed_path, processed_path):
             # Combine all lines into a single line (removing newlines)
             combined_transcript = ' '.join(processed_transcript)
 
-            with open(os.path.join(processed_path, playlist_name, file_name), 'w') as f:
+            # Write the processed file with the normalized name
+            with open(os.path.join(processed_path, playlist_name, normalized_file_name), 'w') as f:
                 f.write(combined_transcript)
         
         print("Done.")

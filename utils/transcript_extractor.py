@@ -12,19 +12,20 @@ from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
 
 import re
 
-def sanitize_filename(filename):
+def sanitize_filename(filename, txt=True):
     """
-    파일명에 사용할 수 없는 문자들을 제거하여 파일명을 안전하게 만듭니다.
-    
-    Args:
-        filename (str): 원본 파일명
-    
-    Returns:
-        str: 안전한 파일명
+    파일명에 사용할 수 없는 문자들을 제거하고 파일명을 안전하게 만듭니다.
     """
-    # 특수 문자 제거 및 길이 제한
-    filename = re.sub(r'[\\/*?:"<>|]', "", filename)
-    return filename[:100]  # 길이 제한 (필요시 조정 가능)
+    # 특수 문자 제거 및 공백 제거
+    filename = re.sub(r'[\\/*?:"<>|]', "", filename).strip()
+    # 한글 또는 ASCII 외 문자 제거 (원한다면 제거하지 않아도 됨)
+    filename = re.sub(r'[^\w\s]', "", filename)
+    # 길이 제한 및 공백을 언더스코어로 변환
+    filename = "_".join(filename.split())[:100]
+    # 확장자 `.txt` 보장
+    if not filename.endswith(".txt") and txt:
+        filename += ".txt"
+    return filename
 
 # *********************** Get each video's url from the playlist ***********************
 def init_selenium():
@@ -76,7 +77,7 @@ def get_videos_from_playlist(playlist_url):
             try:
                 playlist_name = driver.find_element(By.XPATH, '//yt-formatted-string[@id="text" and @disable-attributed-string]').text
             except:
-                playlist_name = "Unknown Playlist"
+                playlist_name = "Unknown_Playlist"
                 
     except Exception as e:
         print(f"Error occurred while getting video elements: {e}")
@@ -134,7 +135,7 @@ def get_playlist_transcript(playlist_name, video_names, video_ids, output_dir=os
     Returns:
         None
     """
-    playlist_path = os.path.join(output_dir, playlist_name)
+    playlist_path = os.path.join(output_dir, sanitize_filename(playlist_name, False))
     if not os.path.exists(playlist_path):
         os.makedirs(playlist_path)
 

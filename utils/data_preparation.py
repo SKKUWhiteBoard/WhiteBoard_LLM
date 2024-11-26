@@ -1,7 +1,7 @@
 import os
 from multiprocessing import Pool
 # Assume these are your custom functions for handling YouTube playlists
-from utils.transcript_extractor import get_videos_from_playlist, get_video_id_from_url, get_playlist_transcript, sanitize_filename
+from transcript_extractor import get_videos_from_playlist, get_video_id_from_url, get_playlist_transcript, sanitize_filename
 from preprocess import preprocess_youtube_dataset
 
 def process_single_playlist(filepath, raw_transcript_dir, processed_transcript_dir):
@@ -9,7 +9,7 @@ def process_single_playlist(filepath, raw_transcript_dir, processed_transcript_d
     하나의 _playlist.txt 파일을 처리: transcript 추출 및 전처리.
     """
     try:
-        playlist_name = sanitize_filename(os.path.splitext(os.path.basename(filepath))[0])
+        playlist_name = sanitize_filename(os.path.splitext(os.path.basename(filepath))[0], False)
         print(f"Processing file: {filepath}")
 
         # 파일에서 URL 리스트 읽기

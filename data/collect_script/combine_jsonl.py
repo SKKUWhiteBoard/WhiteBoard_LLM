@@ -27,7 +27,7 @@ def convert_preprocessed_to_jsonl(preprocessed_path, output_jsonl_path):
                 jsonl_file.write(json.dumps(json_object) + '\n')
 
 if __name__ == '__main__':
-    preprocessed_path = '../data/preprocessed_dataset/youtube_dataset'
-    output_jsonl_path = '../data/preprocessed_dataset/youtube_dataset.jsonl'
+    preprocessed_path = '../preprocessed_dataset/youtube_dataset'
+    output_jsonl_path = '../preprocessed_dataset/youtube_dataset.jsonl'
 
     convert_preprocessed_to_jsonl(preprocessed_path, output_jsonl_path)

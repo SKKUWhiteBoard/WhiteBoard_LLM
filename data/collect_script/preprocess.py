@@ -79,8 +79,8 @@ def preprocess_youtube_dataset_light(unprocessed_path, processed_path):
         print("Done.")
 
 if __name__ == '__main__':
-    unprocessed_path = '../data/raw_dataset/youtube_dataset'
-    processed_path = '../data/preprocessed_dataset/youtube_dataset'
+    unprocessed_path = '../raw_dataset/youtube_dataset'
+    processed_path = '../preprocessed_dataset/youtube_dataset'
 
     #preprocess_youtube_dataset(unprocessed_path, processed_path)
     preprocess_youtube_dataset_light(unprocessed_path, processed_path)

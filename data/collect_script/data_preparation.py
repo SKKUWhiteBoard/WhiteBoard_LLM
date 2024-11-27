@@ -57,9 +57,9 @@ def process_all_playlists_in_parallel(input_dir, raw_transcript_dir, processed_t
 
 if __name__ == '__main__':
     # Directories
-    url_dir = '../data/youtube_urls'
-    raw_transcript_dir = '../data/raw_dataset/youtube_dataset'
-    processed_transcript_dir = '../data/preprocessed_dataset/youtube_dataset'
+    url_dir = '../youtube_urls'
+    raw_transcript_dir = '../raw_dataset/youtube_dataset'
+    processed_transcript_dir = '../preprocessed_dataset/youtube_dataset'
 
     # Step: Process all playlists in parallel
     process_all_playlists_in_parallel(url_dir, raw_transcript_dir, processed_transcript_dir, num_workers=1)

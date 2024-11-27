@@ -1,0 +1,22 @@
+hf_token: YOUR_HUGGING_FACE_TOKEN
+
+
+experiment_name: "segment-length-100"
+experiment_dir: "./experiments"
+
+data:
+  open_source_dataset: "ccdv/govreport-summarization" 
+  youtube_dataset: "WhiteboardLLM/Data"
+
+segment:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  segment_length: 100
+  n_overlap: 0
+  fix_size: False
+
+summary:
+  # 600M  google/pegasus-xsum
+  # 3B    jordiclive/flan-t5-3b-summarizer
+  model: "facebook/bart-large-cnn"
+  max_length: 1024
+  min_length: 100

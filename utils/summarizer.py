@@ -27,13 +27,24 @@ def summarizer(texts: list, model="facebook/bart-large-cnn", max_length=1024, mi
     Returns:
     - str: summary
     """
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
     tokenizer = AutoTokenizer.from_pretrained(model)
-    model = AutoModelForSeq2SeqLM.from_pretrained(model)
+    model = AutoModelForSeq2SeqLM.from_pretrained(model).to(device)
 
-    inputs = tokenizer(texts, padding=True, truncation=True, return_tensors="pt")
+    inputs = tokenizer(texts, 
+                       max_length=max_length,
+                       truncation=True,
+                       padding='longest', 
+                       return_tensors='pt'
+    )
     with torch.no_grad():
-        summary_ids = model.generate(inputs['input_ids'], num_beams=4, max_length=100, early_stopping=True)
+        inputs = {key: value.to(model.device) for key, value in inputs.items()}
+        summary_ids = model.generate(inputs['input_ids'], num_beams=4, min_length=min_length, max_length=max_length)
 
-    summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
+    summaries = tokenizer.batch_decode(summary_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)
     
+    # concatenate summaries TODO: if needed add /n between summaries
+    summary = " ".join(summaries)
+
     return summary

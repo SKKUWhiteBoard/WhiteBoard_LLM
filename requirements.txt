@@ -1,0 +1,11 @@
+torch
+torchvision
+transformers
+numpy
+datasets
+matplotlib
+seaborn
+rouge-score
+bert-score
+pyyaml
+python-box

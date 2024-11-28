@@ -1,5 +1,5 @@
 import numpy as np
-from utils import cosine_similarity
+from .utils import cosine_similarity
 
 """
     this file is for concatenate functions
@@ -26,10 +26,21 @@ def concate_time_based(embeddings:np.ndarray, threshold=0.6)->list:
     Returns:
     - list: concatenated indexes
     """
-    concatenated_indexes = []
-    # concatenated_indexes.append( [same indexes list] )
+
+    if not isinstance(embeddings, np.ndarray):
+        raise ValueError("Input embeddings must be a numpy array.")
+    if len(embeddings) == 0:
+        return []
+
+    concatenated_indexes = [[0]]
+
+    for i in range(1, len(embeddings)):
+        if cosine_similarity(embeddings[i-1], embeddings[i]) > threshold:
+            concatenated_indexes[-1].append(i)
+        else:
+            concatenated_indexes.append([i])        
     
-    raise concatenated_indexes
+    return concatenated_indexes
 
 # concatenate based on clustering
 def concate_clustering(embeddings:np.ndarray)->list:
@@ -46,7 +57,7 @@ def concate_clustering(embeddings:np.ndarray)->list:
     concatenated_indexes = []
     # concatenated_indexes.append( [same indexes list] )
     
-    raise concatenated_indexes
+    return concatenated_indexes
 
 # concatenate based on knn
 def concate_knn(embeddings:np.ndarray)->list:
@@ -62,7 +73,7 @@ def concate_knn(embeddings:np.ndarray)->list:
     concatenated_indexes = []
     # concatenated_indexes.append( [same indexes list] )
     
-    raise concatenated_indexes
+    return concatenated_indexes
 
 # your best concatenate function
 def concate_custom(embeddings:np.ndarray)->list:
@@ -78,4 +89,4 @@ def concate_custom(embeddings:np.ndarray)->list:
     concatenated_indexes = []
     # concatenated_indexes.append( [same indexes list] )
     
-    raise concatenated_indexes
+    return concatenated_indexes

@@ -1,24 +1,28 @@
-# hf_token: YOUR_HUGGING_FACE_TOKEN
+experiment_name: "seg_100_10_timeline_0.7"
 
-experiment_name: "segment-length-100"
-experiment_dir: "./experiments"
+mini_batch:
+  size: 8
+  # N for divide batch into N mini-batches
+  # -1 for don't use mini batch
 
 data:
-  open_source: "ccdv/govreport-summarization"
+  source: "youtube" # "opensource"
+  opensource: "ccdv/govreport-summarization"
   youtube: "WhiteboardLLM/Data"
+  index_set: 4
 
 segment:
-  model: "sentence-transformers/all-MiniLM-L6-v2"
-  n_word: 100
-  n_overlap: 0
-  fix_size: False
+  args:
+    n_word: 100
+    n_overlap: 0
+    fix_size: False
+
+concat:
+  method: "concate_time_based"
+  args:
+    threshold: 0.6
 
 summary:
-  # 600M  google/pegasus-xsum
-  # 3B    jordiclive/flan-t5-3b-summarizer
-  model: "facebook/bart-large-cnn"
-  max_length: 1024
-  min_length: 100
-
-
-
+  args:
+    min_length: 100
+    max_length: 1024

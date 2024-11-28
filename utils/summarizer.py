@@ -14,7 +14,7 @@ function signature:
 """
 
 
-def summarizer(texts: list, model="facebook/bart-large-cnn", max_length=1024, min_length=0)->str:
+def summarizer(texts: list, model="facebook/bart-large-cnn", max_length=1024, min_length=0, num_beams=4)->str:
     """
     summarizer based on language model
 
@@ -40,7 +40,7 @@ def summarizer(texts: list, model="facebook/bart-large-cnn", max_length=1024, mi
     )
     with torch.no_grad():
         inputs = {key: value.to(model.device) for key, value in inputs.items()}
-        summary_ids = model.generate(inputs['input_ids'], num_beams=4, min_length=min_length, max_length=max_length)
+        summary_ids = model.generate(inputs['input_ids'], num_beams=num_beams, min_length=min_length, max_length=max_length)
 
     summaries = tokenizer.batch_decode(summary_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)
     

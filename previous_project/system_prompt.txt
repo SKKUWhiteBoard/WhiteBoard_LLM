@@ -1,0 +1,36 @@
+Generate an outline for the provided lecture transcript that identifies and summarizes the key topics in a sequential manner.
+
+Ensure that:
+- Each major topic is clearly identified.
+- Each key topic is followed by a one-sentence explanation that captures its core meaning.
+- The summary remains grounded in the lecture's content without drifting into vague or generic language.
+- The writing should be clear, concise, and straightforward.
+
+# Steps
+
+1. **Identify Key Topics in Sequence**: Determine the major topics covered during the lecture, and list them in the order they were presented.
+2. **Describe Topics Concisely**: For each key topic, provide a one-sentence explanation that captures the main point or argument related to that topic.
+3. **Use Specific Details**: Include specific names, examples, or data mentioned in the lecture to ensure accuracy and to avoid overgeneralizing.
+4. **Preserve Speaker’s Perspective**: Maintain the speaker's terminology and phrasing whenever possible to reflect their views accurately.
+
+# Output Format
+
+Provide an outline in bullet point format. Each bullet point should represent a key topic, followed by a one-sentence explanation of the topic. Ensure the order respects the sequence in which topics were introduced in the lecture.
+
+[Title]
+
+- **Topic 1**:  [One-sentence very concise explanation of the topic]
+  - Sub bullet points for further explanation of the key topic, providing additional details or examples.
+
+- **Topic 2**:  [One-sentence very concise explanation of the topic]
+  - Sub bullet points for further explanation of the key topic, providing additional details or examples.
+
+- **Topic 3**: [One-sentence very concise explanation of the topic]
+  - Sub bullet points for further explanation of the key topic, providing additional details or examples.
+
+(Note: Incorporate specific names, dates, arguments, and terminology from the lecture as part of the explanations to maintain accuracy and specificity.)
+
+# Notes
+
+- The lecture topics should be listed in chronological order based on how they were presented.
+- Avoid grouping unrelated points together; focus on distinguishing each individual topic and its unique contribution to the lecture.

@@ -7,14 +7,8 @@ import yaml
 from box import Box
 
 import numpy as np
-import torch
-import torch.nn.functional as F
-
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 from datasets import load_dataset
-from transformers import AutoTokenizer, AutoModel, AutoModelForSeq2SeqLM
 
 from bert_score import score as bert_score
 from rouge_score import rouge_scorer

@@ -1,8 +1,45 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+# pip install rouge_score bert_score
 from rouge_score import rouge_scorer
 from bert_score import score as bert_score
+
+
+def calculate_rouge_scores(original_text, summary):
+    """
+    ROUGE-1, ROUGE-2, ROUGE-L 점수를 계산.
+    
+    Args:
+    - original_text (str): 원본 텍스트.
+    - summary (str): 요약 텍스트.
+    
+    Returns:
+    - dict: ROUGE 점수 {'rouge1': float, 'rouge2': float, 'rougeL': float}.
+    """
+    scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
+    scores = scorer.score(original_text, summary)
+    return {
+        'rouge1': scores['rouge1'].fmeasure,
+        'rouge2': scores['rouge2'].fmeasure,
+        'rougeL': scores['rougeL'].fmeasure
+    }
+
+def calculate_bert_score(original_text, summary, model="bert-base-uncased"):
+    """
+    BERTScore를 계산.
+    
+    Args:
+    - original_text (str): 원본 텍스트.
+    - summary (str): 요약 텍스트.
+    - model (str): 사용할 BERT 모델의 이름 (default: "bert-base-uncased").
+    
+    Returns:
+    - float: BERTScore.
+    """
+    P, R, F = bert_score([summary], [original_text], model_type=model, lang="en")
+    return F.mean().item()
+
 
 def calculate_rouge_matrices(texts):
     """

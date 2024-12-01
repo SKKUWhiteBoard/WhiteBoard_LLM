@@ -1,4 +1,4 @@
-experiment_name: "seg_100_10_timeline_0.7"
+experiment_name: "timeline_150_65"
 
 mini_batch:
   size: 3
@@ -20,9 +20,11 @@ segment:
 concat:
   method: "concate_time_based"
   args:
-    threshold: 0.5
+    threshold: 0.65
 
 summary:
   args:
     min_length: 100
     max_length: 1024
+
+save_summaries: True

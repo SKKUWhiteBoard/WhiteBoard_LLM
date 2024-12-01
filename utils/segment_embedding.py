@@ -21,7 +21,7 @@ def segmentate_sentence(full_text: str, n_word: int, n_overlap: int=0, fix_size:
     assert n_word > n_overlap, "n_word must be greater than n_overlap"
 
     words = full_text.split()
-    assert n_word <= len(words), "n_word must be less than the number of words in full_text"
+    # assert n_word <= len(words), "n_word must be less than the number of words in full_text"
 
     result = []
     for i in range(0, len(words), n_word-n_overlap):

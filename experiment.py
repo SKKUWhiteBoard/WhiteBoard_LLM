@@ -41,6 +41,10 @@ elif config.data.source == 'youtube':
 print("Done")
 print('===============================================')
 
+save_dir_path = os.path.join('experiments', f'{config.experiment_name}')
+if not os.path.exists(save_dir_path):
+    os.makedirs(save_dir_path)
+
 # ========================== [Run experiments] ==========================
 max_score = 0
 best_summary = ""
@@ -56,25 +60,16 @@ for di, text in enumerate(datasets):
     segments = segmentate_sentence(text, **config.segment.args)
     e = time.time()
     print("Done", f"{e-s:.2f} sec")
-    
-    # ========================== [Embedding] ===========================
-    print("Embedding...    ", end="", flush=True)
-    s = time.time()
-    embeddings = encode_segments(segments) # model fixed
-    e = time.time()
-    print("Done", f"{e-s:.2f} sec")
 
     # ========================== [Clustering] ==========================
     print("Clustering...   ", end="", flush=True)
     s = time.time()
-    concat_indices = globals()[config.concat.method](embeddings, **config.concat.args)
+    concat_indices = globals()[config.concat.method](segments, **config.concat.args)
     e = time.time()
     print("Done", f"{e-s:.2f} sec")
 
     max_group_size = max([len(group) for group in concat_indices])
     print(f"Num. of Cluster: {len(concat_indices)}, Max group size: {max_group_size}")
-
-    del embeddings # free memory
 
     # ========================== [Ready to summarize] ==================
     batch_clusters = [
@@ -106,11 +101,15 @@ for di, text in enumerate(datasets):
     rouge1, rouge2, rougeL = calculate_rouge_scores(text, batch_summaries)
     b_score = calculate_bert_score(text, batch_summaries)
 
+    # scale score * 100
+    rouge1, rouge2, rougeL = rouge1*100, rouge2*100, rougeL*100
+    b_score = b_score * 100
+
     e = time.time()
     print("Done", f"{e-s:.2f} sec")
     
-    print(f"=> ROUGE-1: {rouge1:.4f}, ROUGE-2: {rouge2:.4f}, ROUGE-L: {rougeL:.4f}")
-    print(f"=> BERTScore: {b_score:.4f}")
+    print(f"=> ROUGE-1: {rouge1:.2f}, ROUGE-2: {rouge2:.2f}, ROUGE-L: {rougeL:.2f}")
+    print(f"=> BERTScore: {b_score:.2f}")
 
     # ========================== [Post-process] ========================
     if b_score > max_score: # score는 대소비교 가능한 1가지 방식을 이용
@@ -127,14 +126,22 @@ for di, text in enumerate(datasets):
     })
     print(f"Total: {time.time()-init_s:.2f} sec")
 
+    # append summary and scores to text file (cummulative)
+    # if there is no file, create one
+    if config.save_summaries:
+        with open(f'experiments/{config.experiment_name}/summaries.txt', 'a') as f:
+            f.write(f"==================== [{di+1}/{len(datasets)}] ====================\n")
+            # f.write(f"Original text:\n{text}\n\n")
+            f.write(f"Summary:\n{batch_summaries}\n\n")
+            f.write(f"ROUGE-1: {rouge1:.2f}, ROUGE-2: {rouge2:.2f}, ROUGE-L: {rougeL:.2f}\n")
+            f.write(f"BERTScore: {b_score:.2f}\n\n")
+            f.write("==============================================\n")
+
 print("===============================================")
 
 # ====================== [Save experiment result] ======================
 print("Saving evaluation results... ")
 
-save_dir_path = os.path.join('experiments', f'{config.experiment_name}')
-if not os.path.exists(save_dir_path):
-    os.makedirs(save_dir_path)
 
 # Copy config file
 os.system(f'cp config.yaml {save_dir_path}')
@@ -161,9 +168,11 @@ for metric, values in data_by_metric.items():
         'max': np.max(values)
     }
 
-# print("Visualizing Evaluation results...")
+# print and save statistics in results.txt
 for metric, stats in statistics.items():
     print(f"{metric}: mean={stats['mean']:.3f}, var={stats['var']:.3f}, min={stats['min']:.3f}, max={stats['max']:.3f}")
+    with open(os.path.join(save_dir_path, 'results.txt'), 'a') as f:
+        f.write(f"{metric}: mean={stats['mean']:.3f}, var={stats['var']:.3f}, min={stats['min']:.3f}, max={stats['max']:.3f}\n")
 
 for metric, values in data_by_metric.items():
     plt.figure(figsize=(8, 5))

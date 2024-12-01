@@ -47,4 +47,7 @@ def summarizer(texts: list, model="facebook/bart-large-cnn", max_length=1024, mi
     # concatenate summaries TODO: if needed add /n between summaries
     summary = " ".join(summaries)
 
+    # free unusable memory
+    del inputs, summary_ids, summaries
+
     return summary

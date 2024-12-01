@@ -5,13 +5,11 @@ import time
 # ====================== [third-party modules] =====================
 import yaml
 from box import Box
-
 import numpy as np
-
 from datasets import load_dataset
-
 from bert_score import score as bert_score
 from rouge_score import rouge_scorer
+import matplotlib.pyplot as plt
 
 # ======================= [custom modules] =========================
 from utils.eval_similarity import *
@@ -42,7 +40,6 @@ elif config.data.source == 'youtube':
     datasets = datasets['train'].select(indices)['content']
 print("Done")
 print('===============================================')
-
 
 # ========================== [Run experiments] ==========================
 max_score = 0
@@ -77,6 +74,8 @@ for di, text in enumerate(datasets):
     max_group_size = max([len(group) for group in concat_indices])
     print(f"Num. of Cluster: {len(concat_indices)}, Max group size: {max_group_size}")
 
+    del embeddings # free memory
+
     # ========================== [Ready to summarize] ==================
     batch_clusters = [
         " ".join([segments[gi] for gi in group]) for group in concat_indices
@@ -103,24 +102,35 @@ for di, text in enumerate(datasets):
     # ========================== [Evaluate] ============================
     print("Evaluating...   ", end="", flush=True)
     s = time.time()
-    score = 0
+    
+    rouge1, rouge2, rougeL = calculate_rouge_scores(text, batch_summaries)
+    b_score = calculate_bert_score(text, batch_summaries)
+
     e = time.time()
     print("Done", f"{e-s:.2f} sec")
-    print(f"=> Score: {score:.4f}  ")
+    
+    print(f"=> ROUGE-1: {rouge1:.4f}, ROUGE-2: {rouge2:.4f}, ROUGE-L: {rougeL:.4f}")
+    print(f"=> BERTScore: {b_score:.4f}")
 
     # ========================== [Post-process] ========================
-    if score > max_score: # score는 대소비교 가능한 1가지 방식을 이용
-        max_score = score
+    if b_score > max_score: # score는 대소비교 가능한 1가지 방식을 이용
+        max_score = b_score
         best_summary = batch_summaries
+        best_index = di
         # 원본 텍스트의 index는 indices[di]로 찾을 수 있음
     
-    evaluation_results.append(score)
+    evaluation_results.append({
+        'rouge1': rouge1,
+        'rouge2': rouge2,
+        'rougeL': rougeL,
+        'bert_score': b_score
+    })
     print(f"Total: {time.time()-init_s:.2f} sec")
 
 print("===============================================")
 
 # ====================== [Save experiment result] ======================
-print("Saving evaluation results... ", end="", flush=True)
+print("Saving evaluation results... ")
 
 save_dir_path = os.path.join('experiments', f'{config.experiment_name}')
 if not os.path.exists(save_dir_path):
@@ -133,6 +143,37 @@ os.system(f'cp config.yaml {save_dir_path}')
 with open(os.path.join(save_dir_path, 'README.md'), 'w') as f:
     f.write(f'# {config.experiment_name}\n')
 
-# Save evaluation results
-...
+# Save best summary & index
+with open(os.path.join(save_dir_path, 'best_summary.txt'), 'w') as f:
+    f.write(f"Best index: {best_index}\n\n")
+    f.write(best_summary)
+
+# plot evaluation results
+metrics = list(evaluation_results[0].keys())
+data_by_metric = {metric: [sample[metric] for sample in evaluation_results] for metric in metrics}
+
+statistics = {}
+for metric, values in data_by_metric.items():
+    statistics[metric] = {
+        'mean': np.mean(values),
+        'var': np.var(values),
+        'min': np.min(values),
+        'max': np.max(values)
+    }
+
+# print("Visualizing Evaluation results...")
+for metric, stats in statistics.items():
+    print(f"{metric}: mean={stats['mean']:.3f}, var={stats['var']:.3f}, min={stats['min']:.3f}, max={stats['max']:.3f}")
+
+for metric, values in data_by_metric.items():
+    plt.figure(figsize=(8, 5))
+    plt.hist(values, bins=10, edgecolor='black', alpha=0.7)
+    plt.title(f'Distribution of {metric}')
+    plt.xlabel(metric)
+    plt.ylabel('score')
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    plt.savefig(os.path.join(save_dir_path, f'{metric}_histogram.png'))
+    plt.close()
+
+
 print("Done")

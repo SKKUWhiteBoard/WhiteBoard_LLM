@@ -63,11 +63,9 @@
 
 ---
 
-> ## Others
+> ## Others (Previous Project)
 * `[./previous_project/*]` : sLLM fine tuning 프로젝트
     
-----
-> ## Models ( Previous Project )
 * `trainer.ipynb` : kaggle, colab에서 학습에 사용하는 코드
 
-* `trained_models`: 학습된 모델은 `huggingface` 업로드 후 사용
+* `trained_models`: 학습된 모델은 `huggingface` 업로드 후 사용 (huggingface repo 참고)

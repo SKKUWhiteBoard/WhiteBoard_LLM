@@ -15,15 +15,15 @@ def calculate_rouge_scores(original_text, summary):
     - summary (str): 요약 텍스트.
     
     Returns:
-    - dict: ROUGE 점수 {'rouge1': float, 'rouge2': float, 'rougeL': float}.
+    -  'rouge1': float, 'rouge2': float, 'rougeL': float.
     """
     scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
     scores = scorer.score(original_text, summary)
-    return {
-        'rouge1': scores['rouge1'].fmeasure,
-        'rouge2': scores['rouge2'].fmeasure,
-        'rougeL': scores['rougeL'].fmeasure
-    }
+    return (
+        scores['rouge1'].fmeasure,
+        scores['rouge2'].fmeasure,
+        scores['rougeL'].fmeasure
+    )
 
 def calculate_bert_score(original_text, summary, model="bert-base-uncased"):
     """

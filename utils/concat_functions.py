@@ -3,6 +3,7 @@ from .utils import cosine_similarity
 from .segment_embedding import *
 from sklearn.neighbors import NearestNeighbors
 from sklearn.cluster import DBSCAN
+from scipy.cluster.hierarchy import linkage, fcluster
 
 """
     this file is for concatenate functions
@@ -220,6 +221,42 @@ def top_down_splitting(segments: list, threshold: float=0.7) -> list:
     
     return recursively_splitting(segments, 0, len(segments))
 
+def concate_hierarchical_clustering(segments: list, threshold: float = 0.7, method: str = 'ward') -> list:
+    """
+    Concatenate segments based on Hierarchical Clustering.
+
+    Args:
+    - segments: list of text segments.
+    - threshold: threshold to cut the dendrogram for forming flat clusters.
+    - method: linkage method to use ('single', 'complete', 'average', 'ward', etc.)
+
+    Returns:
+    - list: Concatenated indexes as groups.
+    """
+    embeddings = encode_segments(segments)
+    if not isinstance(embeddings, np.ndarray):
+        raise ValueError("Input embeddings must be a numpy array.")
+    if len(embeddings) == 0:
+        return []
+
+    # Ward method requires Euclidean metric
+    distance_metric = 'euclidean' if method == 'ward' else 'cosine'
+
+    # Compute the linkage matrix
+    linkage_matrix = linkage(embeddings, method=method, metric=distance_metric)
+
+    # Form flat clusters from the hierarchical clustering defined by the linkage matrix
+    cluster_labels = fcluster(linkage_matrix, t=threshold, criterion='distance')
+
+    # Group indexes by cluster labels
+    concatenated_indexes = []
+    unique_labels = np.unique(cluster_labels)
+
+    for label in unique_labels:
+        cluster_indexes = np.where(cluster_labels == label)[0].tolist()
+        concatenated_indexes.append(cluster_indexes)
+
+    return concatenated_indexes
 
 # TODO: Implement your own concatenate function here
 def concate_custom(segments: list, **kwargs) -> list:

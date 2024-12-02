@@ -100,6 +100,7 @@ def concate_knn(segments: list, k: int = 20, threshold: float = 0.6) -> list:
         return []
 
     # Initialize Nearest Neighbors model
+    k = min(k, len(embeddings))
     nn_model = NearestNeighbors(n_neighbors=k, metric='cosine')
     nn_model.fit(embeddings)
 

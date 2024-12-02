@@ -180,7 +180,7 @@ for metric, values in data_by_metric.items():
     plt.hist(values, bins=10, edgecolor='black', alpha=0.7)
     plt.title(f'Distribution of {metric}')
     plt.xlabel(metric)
-    plt.ylabel('score')
+    plt.ylabel('count')
     plt.grid(axis='y', linestyle='--', alpha=0.7)
     plt.savefig(os.path.join(save_dir_path, f'{metric}_histogram.png'))
     plt.close()

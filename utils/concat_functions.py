@@ -74,7 +74,7 @@ def concate_clustering(segments: list, eps: float = 0.15, min_samples: int = 3) 
 
     for label in unique_labels:
         if label == -1:  # Noise points are labeled as -1
-            continue
+            concatenated_indexes.append([label])
         cluster_indexes = np.where(cluster_labels == label)[0].tolist()
         concatenated_indexes.append(cluster_indexes)
 
@@ -178,6 +178,47 @@ def concate_time_clustering(segments: list, threshold=0.6, eps: float = 0.15, mi
 
 
     return concatenated_indexes
+
+
+def top_down_splitting(segments: list, threshold: float=0.7) -> list:
+    """
+    Split segments based on top-down splitting.
+
+    Args:
+    - segments: segment list
+    - threshold: Similarity threshold to group embeddings.
+    - min_cluster_size: Minimum number of samples in a cluster.
+
+    Returns:
+    - list: Concatenated indexes as groups.
+    """
+    def recursively_splitting(segments, start, end):
+        """
+        Recursively split segments based on top-down splitting.
+
+        Args:
+        - segments: segment list
+
+        Returns:
+        - list: Concatenated indexes as groups.
+        """
+        if end - start <= 1:
+            return [[start]]
+        
+        mid = (start + end) // 2
+
+        left_text = " ".join(segments[start:mid])
+        right_text = " ".join(segments[mid:end])
+        left_embeddings = encode_segments([left_text])
+        right_embeddings = encode_segments([right_text])
+        
+        similarity = cosine_similarity(left_embeddings[0], right_embeddings[0])
+        if similarity > threshold:
+            return [[i for i in range(start, end)]]
+        else:
+            return recursively_splitting(segments, start, mid) + recursively_splitting(segments, mid, end)
+    
+    return recursively_splitting(segments, 0, len(segments))
 
 
 # TODO: Implement your own concatenate function here

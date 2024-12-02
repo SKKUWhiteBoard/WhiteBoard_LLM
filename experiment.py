@@ -69,7 +69,8 @@ for di, text in enumerate(datasets):
     print("Done", f"{e-s:.2f} sec")
 
     max_group_size = max([len(group) for group in concat_indices])
-    print(f"Num. of Cluster: {len(concat_indices)}, Max group size: {max_group_size}")
+    avg_group_size = np.mean([len(group) for group in concat_indices])
+    print(f"Num. of Cluster: {len(concat_indices)}, Max group size: {max_group_size}, Avg. group size: {avg_group_size:.2f}")
 
     # ========================== [Ready to summarize] ==================
     batch_clusters = [
@@ -82,7 +83,7 @@ for di, text in enumerate(datasets):
     if config.mini_batch.size > 0:
         mini_batch_size = (len(batch_clusters)
                            if len(batch_clusters) < config.mini_batch.size else
-                           len(batch_clusters) // config.mini_batch.size)
+                           config.mini_batch.size)
 
         batch_summaries = []
         for i in range(0, len(batch_clusters), mini_batch_size):

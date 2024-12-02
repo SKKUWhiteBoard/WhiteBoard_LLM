@@ -1,9 +1,9 @@
 experiment_name: "timeline_150_65"
 
 mini_batch:
-  size: 3
-  # N for divide batch into N mini-batches
-  # -1 for don't use mini batch
+  size: 8
+  # N means the number of cluster text in one inference
+  # strongly recommend to set N to half ~ two-thirds of your VRAM(GB)
 
 data:
   source: "youtube" # "opensource"

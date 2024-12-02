@@ -1,26 +1,26 @@
-experiment_name: "top_down_splitting_08_seg_100"
+experiment_name: "timeline_50_65"
 
 mini_batch:
-  size: 8
+  size: 4
   # N means the number of cluster text in one inference
   # strongly recommend to set N to half ~ two-thirds of your VRAM(GB)
 
 data:
-  source: "opensource" # "youtube"
+  source: "youtube" # "opensource"
   opensource: "ccdv/govreport-summarization"
   youtube: "WhiteboardLLM/Data"
-  index_set: 1
+  index_set: 3
 
 segment:
   args:
-    n_word: 100
+    n_word: 50
     n_overlap: 0
     fix_size: False
 
 concat:
-  method: "top_down_splitting"
+  method: "concate_time_based"
   args:
-    threshold: 0.8
+    threshold: 0.65
 
 summary:
   args:

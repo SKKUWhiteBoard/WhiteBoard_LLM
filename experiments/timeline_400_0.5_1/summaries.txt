@@ -1,0 +1,800 @@
+==================== [1/100] ====================
+Summary:
+John ESSIGMANN: I measure my blood sugar at different times during the day. Gluconeogenesis technically means new synthesis of glucose from non-carbohydrate precursors. The medicine I take is called Metformin. It has a number of targets, but one of them is one of the enzymes, called PEPCK, Pyruvate Carboxykinase, that's in the gluconeogenic pathway. The liver provides a constant stream of glucose to organs that absolutely require it, like our brain.
+
+ROUGE-1: 28.97, ROUGE-2: 26.69, ROUGE-L: 28.97
+BERTScore: 70.94
+
+==============================================
+==================== [2/100] ====================
+Summary:
+In this lecture, we introduce and develop the concept of independence between events. If I tell you that a certain event A has occurred, this will generally change the probability of some other event B. In such a case, we say that events A and B are independent. We will then proceed to define the independence of a collection of more than two events. Finally, we will close with an application in reliability analysis and with a nice puzzle that will serve as a word of caution about putting together probabilistic models.
+
+ROUGE-1: 62.59, ROUGE-2: 60.96, ROUGE-L: 62.59
+BERTScore: 82.29
+
+==============================================
+==================== [3/100] ====================
+Summary:
+In today's video i'll show you the importance of de-gassing your bread dough as it's fermenting. No matter how gentle you try to handle your dough you will always de-gas it if only a little bit in today's comparison video we'll make 4 breads they will be made from the same dough but they will all be treated differently. The first one of the four breads will be left alone from the beginning of fermentation until it's baked. The final one will be folded shaped and degassed three times and we won't be fermenting them for the same amount of time.
+
+ROUGE-1: 11.35, ROUGE-2: 11.05, ROUGE-L: 11.35
+BERTScore: 70.42
+
+==============================================
+==================== [4/100] ====================
+Summary:
+Of the nearly 11,000 amendments proposed in the centuries since, only 27 have succeeded as of 2016. The founders of the United States were trying to create a unified country from thirteen different colonies. For an amendment to even be proposed, it must receive a two-thirds vote of approval in both houses of Congress. To actually change the Constitution, the amendment must be ratified by three-quarters of all states. The result of such high thresholds is that, today, the American Constitution is quite static.
+
+ROUGE-1: 24.96, ROUGE-2: 23.60, ROUGE-L: 24.96
+BERTScore: 67.92
+
+==============================================
+==================== [5/100] ====================
+Summary:
+Tamaso POGGIO: I think it's a golden age for intelligent applications. We are still very far from understanding how people can answer questions about images. This is one of the main focus in the center, really. How does your brain answer simple questions about this image? About what is there? And what is this? Who is this person? What is she doing? What's she thinking? Let me tell you a bit more about the background here. This idea of merging brain research and computer science in the quest to understand intelligence.
+
+ROUGE-1: 14.23, ROUGE-2: 13.48, ROUGE-L: 11.91
+BERTScore: 54.69
+
+==============================================
+==================== [6/100] ====================
+Summary:
+Chef Todd Moore shares with you the seven basic skills that I think everyone should have to cook food consistently in the kitchen and be proud of the results. The chef test highlights the skills that everyone should possess if they want to learn to cook anything at any time and be confident that it'll always come out great. If you already have all seven of these skills and cooking techniques great you can work for me on the other hand if you only have one or two ofthese skills that's still fantastic.
+
+ROUGE-1: 7.65, ROUGE-2: 7.17, ROUGE-L: 6.03
+BERTScore: 61.55
+
+==============================================
+==================== [7/100] ====================
+Summary:
+As a nurse you want to be familiar with heart blocks and in this review i'm going to be talking about third degree heart blocks also known as a complete heart block. The reason is occurring is because electrical signal from the atria isn't making it to the ventricles. The person could be born with it so it could be congenital or the person has severe heart disease or they have a myocardial infarction or they're taking some type of medication that they become toxic on like digoxin.
+
+ROUGE-1: 24.63, ROUGE-2: 23.88, ROUGE-L: 24.63
+BERTScore: 67.04
+
+==============================================
+==================== [8/100] ====================
+Summary:
+Lectures focus on advanced applications, where we have covered a good amount of the material in the ideas behind those applications. We will not quiz you on these application lectures, on the final exam, or anything like that. It's more meant to give you more perspective rather than extra study materials for the final. Today's state-of-the-art in Go is that there are computer players better than the best human players. For a game like Tic-Tac-Toe, you will find out that you can force a draw, and that means fully solving the game. But for a gamelike Go, this is actually pretty hard to do, and it's even much harder than chess. Researchers have developed a way to teach helicopters to fly autonomously. The system is based on a hidden Markov model. It can be used to learn new skills, such as how to fly a helicopter in a certain way. The researchers hope to use the system to teach Go players to play the game without knowing any prior knowledge of the game or how to do certain maneuvers in a particular way. Back to Mail Online home.Back to the page you came from.. The team has developed a system that can teach a helicopter to fly in a specific way, using a hidden model. is a separate linear feedback controller for each time slice. If there is no wind, you can actually just run the linear feedback control. It will be fine. But if there's some wind gusts that could throw you off, you want to use the value functions and the two second look ahead against those value functions to do the controls. Training a unified policy across the entire space might work. It might take some work, exactly, figuring out how to do it. It could be interesting to revisit that now and see what the current understanding of how to train these networks. In 2015, there was the Doppler Robotics Challenge, which was held in Pomona, just east of Los Angeles. The robot had to, essentially, drive a car or walk, but driving the car was recommended. It turned it's very complex to get a robot to do that. The thing is modeling these situations proved even harder than modeling helicopters, because your sensing needs to understand whether or not you're already making contact, and making contact or not. You can be very close, but not have contact. It's a very subtle thing. Stanley: In 2005, Google started a project on self-driving cars with many people from the winning teams. That project, that came out a few years later. And here is a video from 2013, the Google Self-driving Car Project. Stanley: This is an autonomous driver here of the Google car in 2013, so very impressive. This is only getting better. It's only getting before heavily used for heavily used scenes, thanks to deep neural networks. So what does it tell us? Well, the devil is really in the details. so many decisions. If they're gigantic, use a lot of power. That's a problem. Let's see what we can do to build smaller networks to make decisions. What else did we not cover yet? Personal robotics. I want to spend a little more than two minutes on that, so let's keep that for Thursday. that's it for today. Bye. [SIDE CONVERSATIONS] [Side CONversation] [sideconversation.com: Do you know more about this topic? Email us at jennifer.smith@cnn.com].
+
+ROUGE-1: 9.46, ROUGE-2: 8.13, ROUGE-L: 8.51
+BERTScore: 58.24
+
+==============================================
+==================== [9/100] ====================
+Summary:
+So let us say we are talking about price of good 1 has gone up substitution, income these are the effects and overall. When P 1 goes up subs because of substitution effect x 1 will. Come down. And for income also because of income effect it will come down. While inferior goods substitution effect quantity demanded would come down while income effect is Up. Up. Can you give me an example its very very difficult to find Giffen good in real life why? Sir, like if Gucci is a brand and it is. Prices comes down by significant amount. No one could buy a Gucci, it is it is at that level only because of it is prices. for meat and other food products. To get enough calorie; they had to increase the consumption of potato. So, in that case if this story is true then potato is Giffen good ok, but the problem is with this the second requirement that income effect is larger than the substitution effect. Typically this is not fulfilled that is why we have very-very hard time getting finding out, figuring out Giffsen good in an economy. It's very hard to find out what's good.
+
+ROUGE-1: 36.82, ROUGE-2: 35.03, ROUGE-L: 35.71
+BERTScore: 75.56
+
+==============================================
+==================== [10/100] ====================
+Summary:
+which we are to for next week and here and I'll talk about that actually week from today because it's callay on Monday so it will get behind but if we get any further behind I'll have to make it up sometime the but if you don't have that you be copies available upstairs is it c um come to my office okay to dany's office he doesn't have copies of it there that's six six upstairs in the first floor immediately after CL and then on the next Friday I will talk about the parts in the in the inquiry that were assigned and also a that essay of of the oral concept. and who does not have the right to vote and what the conditions on it are maybe we want to free it from that of course what I'm thinking of eventually um is that that that would be one motivation for introducing an idea like the origal position that say it's a way of conceiving how con power might be exercised. No point in criticizing someone for something they didn't intend to do okay well I think it's stop so remember there's no class here Monday so the next class here will be next Friday.
+
+ROUGE-1: 6.76, ROUGE-2: 6.64, ROUGE-L: 6.70
+BERTScore: 69.32
+
+==============================================
+==================== [11/100] ====================
+Summary:
+David Kaiser: particle cosmology is a new subfield within physics. He says it studies the smallest units of matter, the fundamental forces and elementary constituents of matter. Kaiser: The field is doing pretty well these days by other measures. Its annual budget just within the U.S. is on the order of $1 billion a year, roughly, he says. It is really a booming, booming subject of study, Kaiser says. The field literally didn't even exist 45 years ago, he adds. Evidence for the Higgs-Boson wasn't found until July of 2012, or maybe December of 2011, the first hints experimentally-- well past the period we're talking about. The main story that's mostly given-- I alluded to this in the very beginning of today's class-- is actually hearkens to changes in ideas. Two of these sets of ideas, in particular, are usually pointed to-- and they came in rapid fire in 1973 and 1974. The first of them is called asymptotic freedom. That suggests the behavior of quarks and gluons might be really different at very high energies. a continuous unitary symmetry, which is like saying you could rotate the electron field by any continuum amount, and the equations remain unchanged. The photon only has to mop up a relatively simple symmetry, the U1 gauge symmetry. SU2 was what I was pointing to when I was referring to the weak nuclear force. That's a discrete symmetry structure. SU3, that refers to three different color charges of quantum chromodynamics. And so therefore, the gluons have still a different set of properties, so that's right. soon, everyone. Soon, everyone will be able to play together again. Soon. Everyone will be playing together.soon. Everyone. Will be. Playing together again soon.soon,everyone. Everyone, playing together againsoon.soon,. everyone. soon, everyone, will be. playing together once again. soon.everyone. will be Playing Together again.soon! everyone. will. be.playing together soon. soon! Everyone. will play together soon! everyone will.be. playing again soon! soon.
+
+ROUGE-1: 4.46, ROUGE-2: 3.56, ROUGE-L: 3.96
+BERTScore: 57.40
+
+==============================================
+==================== [12/100] ====================
+Summary:
+Frida Ghitis: Ferdinand Magellan may have been the first person to actually circumnavigate the globe. She says Spain and Portugal had their eyes on the same prize: trade routes to the Spice Islands. When a Portuguese defector claimed that a westward route existed, King Charles made him captain of a Spanish armada, she says. Ghitis says Magellan's legacy lingers: galaxies and space programs named after him, and he was celebrated in Spain. of the "Victoria" sailed into harbor in southern Spain in September 1522.
+
+ROUGE-1: 17.48, ROUGE-2: 13.88, ROUGE-L: 12.94
+BERTScore: 60.28
+
+==============================================
+==================== [13/100] ====================
+Summary:
+Ani was a real person, a scribe from the Egyptian city of Thebes who lived in the 13th century BCE. His Book of the Dead, a 78-foot papyrus scroll, was designed to help him attain immortality. Ani's epic journey begins with his death. His body is mummified by a team of priests who remove every organ except the heart. It's then stuffed with a salt called natron and wrapped in resin-soaked linen. In addition, the wrappings are woven with charms for protection and topped with a heart scarab amulet.
+
+ROUGE-1: 25.56, ROUGE-2: 24.23, ROUGE-L: 25.56
+BERTScore: 68.27
+
+==============================================
+==================== [14/100] ====================
+Summary:
+Judy Hoyt: We're going to discuss the accurate control and placement of active dopant regions through a process called dopant diffusion. The placement of those regions determines many of the so-called short channel characteristics of MOSFETs that we'll talk about. The doping of other materials, not just the silicon itself, but of the polysilicon gate affects things like gate depletion and limits how well the gate voltage controls the channel potential, Hoyt says. The equation numerically, essentially, for an arbitrary doping profile is 1 over the integral of the carrier concentration minus the background concentration.
+
+ROUGE-1: 2.05, ROUGE-2: 1.94, ROUGE-L: 1.98
+BERTScore: 69.22
+
+==============================================
+==================== [15/100] ====================
+Summary:
+Atas model shows what happens if aggregate demand increases and firms respond to this by saying we want to make more output. As people demand these higher wages shortening our supply curve decreases basically all the way back to essentially where it was before. The price of tuition to Missouri State goes down but my wage is fixed under contract right and so they're gonna have to pay me the Saints of tuition declines and my input prices stay the same that's bad for them and bad for all of the firm's too.
+
+ROUGE-1: 4.64, ROUGE-2: 4.40, ROUGE-L: 4.64
+BERTScore: 56.42
+
+==============================================
+==================== [16/100] ====================
+Summary:
+As a nurse you play an important role in teaching the parents about car seat safety and this education actually starts at birth before the child even goes home from the hospital in their first car ride. In this lecture we're going to concentrate on the main concepts that you need to know as a nurse and for exams first let's talk about the four types of car safety restraints that you can use in a motor vehicle. The back seat of the car is actually the safest place for a child 12 and under.
+
+ROUGE-1: 7.06, ROUGE-2: 7.00, ROUGE-L: 7.06
+BERTScore: 64.70
+
+==============================================
+==================== [17/100] ====================
+Summary:
+Machine learning is about how to acquire a model and acquire the parameters of a model, from data and experience. In the next few lectures, we're going to work through a sequence of different takes on machine learning that are going to highlight different subsets of the big ideas on this topic. We'll see today exactly how data kind of goes through the mill and gets turned into a model. And we'll see more in-depth examples and more structured examples of these kinds of problems later on when we talk about applications. In model-based classification, rather than directly learning from errors that you make in the world from experience, think like reinforcement learning model-free. The Naive Bayes assumption is an extremely radical assumption as far as probabilistic models go, but for classification, it turns out to be really effective and it goes something like this. You build a model where the output label and the input features are random variables. There's going to be some connections between them, and maybe some other variables too that might help you build a better model. word depends on the class and also the previous word. Will it be more accurate for classification? It really depends. In general, it will be a little more accurate, but at a cost of having significantly more complicated conditional probabilities to estimate. The principle of machine learning is something called empirical minimization, and we'll get into this in a great amount of detail in the next few slides. All right, we're going to get started again. We are now into the machine learning section which means we are done with the spooky Halloween time ghost-busting section. In a real classification problem, you have to smooth if you're going to use Naive Bayes. Every method is going to have a different incarnation of this. If I crank k to zero, I'm not going to smooth at all, and I'm going to fit my data very well. But the k that's going to be most accurate on my training data is zero, because that's what actually fits the training data best. We're talking a bit about this starting next lecture, but you're eventually going to make your errors.
+
+ROUGE-1: 5.00, ROUGE-2: 4.77, ROUGE-L: 4.64
+BERTScore: 63.45
+
+==============================================
+==================== [18/100] ====================
+Summary:
+in this video we're gonna talk about how a country can gain from exporting goods or services through international trade. We're gonna look at how consumer surplus producer surplus and total surplus are going to change when we introduced the idea of trade in allowing Chile's copper manufacturer producers to trade on the global market. The world price of copper is five thousand four hundred and forty dollars a ton. Because the world price is higher than the price in Chile Chile will export copper. There is a shift of some of the consumer surplus is going to go to the producer surplus.
+
+ROUGE-1: 14.64, ROUGE-2: 13.69, ROUGE-L: 13.40
+BERTScore: 67.04
+
+==============================================
+==================== [19/100] ====================
+Summary:
+Thiazide tells us that this medication works in the early part of the distal convoluted tubule that's found within this nephron. This transporter is called the sodium chloride co-transporter and it is considered a cyanide sensitive transporter so hence why this drug works so well. While loop diuretics are a lot more effective than a thiazide diuretic but the thiazid does provide a nice diuresis effect. They're less effective in patients who have a compromised GFR a go merrill ER filtration rate.
+
+ROUGE-1: 4.67, ROUGE-2: 4.40, ROUGE-L: 4.67
+BERTScore: 63.50
+
+==============================================
+==================== [20/100] ====================
+Summary:
+Future John Green tells you that in a stunning turn of events the 2020 presidential election will be won by - Harry Styles. I know that he's English and under 35 but we're going to change the constitution to make it possible. Because… that’s how much we love Harry Styles in 2020. The Major Recession of 2008 - 2012. A mixture of public and private activities that tilted towards short-term economic thinking, speculation and irresponsible spending. The Wall Street Wamboozle, the Financial Fartstorm. depends on who you ask. Among 9 large studies, 6 found that the stimulus did have a positive effect on growth and employment, 3 found that it had little or no effect. The recovery for the past few years has been steady, but quite slow. Obamacare aims to reduce the number of Americans without health insurance by making it easier and less expensive for the uninsured to buy it privately. The Tea Party is also very concerned that deficits are out of control and that rising government spending is going to ruin America. job to protect you not only by having a standing army but also making you wear your seat belt? Those are ultimately ideological questions, but we have to grapple with them in a real practical way. And the great story of American governance is compromise. But that is also often been the tragedy ofAmerican governance as when the Constitutional Convention compromised over whether African American people were people. So if you’ve learned anything this year, I hope its been that the American story that we find ourselves in now isn’t entirely novel. And I think we have much to learn from those who came before us.
+
+ROUGE-1: 16.31, ROUGE-2: 15.69, ROUGE-L: 16.20
+BERTScore: 61.65
+
+==============================================
+==================== [21/100] ====================
+Summary:
+Simple graphs are directed graphs where the arrows have a beginning and an end. A directed graph might have a self loop, an edge that starts and begins at the-- starts and ends at the same vertices. A simple graph has a nonempty set, v of vertices, and it has a set E of edges, but the edges now are somewhat different since they don't have beginnings and ends. An edge just has two endpoints that are in V, and we don't distinguish the endpoints.
+
+ROUGE-1: 8.36, ROUGE-2: 7.79, ROUGE-L: 8.26
+BERTScore: 72.59
+
+==============================================
+==================== [22/100] ====================
+Summary:
+Robotics is a really cool and important direction for the future. I really believe that in the future we will have AI assistance whether they are embodied or not to act as our guardian angels. These agents will help us with cognitive and physical work. With AI we will see such a wide breadth of applications for instance these technologies have the potential to reduce and eliminate car accidents. We have three types of learning and you have seen different aspects of these methodologies throughout the course we have supervised learning, unsupervised learning and reinforcement learning. This work um computers needed about 10 minutes to analyze an image can you imagine okay so how do you go from that to enabling an autonomous vehicle to drive at 90 kilometers an hour well um what they did was they developed some very fast solutions for paring down the image to only the the the aspects that they needed to look at. The other thing that happened in autonomous driving was that the lidar sensors decreased the uncertainty and increased safety and today we have many companies and groups that are deploying self-driving cars.
+
+ROUGE-1: 4.23, ROUGE-2: 4.10, ROUGE-L: 4.23
+BERTScore: 62.30
+
+==============================================
+==================== [23/100] ====================
+Summary:
+Tatiana and her team eagerly learned a few of the new recipes last night. The menu has been completely revamped. The message is clear nobody scared to walk through that door and get their hands dirty in that kitchen no we're not tomorrow is a big day let me tell you I need everyone on their game good night guys get some sleep thanks thank you very much chefs oh my God this is amazing last night last night Tatiana andHer team eagerly learn a few new recipes. The new menu has a dynamic simple clean menu right now.
+
+ROUGE-1: 26.11, ROUGE-2: 23.21, ROUGE-L: 24.04
+BERTScore: 62.53
+
+==============================================
+==================== [24/100] ====================
+Summary:
+HONG LIU: We have two sides if you want to relate things on two sides. And you have to do guess work. How does this quantity translate into that quantity, et cetera? And then check the consistency. So now let's talk about some further aspects of the duality. AUDIENCE: But being the right hand side, we still have some SO 5, S5. HONG LIu: I will talk about that. So this is more like a space time symmetry. So in N equals 4 super Yang-Mills theory. essentially the semi classical gravity limit because we still treat the matter fields essentially as quantum. HONG LIU: Yang-Mills theory lives on Minkowski space. And then you say you can imagine that this is the boundary, this relation is related to the bulk and the boundary. And this is a postulate based on that fact. Yes? AUDIENCE: I thought one of the motivations for thinking about the holographic duality was to try to escape [INAUDIBLE] And all of a sudden, it strikes me, so we're trying to get on the boundary of AdS. Then they will also exist in the massless particles.
+
+ROUGE-1: 4.33, ROUGE-2: 4.15, ROUGE-L: 4.15
+BERTScore: 63.13
+
+==============================================
+==================== [25/100] ====================
+Summary:
+Bolek Wyslouch: How do you convert a given physical system with all the forces, et cetera, into some sort of fixed form, fixed type of notation? Bolek: We will work on two, again, simple physical systems, one that consists of two pendula driven by forces of gravity, each of them. And we will discuss various interesting-- even though the system is very simple, just two masses, a spring, a little bit of gravity on top of that. BolesLAW WYSLOUCH: You can have all kinds of motions by simply adjusting initial conditions. So do you know-- so this is how we can have different shape of motion, depending on the initial condition. So let's say, in fact, do I have it in this one here? Yes. So now, let's take it to, for example, Jupiter. Jupiter, g, is much larger. So the frequency would be larger. Things will be faster, right? That's the higher frequency. But also the difference between two frequencies will be smaller. sort of early on, to instead of, so far, when we talked about pendula, we describe their motion in terms of motion of number 1. It turns out we can rewrite the equation into some sort of new variables, where, so-called normal coordinates, where you'll simultaneously describe both of them and then kind of mix them together to have a new formula. So you do change of variables. So instead of keeping track of x1 and x2 independently, you define something which I called u1, which is simply x1 plus x2, and I define u2,which is x1 minus x2.
+
+ROUGE-1: 5.20, ROUGE-2: 5.06, ROUGE-L: 4.93
+BERTScore: 64.20
+
+==============================================
+==================== [26/100] ====================
+Summary:
+GILBERT STRANG: Take a bar, a material bar. The ends of the bar are kept at temperature zero, they're frozen. Heat is flowing around in the bar, and where is it going? It's flowing out the ends. So I insulate the bar and I put it in the freezer. And I have an ordinary bar and an ordinary temperature. And the heat is escaping out the sides, so the end x equals 0 and the end f equals 1. And that's the solution.
+
+ROUGE-1: 12.55, ROUGE-2: 10.52, ROUGE-L: 10.80
+BERTScore: 53.05
+
+==============================================
+==================== [27/100] ====================
+Summary:
+James Swan: We're still going to talk about transformations of matrices. We looked at one type of transformation we could utilize for solving systems of equations. Today, we'll look at another one, the eigenvalue decomposition. On Monday, we will look at a different type of decomposition called the singular value decomposition, he says. James Swan: There were a lot of good questions that came up during class. We want to make sure that we're answering those questions in a timely fashion. James W. Swan: We discussed sparse matrices and a little bit about reordering and now permutation. He says permutation is a form of preconditioning a system of equations. He shows a simulation that tells us how probable it is to find the Plinko chip in a particular column. Swan: We could construct an alternative model that didn't have that part of the picture that we wanted to have. He's happy to answer questions on.at and he'll be back in a few minutes. triangular form for this matrix. We'll talk next time about the singular value decomposition, which is another sort of transformation one can do when we don't have these complete sets of eigenvectors. You'll get a chance to practice these things on your next two homework assignments, actually. So it'll come up in a couple of different circumstances. I would really encourage you to try to solve some of these example problems that were in here. Solving by hand can be useful.
+
+ROUGE-1: 6.31, ROUGE-2: 5.48, ROUGE-L: 5.63
+BERTScore: 62.49
+
+==============================================
+==================== [28/100] ====================
+Summary:
+A random variable is a number that's produced by a random process. In physics, the number of alpha particles detected by a Geiger counter in a second is believed to be a random number. The number of faulty pixels in a monitor is also produced from an unpredictable randomness in the manufacturing process. The only time that C is not greater than or equal to 1 is when you have all tails, so there's a 7/8 chance, 7 out of 8 outcomes involve 1 or more heads. A random variable is not a variable, it's a function that maps the sample space to the real numbers. Usually this would be a real valued random variable. We have another concept of independence that holds for random variables that was motivated by the definition of independence for events. If I have an event A, I can package A into a random variable, just like the match random variable was really packaging the event that the coins matched into a [? 0-1 ?] valued variable. And it means everything that matters about event A is captured by the random variable IA.
+
+ROUGE-1: 13.56, ROUGE-2: 12.50, ROUGE-L: 12.07
+BERTScore: 62.99
+
+==============================================
+==================== [29/100] ====================
+Summary:
+s gawan and the Green Knight um I believe this is the last piece where we don't know who the author is where it's unknown um I find the background interesting and that through textual Clues they're able to figure out who wrote it. I think straight off we can say that that's probably gow or sir GA however you want to say it okay then you have the villain or the dams and all as we come through the story try to put these titles with certain characters.
+
+ROUGE-1: 3.89, ROUGE-2: 3.85, ROUGE-L: 3.89
+BERTScore: 67.24
+
+==============================================
+==================== [30/100] ====================
+Summary:
+hey what's going on YouTube boy Robert and my mission is to teach you everything in the kitchen now earlier this week at work I learned and I was wondering what are the fruits and vegetables I can turn in the salt as well. Today we have blueberries strawberries Kiwis red beets yellow beets pineapples right in fruit and cucumber this is the equipment you'll need for today you don't need one blender sheet trays mason jars parchment paper aluminum foil a spice grinder a bowl with a strainer and a plastic spatula.
+
+ROUGE-1: 27.87, ROUGE-2: 27.37, ROUGE-L: 27.87
+BERTScore: 66.38
+
+==============================================
+==================== [31/100] ====================
+Summary:
+Vital Signs are pain oxygen saturation temperature heart rate respirations and blood pressure. The six Vital Signs are rated on a scale of zero to 10 with zero being no pain at all and 10 being the worst pain they've ever had. Here in a second I'm going to show you how to actually count the heart rate using the radial artery. I'm also going to go over how to take a blood pressure reading. I'll be back in a few minutes with the next Vital Signs video.
+
+ROUGE-1: 10.17, ROUGE-2: 8.12, ROUGE-L: 9.03
+BERTScore: 57.74
+
+==============================================
+==================== [32/100] ====================
+Summary:
+Grenade algorithm uses a minimal set of three-point correspondences to solve the camera pose estimation problem in the grenade formulation. The disadvantage of this particular formulation is that it ends up with a four degree polynomial which means that it could give up to a total of four possible solutions. The question becomes whether can we find the solution directly from any four point correspondences such that the solution is unique? The answer is yes and it was formulated by quan at all in a paper that was published in the 1990s.
+
+ROUGE-1: 2.13, ROUGE-2: 2.04, ROUGE-L: 1.95
+BERTScore: 65.81
+
+==============================================
+==================== [33/100] ====================
+Summary:
+Markus Klute: If there is a time dilation effect due to gravitational fields, then there's also a redshift which is of gravitational fields. He asks you to estimate the magnitude of this effect. Klute says the speed of light is pretty fast, 3 times 10 to the 9 meter per second. And this distance is only 22 and 1/2 meters, so we find that this is a tiny, tiny,tiny effect, he says. But nevertheless, experimentalists at Harvard tested this effect in the 1950s and '60s.
+
+ROUGE-1: 39.72, ROUGE-2: 36.58, ROUGE-L: 39.72
+BERTScore: 71.50
+
+==============================================
+==================== [34/100] ====================
+Summary:
+During the semester we have a few recitation instructors they help with the students during the recitation section. During those sections your the the instructor will solve a similar problem like what is actually covered during the same during the lecture and that give the students another chance to look at more example and to get for media will get used to the calculation which we carry how for the first time during the the lecture. We did not record the Recitation sections during the fall semester in 2016 on the other hand we included problem-solving videos from Professor with Busha.
+
+ROUGE-1: 67.77, ROUGE-2: 66.22, ROUGE-L: 67.77
+BERTScore: 85.45
+
+==============================================
+==================== [35/100] ====================
+Summary:
+In this video, we're going to compute some useful quantities for the exponential random variable. The CDF of x is the probability that X is less than or equal to little x. We use the standard formula, which is minus infinity to infinity t times fx of t dt. For this, if you evaluate the balance, 0 makes this 0, and 0 to get 1 over. And so the expectation is 1 over lambda, and so the variance is part c, so OK, so far so good.
+
+ROUGE-1: 8.43, ROUGE-2: 7.36, ROUGE-L: 8.24
+BERTScore: 68.58
+
+==============================================
+==================== [36/100] ====================
+Summary:
+Professor: Can you explain the physical significance of the crystal momentum? Professor: The information about the momentum can be encoded in these spatial variation of the phase of the wave function. Professor: A central property from the Schrodinger equation is at the time variation d dt of p is equal to the expectation value of minus d the potential of x d x. The momentum expectation value is time independent, so it can be written in the form of e cubed, equal to e to the minus i upon h bar p l. Professor: When you have a perfect lattice, there is actually no current flowing in response to an applied electromagnetic field. Professor: You can build a system that has exactly a periodic potential. He says you can do it with lattices not of atoms, but lattices of dielectric. Professor: Optical fibers can be used to control the phase of the light that's shining through a glass fibers, and you can shine your light in a way that's reasonably well localized, and that's a lot of fun. single electron, and let's put it in the system. What will happen? Well if we put it into the system, what state will this single electron fall into? Yeah one event. But which state? AUDIENCE: [INAUDIBLE] PROFESSOR: Yeah, if you kick the system around, you let it relax a little bit. It's going to fall down to the ground state. You have to couple to something else like hydrogen has to be coupled with an electromagnetic field to decay. Theory of semiconductors is based on the atomic orbital structure of the individual atom, the crystal structure, and the resulting band structure. Professor: You will almost always find overlapping bands in three dimensions in sufficiently high energy. The temperature controls an energy scale for a real material. The probability of an electron being excited thermally goes as e to the delta e over kt. At very low temperatures, if the gap isn't 0, then the denominator is large compared to the number of the gap. and metallic without actually being shiny and metallic. And it's not a pigment, so it doesn't absorb light and decay over time. It's like the best thing you could ever do if you wanted to be a shiny, fluttery, flying thing. So there's an incredible amount of physics in this story of the band gaps. And consider this an introduction to the topic. OK. So that's it for band gaps, and I want to move on to the remainder, the last topic of our course. Which is entanglement and quantum computation.
+
+ROUGE-1: 5.98, ROUGE-2: 5.52, ROUGE-L: 5.67
+BERTScore: 60.10
+
+==============================================
+==================== [37/100] ====================
+Summary:
+First up the proper way to chop fresh herbs to get maximum flavor chopping herb the secret is to chop them not bruised them now basil this is a soft herb so treat it with some respect when people go mad chopping herbs all the goodness comes out on the board I want the goodness left inside the basil. How to cut the perfect pepper stalk off pepper down and get the knife start from the top and slice all the way around basically we're gonna be slicing around the seeds look no faffing around but this isn't perfect Christmas tree of seeds and have got the mess all over your board.
+
+ROUGE-1: 24.84, ROUGE-2: 24.45, ROUGE-L: 24.84
+BERTScore: 63.64
+
+==============================================
+==================== [38/100] ====================
+Summary:
+hey everyone it's sth register nurse rn.com and in this video we're going to be going over our weekly inlex practice question. Let's see what our question says a patient who has a health history of uncontrolled hypertension coronary artery disease and diabetes militis is prescribed to take propanolol. The question asks which statement by the patient is correct about this medication propano wal that they're Going to be taking. The answer is that the patient should take the medication every morning with grapefruit juice and monitor their blood glucose level closely. look and see why D is wrong this patient says that they're going to stop their beta blocker immediately if they experience cold hands and feet well this is a normal side effect with these non-selective beta blockers. You would never just immediately stop taking a beta blocker they need to be tapered off of this because if they just all of a sudden quit taking that medication they can go have cardiac death or something worse can happen so that answer is wrong for that reason okay so that wraps up this inlex practice question.
+
+ROUGE-1: 23.76, ROUGE-2: 21.83, ROUGE-L: 23.39
+BERTScore: 68.65
+
+==============================================
+==================== [39/100] ====================
+Summary:
+This is part 2 of a guide to clinical reasoning or how to create an accurate differential diagnosis from a patient's presentation. In the first part I reviewed a practical five-step bedside approach to Clinical reasoning. In this part I will demonstrate how to use this approach with an actual patient case at the student level. I present this patient to you the same way in turn might present the patient to his or her attending on rounds or to their colleagues during a morning report or teaching conference as I present the case I'll keep a running list of the key features of the presentation so they will seem like I am doing step 1 acquired data.
+
+ROUGE-1: 5.18, ROUGE-2: 5.10, ROUGE-L: 5.18
+BERTScore: 64.07
+
+==============================================
+==================== [40/100] ====================
+Summary:
+Danqi Chen is one of the foremost researchers in question answering. She is the professor at the Princeton University. Danqi once upon a time was the head TA of CS224N. She's quite familiar with the context of this class. So today I'm very happy to introduce to you some of the fundamentals in this field, as well as on cutting edge and state of the art topics. So here's my plan for this lecture. I would give a brief introduction of what question answering is. And then today, delighted to have our first invited speaker. The goal of question answering is to build systems that can automatically answer questions posed by humans in our natural language. Question answering, or, let's say QA in short, is one of the earliest NLP tasks, and the early systems can even date back to the 1960s. IBM Watson has been shown to beat two national champions in Jeopardy answering questions at least at least once in the past. The question and answer has enabled a lot of really useful real world applications, for example, today if you just put your question in a search engine.
+
+ROUGE-1: 2.28, ROUGE-2: 2.08, ROUGE-L: 2.15
+BERTScore: 63.04
+
+==============================================
+==================== [41/100] ====================
+Summary:
+So, homework two is out now. What the default projects will be, uh, for this class. Um, and you guys will get to pick whether or not you wanna do your own construction project or, um, the default project. The assignments, [inaudible] are they limited to TensorFlow? asked the question if, if the assignment is limited toTensorFlow. If you have any questions about getting setup without feel free to use the Piazza channel. We also released a tutorial for how to just sort of set up your machine last week.
+
+ROUGE-1: 1.10, ROUGE-2: 1.07, ROUGE-L: 1.08
+BERTScore: 70.33
+
+==============================================
+==================== [42/100] ====================
+Summary:
+ salt makes up a tiny part of any bread though which has a huge effect on it and most bread is made with salt nowadays. salt has a tightening effect on the gluten it strengthens the dough and makes it more cohesive as yeast consumes the sugars in the dough. salt helps with controlling fermentation it draws moisture through the cell walls of yeast in a process called osmosis. salt can help with preserving the color and flavor of flour unbleached flour has carotenoid pigments which give the crumb of our bread the creamy color and a wheaty aroma. it's rising more slowly whilst the one on the left is already collapsing. the one in the right is still pushing on. what did you think of this experiment did you learn something new let me know down in the comments see more videos like this one click right here that's all i have for you today thank you for watching i'll see you in the next one. i'll be back with a new video in a week or so. I'll let you know what it's about.
+
+ROUGE-1: 16.29, ROUGE-2: 14.67, ROUGE-L: 14.40
+BERTScore: 58.13
+
+==============================================
+==================== [43/100] ====================
+Summary:
+In this section, we're going to talk about the relativistic Doppler effect. We make good use of our space-time diagrams, which we discussed earlier. The question is how is this being observed by an observer which is moving with a relative velocity v with respect to the source? So we have to apply Lorentz transformation. And we find then-- this is a little bit of an algebra exercise here-- that the period now is given by 1 plus beta over 1 minus beta square root of that times tau.
+
+ROUGE-1: 32.62, ROUGE-2: 31.29, ROUGE-L: 32.62
+BERTScore: 72.64
+
+==============================================
+==================== [44/100] ====================
+Summary:
+Hollywood Legend Will Smith owns a team in the new E1 racing series that aims to prove the potential of electric power in the Marine industry. The nine teams have the same boat but they're working out how to push the tech and try to get ahead of the competition. The boats can reach 50 knots that's around 93 km per hour so how do they reach those speeds? The key bit here is getting up on the thin bits of the foil and staying above the water to have the speed that's right. hope it continues for many years to come. We are proud to be a part of the history of the city. We hope to see it continue for many more years. Thank you for all your support and good wishes. We will continue to support the city in any way we can over the next few years. Back to Mail Online home.Back to the page you came from. Back To the pageyou came from, click here for more information on this story and to read the rest of the article.
+
+ROUGE-1: 17.51, ROUGE-2: 11.90, ROUGE-L: 12.41
+BERTScore: 57.97
+
+==============================================
+==================== [45/100] ====================
+Summary:
+Marginal rate of substitution of good 1 with respect to good 2 is infinity. When we are increasing the amount of 1 good to bring what will happen using this, if we use the monotonicity. What we are talking about is an indifference curve of a person who exhibit, whose preference exhibits convexity. To get 1 good you will have to give up the other good, both what we are assuming that both these items are good, means they give certain satisfaction or certain you know utility to the person. see, that MRS is given as a positive number, that only means that the author has introduced a negative sign here to convert the MRS into apositive number. So, it does not matter. Is it clear? Do you know the answer to this question? If so, please email us at jennifer.smith@mailonline.co.uk. If you don't, we would like to hear from you. Please send us a photo of your MRS and we will send it to you.
+
+ROUGE-1: 21.66, ROUGE-2: 17.29, ROUGE-L: 16.42
+BERTScore: 59.12
+
+==============================================
+==================== [46/100] ====================
+Summary:
+in this video we're going to discuss what externalities are in economics. An externality is when you do something that affects the well-being or the good of another person or a company but you're neither harmed or rewarded for what you did to that person so the externalities can be positive they can be negative. A negative exTERNality is where you've harmed someone you've done something to somehow impose a cost on someone or some some company or something and you haven't reimbursed that person. your lawn and you mow your lawn and stuff but you don't really spend a l a lot of time making your house look pretty now if your neighbor is trying to sell their house they have a for sale sign up they might appreciate if you went out and really did a great job maintaining your home they would really just love that because then when people come to see their house which is for sale that would increase the value of their home right if the neighboring properties like yours look really really nice then that would help them sell their home.
+
+ROUGE-1: 30.11, ROUGE-2: 29.54, ROUGE-L: 29.95
+BERTScore: 67.16
+
+==============================================
+==================== [47/100] ====================
+Summary:
+Political philosophy is the oldest of the social sciences. It can boast a wealth of heavy hitters from Plato and Aristotle to Machiavelli, Hobbes, Hegel, Tocqueville, Nietzsche. The study of the great books or great thinkers of the past can easily degenerate into a kind of antiquarianism, into a sort of pedantry, says Professor Steven Smith. But these works provide us with the most basic questions that continue to guide our field, he says. "The ideas of John Maynard Keynes, both economists and political philosophers, when they are right, are more powerful than is commonly understood," says Smith.
+
+ROUGE-1: 4.49, ROUGE-2: 3.76, ROUGE-L: 4.22
+BERTScore: 63.63
+
+==============================================
+==================== [48/100] ====================
+Summary:
+Ahern: I have never had an exam where I had fewer questions. There were maybe 10 questions I got on the exam and that was for a class of this side, really unusual. I find most students are honest. I've only had a handful of situations where in this class, where I've had dishonesty as an issue. The only students I've ever had with serious dishonesty issues actually were in smaller classes interestingly enough. But it has happened here and I do have taped evidence when it does happen. Ahern: How many zwitterions, how many amino acids can form zwittersion? None. They all can. That's not trick. You guys should know that, right? Is the answer "None" a trick? I'm sorry, I don't think so, folks. There are no amino acids, everything, so think about it. Ahern: What did you have in mind for the last question? The one about the Kcat. How can you have two apparent Kcats? It depends on how you calculate the concentration of the enzyme. where time is sometimes a factor, and so I was going to have 3 of the longer answer questions and I decided not to do that and I made them shorter. There's trade offs in all these as I've told other classes. Next term, the format of the exam changes in 451. Most people like 451 better because the maximum number of points on a question I think is 3. If you're going to spend a fair amount of time on something, it should be worth more points. Anybody hate the exam? You can say it. "I hate telling joke about sex or the other, but... Carbonic anhydrase" is a pretty amazing enzyme. It can catalyze the conversion of a million molecules of substrate into product per second, per enzyme. Most of our body tissues are at a pH of 7 to 7.4. We look at Blood, for example, is about 7.3 to 7,4. "I want every woman to love me" and poof, he turns into a box of chocolates. Ahern: The rate of formation of the nucleophile is the critical step in the catalytic action of this enzyme. At pH 9, the enzyme is still holding its shape enough that it's actually able to continue catalysis. When we get above that, we're going to see the ending drop off precipitously. Ahern: There is a lot of interest in manipulating enzymes to increase their activity and increase their efficiency. In the case of carbonic anhydrase, what's actually limiting them is actually defusing them.
+
+ROUGE-1: 10.72, ROUGE-2: 10.06, ROUGE-L: 10.06
+BERTScore: 61.49
+
+==============================================
+==================== [49/100] ====================
+Summary:
+AA and I are going to show you how to make vanilla extract so easy so yummy so good for all the things that you would use it for cakes whatever really really good isn't it so let's go [Music] simple now all you want for this is about 1 oz or roughly 30 G of vanilla beans so they'll be you know long Dobby whacker things and just cut them up into I don't know a couple of cenm you may maybe maybe qu an inch half an inch or so Chuck them in now you don't have to worry about scraping out the seeds. like this no no you don't want to try it oh it smells so good do I smell this no you sure no it's really good can I smell it no oh let's give this a little little taste hold on oh yummmy do you want totry no no I'll see you next time for my next [Music] meal. Like this noNo, you won't even try it. No, you're not going to even smell it. You're not even going to taste it.
+
+ROUGE-1: 54.78, ROUGE-2: 50.58, ROUGE-L: 49.86
+BERTScore: 74.59
+
+==============================================
+==================== [50/100] ====================
+Summary:
+RAFAEL JARAMILLO: Let's talk about intermediate phases and line compounds. He recalls intermediate phase in a three-phase system. He draws a free-energy composition diagram in such a case. Jaramillo: All possible common tangents are going to converge at the same point. He says this type of structure is a Laves compound, which is also known as Laves Laves, or Laves' compound. It's a broad structure, he says, and it can be used to develop new materials. z is an integer or a rational fraction, and it's fixed-- SiO2, magnesium oxide, Al2O3, so forth. So when we return on Wednesday, we're going to talk about the thermodynamics of this reaction. We'll use this property of being line compounds, and we're also going to use a bunch of other things as well. Back to the page you came from. Follow us on Twitter @CNNOpinion and @cnnopin.
+
+ROUGE-1: 5.33, ROUGE-2: 4.01, ROUGE-L: 4.62
+BERTScore: 58.28
+
+==============================================
+==================== [51/100] ====================
+Summary:
+A random variable can take different numerical values depending on the outcome of the experiment. Some of the possible numerical values of a random variable will be more likely than others. We will describe these relative likelihoods in terms of the so-called probability mass function, or PMF. The PMF is also sometimes called the probability law or the probability distribution of a discrete random variable. We use a subscript, X, to indicate which random variable we're talking about. And it has a probability. And in our case this probability is equal to 1/2.
+
+ROUGE-1: 12.48, ROUGE-2: 12.10, ROUGE-L: 12.22
+BERTScore: 72.99
+
+==============================================
+==================== [52/100] ====================
+Summary:
+Protein three-dimensional structure and its implications for the binding of small molecules such as drugs. How can we use these basic motifs to recognize other macromolecules, other proteins and nucleic acids? We have these motifs that we could find, weight matrices for them by aligning lots of sequences. Now instead of aligning sequences, let's see what we can do by mutating both the protein part and the nucleic acid part. And then we know from the three dimensional structure that it interacts mainly with the middle nucleotides. In the case of the zinc finger, we made an altered specificity. We made new zinc fingers with bind to completely new trinucleotides. With the DNA polymerase, by changing one amino acid, we could make it now accept almost four logs better an inhibitor is very useful. These are not that unusual. And those can be designed or naturally occurring. They can have a very important thing to do with conserved charge. They tend to be highly conserved. That's a general way of looking at the conservation of single-nucleotide polymorphisms. That might have impact on pharmacogenomics.
+
+ROUGE-1: 4.12, ROUGE-2: 3.88, ROUGE-L: 3.96
+BERTScore: 57.46
+
+==============================================
+==================== [53/100] ====================
+Summary:
+More than half of large US firms plan to use AI within the next year to automate tasks that were previously done by staff in a bid to cut costs boost profits and make their work more productive. The New York Times reports that generative AI could automate activities equivalent to 300 million full-time jobs around the world. open ai's chief executive that's Sam mman says governments will need to assume the bulk of responsibility in supporting workers AI labor market disruptions and the question will employees just end up training AI systems only to them be replaced by them. were most at risk because of automation. People are realizing you have to throw out the door any ideas you had about who is really at risk and say every job is going to be changed. We just hope that the workers whose jobs are changing have a voice in saying how yeah it's turkeyy is not going to vote for Christmas are they if those are the ones that could find their jobs being replaced but there's so much in there and Stephanie just a final thought from you in all of this about briefly if you will.
+
+ROUGE-1: 9.51, ROUGE-2: 9.24, ROUGE-L: 9.51
+BERTScore: 62.45
+
+==============================================
+==================== [54/100] ====================
+Summary:
+foreign I'm really excited especially for this lecture which is a very special lecture on robust and trustworthy deep learning by one of our sponsors of this amazing course themus AI. Themis AI is a startup actually locally based here in Cambridge our mission is to design advance and deploy the future of AI and trustworthy AI specifically. I'm especially excited about today's lecture because I co-founded Themis right here at MIT right here in this very building in fact this all stemmed from really the incredible scientific innovation and advances that we created right here. compete in the competition which the details are described in the lab but basically it's about analyzing this data set creating risk-aware models that mitigate bias and uncertainty in the specific training pipeline. At Themis our goal is to design advance and deploy a trustworthy AI across Industries and around the world. We're hiring for the upcoming summer and for full-time roles so if you're interested please send an email to careers themesai.io or apply by submitting your resume to the Deep learning resume drop and we'll see those resumes and get back to you.
+
+ROUGE-1: 4.30, ROUGE-2: 4.19, ROUGE-L: 4.28
+BERTScore: 66.69
+
+==============================================
+==================== [55/100] ====================
+Summary:
+HONG LIU: So if you want to compute, say, some scattering amplitude from alpha to beta-- so alpha's some initial state and beta's some final state. Say alpha consists of momentum p1 and PN-- or pm, and beta, say momentum p m plus 1 and pn. And then you can get this scattering amplitude just by taking your momentum-space correlation function, OK, for the n points. So this is obtained by doing a Fourier transform. So any questions on this? Yes? AUDIENCE: So can you explain again why this diagram, like, you have one branch and then there's a loop? The Dirac equation is one of the most beautiful equations in mathematical physics. It's actually describing electrons, so it's not only beautiful, but it's actually useful. The most general way to write it is to try to write the first-order equation which is Lorentz invariant. When you go to a different frame, the equation looks the same. Just different observers in different laboratory, that's what we mean by the equation of the Lorez transformation transform to be Lorez covariant.
+
+ROUGE-1: 4.07, ROUGE-2: 3.83, ROUGE-L: 3.88
+BERTScore: 66.15
+
+==============================================
+==================== [56/100] ====================
+Summary:
+The U.S. Supreme Court is the highest federal court in the United States. The job is for life, barring resignation, retirement, or removal from the court by impeachment. So far, six justices have been foreign-born, at least one never graduated from high school, and another was only 32 years old when he joined the bench. Most presidents nominate individuals who broadly share their ideological view, so a president with a liberal ideology will tend to appoint liberals to the court. Of the 112 justices who have held the position, not one has yet been removed from office.
+
+ROUGE-1: 27.03, ROUGE-2: 24.90, ROUGE-L: 23.17
+BERTScore: 62.25
+
+==============================================
+==================== [57/100] ====================
+Summary:
+This is actually the second time we are having this class. We had it last year in a smaller version. That was for six units of a credit, and we had it once a week. And so we got some good response last year. So, with the support of the math department, we decided to expand this class to be 12 units of credit. And we have every Tuesday and Thursday afternoon from 2:30 to 4:00, as you know, in this classroom. And the purpose of this course is really to give you a sampling menu to see how mathematics is applied in modern finance. Jake Xia: I'm not going to tell you the story of Pi or "Life of Pi" That's not a financial story. The rest of the story, alpha, beta, delta, gamma, theta, which you will learn from Peter and Choongbum and Vasily's classes. So I'm going to talk about vega. But how many of you actually know what a vega is? OK, lot of people know. But anyway, so that's my first day at Morgan Stanley. Financial products is really just one form of trading. There are many other ways of trading aside from exchanges. The different regions have different exchanges and markets, as well. And the structure of the products it become more tailor-made for either investors or borrowers. So coming back to the market, one large type of player is really the only way to get back into the financial market. Essentially, Glass-Steagall, after 1933, is really what made the financial industry what it is today. It's really about someone has money, someone doesn't. Professor Jake Xia: Trading is really all about how do you risk manage, have the discipline, and how to manage your losses. When you go to the market, you buy a stock. When the stock goes up, makes bit of money, the natural tendency is to let's take profit. But when the stock loses money, what's your natural tendency? Professor Jake XIA: I think natural tendency, lot of people will keep it. But if you think the fundamental story is very sound, you should think about as if you don't have a position. Learn the math, learn the finance first, but keep those questions along the way when you are learning during this class. Go to the course website, read what we have put up for the financial glossary. If you still have things you don't understand, compile your own list of financial concepts, which you can search on the web or even ask us. So, that's really-- and read other materials on the course work. We got maybe-- how about this? We still got about 15 minutes or 12 minutes left, so I'll pass it to Vasily, then maybe we can leave five minutes for some questions. We put syllabus there, a short list of literature. We will be posting a lot of materials there. Probably most lectures will be published there. Jake's slides are there already. So, any questions? We like to get your emails so we can put you on the website for further announcements. But it's probably easier if you put your email on the sign up sheet, so that we can [INAUDIBLE]. VASILY STRELA: Yeah, but please visit and sign up here, because there will be announcements to the class.
+
+ROUGE-1: 13.45, ROUGE-2: 12.59, ROUGE-L: 12.93
+BERTScore: 63.60
+
+==============================================
+==================== [58/100] ====================
+Summary:
+Climate change is changing us from the inside out in the UK one in four adults and one in 10 children experience mental illness and there's growing evidence that dealing with a changing climate is adding to that burden. In 2022 we had the hottest year on record where daytime temperatures soed over 40° for the first time in history the past hour or so we've had the UK Met Office issuing its first ever red warning for extreme heat after the 2022 heat wave. Charles and a team of researchers set out to study how the extreme heat affected people's well-being over half of the people they spoke to experienced negative impacts on their mental health.
+
+ROUGE-1: 19.79, ROUGE-2: 19.33, ROUGE-L: 19.79
+BERTScore: 68.64
+
+==============================================
+==================== [59/100] ====================
+Summary:
+Adam Martin: How do you go from something you're interested in learning about an organism to actually identifying genes and mechanisms that are important for that? Martin: The two heroes of today's lecture will be the roundworm, Caenorhabditis elegans, and the fruit fly, Drosophila melanogaster. He also highlights a couple important vertebrate-model organisms-- the zebrafish and the mouse. Martin: Most of them are fairly small, and they're easy to house large numbers of them in a lab.
+
+ROUGE-1: 2.64, ROUGE-2: 2.35, ROUGE-L: 2.51
+BERTScore: 58.35
+
+==============================================
+==================== [60/100] ====================
+Summary:
+In this chapter we will discuss two applications, one price control and second taxation, so right. Sir, does this slope of this graph denote anything price demand upon, some price upon some quantity? So, wait little later we will talk about that that topic, right now we are just talking about movement and shifts, the direction of movement. We are not talking about the slope. So, what is price control what do we mean by price control? Price control is how we can regulate the prices of the goods in the market.
+
+ROUGE-1: 5.65, ROUGE-2: 5.29, ROUGE-L: 5.53
+BERTScore: 69.46
+
+==============================================
+==================== [61/100] ====================
+Summary:
+The size of the ribosome is similar to the size of a rhinovirus. There are many features in this part of the sequence that are very important for translation. Exonucleases might end up chewing up your transcript, but that probably suggests that the messenger RNA has been retired and it's going to retire to a better place. And this, once again, plays other functional roles with respect to being recognized as a transcript and helping to get out of the nucleus of the cell.
+
+ROUGE-1: 2.39, ROUGE-2: 2.08, ROUGE-L: 2.28
+BERTScore: 52.23
+
+==============================================
+==================== [62/100] ====================
+Summary:
+Professor Donald Kagan: We are living in the early years of a polis sometime in the eighth century B.C. The date that's typical for the general phenomenon of colonization coming out of the mother cities of Greece is 750 roughly. The earliest date according to Greek tradition, if my memory is correct, was something like 773 where the Greeks date the foundation of what they thought was the earliest colony they ever established -- a place that they called Pithaecusa, which is the island of Ischia. that colonization provided something analogous to that for the Greek people. So now, here we are somewhere in the seventh century, most of these places I've been talking about have been settled, the currents that I have been describing are flowing and the kinds of problems they have give rise to what will be felt in most of the towns. That is the proper introduction to the next topic, which I'll discuss next year. No not--it seems like a year, but it's next Tuesday actually.
+
+ROUGE-1: 3.48, ROUGE-2: 3.34, ROUGE-L: 3.48
+BERTScore: 65.29
+
+==============================================
+==================== [63/100] ====================
+Summary:
+Instructor: We are asked, which of the following correctly identifies the areas of consumer surplus, producer surplus, tax revenue, and deadweight loss in this market after the tax? So pause this video, have a go at it. Even if you struggle with it it will make your brain more attuned to when we work through it together. All right, now let's work through this together. And I just want to sort of understand what's going on here before I even try to answer their questions.
+
+ROUGE-1: 16.31, ROUGE-2: 16.15, ROUGE-L: 16.31
+BERTScore: 70.34
+
+==============================================
+==================== [64/100] ====================
+Summary:
+Sir Gawain, nephew of King Arthur, was invited to a party at Camelot. A towering knight riding an emerald steed burst into the room and proposed a game. The Green Knight declared he would allow the bravest warrior present to attack him with his own axe. If they could strike him down, they would win his powerful weapon. However, the knight would be allowed to return that blow in one year and one day. Gawain tried to forget this bizarre vision, but despite the strangeness of the knight’s game, he was determined to act honorably.
+
+ROUGE-1: 24.43, ROUGE-2: 21.68, ROUGE-L: 22.14
+BERTScore: 69.18
+
+==============================================
+==================== [65/100] ====================
+Summary:
+well welcome back everybody to uh the last lecture 162. this is kind of a a special lecture um i did get some requests for more information about distributed storage and quantum computing and so i think we're going to do that. i want to make sure that we talk through the chord algorithm since that's a i think relatively simple thing to understand and is uh very cool and applied pretty much everywhere so if you remember one of the things we talked about last week was basically this cap theorem which was really a conjecture that eric brewer put forth back in the early 2000s. The cord algorithm has been turned into storage systems of many sorts including those used by amazon et cetera okay facebook. The chord algorithm lets you get by with only knowing essentially a logarithmic number of nodes in the total system and you can still do this well. We're going to associate each one of those storage nodes is going to get a unique id. We'll talk you through that in the next slide and then i'm going to show you how the chord algorithm is used to divide our space up. Security is basically computing in the presence of an adversary so i'm assuming several of you have all taken 161. Security is basically using those mechanisms to prevent misuse of resources so for instance virtual memory is a mechanism that can be used for protection. One of the questions that's important is do you know where your data came from that's a provenance question. Data integrity is making sure that the data read only by authorized users so that's an important thing. Non-repudiation is a surprisingly important thing that people don't often talk about. unforgeable all right good so let me say a little bit about using quantum mechanics to compute. It's basically using weird but kind of useful properties of quantum mechanics two of them quantization and superposition. If you're willing to allow things to not be always a one or always a zero what you can do is you can just start doing quantum computing. There are many other algorithms out there now these days these days they've been slowly working on them but these are some pretty good ones that might be interesting.
+
+ROUGE-1: 4.60, ROUGE-2: 4.38, ROUGE-L: 4.48
+BERTScore: 67.52
+
+==============================================
+==================== [66/100] ====================
+Summary:
+Early astrologists did not recognize the lymphatics so they thought there are only three system there is a branch of portal or this branch of puerto bean. Originally doctors thought that every corner these three things are present and they call it portal triad. But later on of course the new it is not portal Triad it is portal triads. The liver is really working is that right that blood is again there are two input system hepatic arterial input and what was this portal venous input.
+
+ROUGE-1: 14.07, ROUGE-2: 13.44, ROUGE-L: 14.07
+BERTScore: 61.32
+
+==============================================
+==================== [67/100] ====================
+Summary:
+So in the next portion of today's lecture we're going to talk about how we can modify the policy gradient calculation to reduce its variance. In this way we'll obtain a version of the policy gradients that can be used as a practical reinforcement learning algorithm. The first trick that we'll start with is going to exploit a property that is always true in our universe which is causality causality says that the policy at time t prime can't affect the reward at another time step t if t is less than t prime. different policy parameters you'll have one value of the baseline for parameter one a different value for parameter two. In practice we often don't use the optimal variance we just uh sorry we typically just use the expected reward but if you want the optimal baseline this is how you would get it all right so to review what we've covered so far we talked about the high variance of policy gradients algorithms. We talked about how we can lower that variance by exploiting the fact that present actions don't affect past rewards and we can use baselines which are also unbiased.
+
+ROUGE-1: 14.26, ROUGE-2: 13.71, ROUGE-L: 14.12
+BERTScore: 68.80
+
+==============================================
+==================== [68/100] ====================
+Summary:
+Today we're gonna talk about learning in the setting of games. What does learning mean? How do we learn those evaluation functions that we talked about? And then, er, towards the end of the lecture, we wanna talk a little [NOISE] bit about variations of the game- the games we have talked about. So, uh, how about if you have- how about the cases where we have simultaneous games or non-zero-sum games? And an example of that is rock, paper, scissors. Can you still be optimal if you reveal your strategy?
+
+ROUGE-1: 1.22, ROUGE-2: 1.18, ROUGE-L: 1.21
+BERTScore: 74.26
+
+==============================================
+==================== [69/100] ====================
+Summary:
+The famous example was posed by Comte de Buffon back in the 18th century. It marks the beginning of a subject that is known as the subject of geometric probability. The problem is pretty simple. We take a needle that has a certain length-- l-- and we throw it at random on the plane. The needle might fall this way, so that it doesn't cross any line, or it might fall that way, and it ends up crossing one of the lines. If the needle is long enough, it might actually end up crossing two of the Lines.
+
+ROUGE-1: 8.79, ROUGE-2: 8.18, ROUGE-L: 8.61
+BERTScore: 70.68
+
+==============================================
+==================== [70/100] ====================
+Summary:
+Professor: We're describing interaction between the electromagnetic field and atoms. He says the problem of resonance can be "fixed" by adding an imaginary part to the energy level. Professor: I want to show you what are the tools to treat those infinity source divergences in a consistent and a systematic way. He explains how to calculate the Fourier transform of the time evolution operator to infinite orders, and how to sum up an infinite number of diagrammatic tricks and summation. The course is part of MIT OpenCourseWare, which offers free online classes. processes. OK, any last questions? Well then, let's enjoy the open house with incoming graduate students, and I'll see you on Monday. I'll be back on Monday to talk to you about the classes we'll be teaching next year. Back to Mail Online home. back to the page you came from. Click here to read the full transcript of this interview. Back To the pageyou came from, click here to see the full Transcript of this Interview. Back in the page, please share your questions and comments.
+
+ROUGE-1: 3.79, ROUGE-2: 2.76, ROUGE-L: 2.90
+BERTScore: 58.85
+
+==============================================
+==================== [71/100] ====================
+Summary:
+David KAISER: Today, we're going to pick up where we were on the most recent classes. We'll look at the coalescence of what came to be called the Big Bang model. And then we'll see how cosmic inflation emerged from that particular moment to try to address some of the shortcomings while retaining some the successes. And the asterisks are to remind you there's a set of strictly optional lecture notes on the Canvas site which go into a little bit more detail of some of these parts from the lecture. Astronomers like Edwin Hubble in Southern California were able to collect information about the distribution of distant galaxies. Hubble found this remarkable trend that the further away from us a given galaxy was, the faster it tended to be moving away. Lemaitre was one of the first to start thinking about playing that filmstrip backwards to say if things are moving further apart from each other on average today, and if the universe in general is expanding today, then was it, in fact, smaller at earlier times? At early times in cosmic history, the universe should've been opaque. You literally wouldn't have been able to see anything because the mean free path of any given photon would be very, very short. At that moment, the average energy per photon or per elementary particle would fall so that you could actually begin to form stable atoms of hydrogen. After that time, when the temperature has fallen below about 10,000 Kelvin, photons are now free to travel large distances. They lose energy as the universe continues to expand. stuff per volume, the actual density of matter and energy per volume. If omega is larger than 1, you have more stuff for volume. You expect it's open or hyperbolic geometry. So far so good. Then Dicke plugged this quantity into Einstein's own equations. A universe should generically become more and more different from flat over time. And that seems like this very strange or unexplained fine tuning. If the universe has been stretching for 14 billion years, what set it to be so arbitrarily close to flat is an unstable equilibrium point? why the universe is so messy is actually because Alan's been generating the mess in his own office, and it's expanded to cosmic scales. So if you want to study that part of today's lecture, it's probably the most important lesson, you'll ever take away. And I'll be glad to stay a bit longer if people have questions. Again, I'm sorry for running late. Feel free to drop off if you need. Any questions on that? The photos in Alan's office are on Canvas.
+
+ROUGE-1: 6.18, ROUGE-2: 5.95, ROUGE-L: 5.95
+BERTScore: 59.91
+
+==============================================
+==================== [72/100] ====================
+Summary:
+The Peloponnesian War was fought in 431 BC. After the war, Spartan power had grown to an unprecedented degree. For the first time there were lots of Spartans, who had lots of money. The Spartans had choices that they could take. They could either stay in the Pelop onnesus, or they could contest it in their power to control the entire Greek world in the east. Or they could have some control of the Aegean and the Hellespont.
+
+ROUGE-1: 1.55, ROUGE-2: 1.18, ROUGE-L: 1.30
+BERTScore: 55.90
+
+==============================================
+==================== [73/100] ====================
+Summary:
+The coherent state has a simple definition, simple but subtle. It's an eigenstate of the annihilation operator, and it has a complex eigenvalue alpha. The person who popularized those states was Glauber, and he got amply rewarded for that. We are now using the coherent states to look at any other quantum state of the electromagnetic field, any statistical operator which describes photons by forming the diagram matrix element of the statistical operator with alpha. And now we realize that coherent states are not as wonderful as I believe.
+
+ROUGE-1: 1.78, ROUGE-2: 1.74, ROUGE-L: 1.78
+BERTScore: 63.92
+
+==============================================
+==================== [74/100] ====================
+Summary:
+This lesson will first dive into some signal Theory and then move on into things that we're more familiar with things like deconvolutions and using Transformers for next note prediction. The first thing we want to talk about is how can we sample and quantize a continuous time signal. We then go into some geometric signal Theory with Transformers and finally how how we can kind of generate sounds using these. The next thing we're going to kind oftalk about is changing forms. We'll talk about the SARS ADC algorithm and how it's used to convert digital signals to analog. things a try yourself uh yeah thank you guys for tuning in have a good one. Things you might want to try yourself. Things that you may want to give a try. uh yeah. things you might be interested in trying yourself. things that you might like to give yourself. uhYeah. things a try yourselves. uh Yeah. Things a try themselves. Things your might like yourself.things you may like to do yourself. thanks you guys. for tuning into this week's episode of The Daily Discussion.
+
+ROUGE-1: 4.29, ROUGE-2: 3.02, ROUGE-L: 3.47
+BERTScore: 60.54
+
+==============================================
+==================== [75/100] ====================
+Summary:
+Professor: The amygdala is closely connected to the basal forebrain. Professor: The abnormal brain connections that we know occur, at least many types of schizophrenia. He says the earlier the lesion, the greater the plasticity, the more chances of sprouting the connections that are the basis for this idea. In green, there are the very widespread catechol-oligosynaptic projections, which show the extent of the brain's plasticity. In blue, the acetylcholine containing neurons that you see in the medial septum, which we mentioned last time.
+
+ROUGE-1: 3.05, ROUGE-2: 2.27, ROUGE-L: 2.53
+BERTScore: 55.06
+
+==============================================
+==================== [76/100] ====================
+Summary:
+Learn how the solar cell device converts sunlight, the input energy, to some usable output energy, which is in the form of electricity, typically, from a solar panel. Learn how to minimize the amount of light reflected or not absorbed into maximizing amount of life that's actually absorbed. Learn about the duality of light, or how to think about light as a particle, or alternatively, as a quantified particle. Use the weekly Newsquiz to test your knowledge of stories you saw on MIT OpenCourseWare. There is a limit to how much we can trap light simply by modifying or corrugating the surfaces to enhance the optical path length. A gentleman by the name of Eli Yablonovitch, who's now a professor in Berkeley calculated these parameters I think back in 1982. He derived an expression for the maximum increase of the opticalPath length due to surface texturing, which was 4n squared. That might not sound like a whole lot, but if you're a $100 billion industry, 1% is a lot of money.
+
+ROUGE-1: 2.63, ROUGE-2: 2.21, ROUGE-L: 2.36
+BERTScore: 56.36
+
+==============================================
+==================== [77/100] ====================
+Summary:
+Professor Steven Smith: I want to look at two sets of issues. One is Locke's theory of the constitutional state, particularly focusing on the role of the executive, vis-a-vis the legislative branch of government. The other is thinking about Locke and the American regime and the current state of political philosophy, modern contemporary American political philosophy. Smith: Locke doesn't endorse necessarily one particular form of government from any other. He is an advocate of what we have come to call limited government, of constitutional government.
+
+ROUGE-1: 3.06, ROUGE-2: 2.85, ROUGE-L: 2.88
+BERTScore: 68.24
+
+==============================================
+==================== [78/100] ====================
+Summary:
+JACK HARE: Let's do a little recap on electron cyclotron emission. We expect to have multiple different peaks, even from a single particle. These peaks are going to be occurring at frequencies. These tend to be in an optically thick regime. We can go back and we can use these measurements to identify three specific points inside our plasma that we've been using as part of this example. But, in general, you can get it all through the way through the plasma. temperature as a function of frequency. Then we can say, well, that frequency corresponds to a certain magnetic field. And then we can says that magnetic field corresponds to an spatial coordinate. This is a technique which will give us, by looking at the spectrum for lowish frequencies, the first or maybe the second harmonics of this cyclotron emission. We can work out what the temperature is as afunction of space. So this is why this is a powerful and popular diagnostic in MTF. want to understand in plasmas so that we can build an economically viable fusion reactor. Now, the fact that the noise is too high does seem like a big limitation. But there are some clever tricks that we play where we use correlations. And I'll talk now about what exactly these correlations are and how they provide us with information that allows us to get a signal out despite the overwhelming [INAUDIBLE]. So our setup here is borrowed from ASDEX Upgrade. And, in effect, I referred to Alex Creely's PhD thesis, which you can find online if you want more information. Many oscillations. And so, it will average out to 1 or something like that. So it's some DC offset that we can subtract off after. So all this is doing here is mixing the signal down so it gets to a regime that we could effectively digitize. Yeah, another question. Anyone know how micro splitters work? Looking at you? STUDENT: RF. JACK HARE: The answer I got is that you can actually collect from a very small region on the order of 100 microns. was RF, which I don't think is much more satisfying than my answer. So, yeah, there are circuits which will split microwaves. What they were actually doing with this system is all of these were very tunable. And so, if they wanted to look at turbulence in the edge or turbulence near the center, they could actually tune all their bandpass filters to do that. But this is getting way beyond what I was hoping to talk about on this. So let's get on to correlation ECE see what that does. situation where, at some point, your eddy has moved across, and these two are no longer correlated because the next two are correlated. So it-- yeah. I think we're reaching the limits of my knowledge. Now we're going to go to bremsstrahlung. Some people these days just call this breaking radiation, which is just the translation from the German, and that's a perfectly reasonable term to use. There are lots of different ways of doing this, and Hutchinson lists a few of them. at synchrotron, yes. So cyclotron is when the particles are spiraling around the magnetic field. Synchrotrons are used as a source of X-rays for diagnosing many other things. So it's interesting in its own right, but I don't know whether people use it as a diagnostic. It depends mostly on the magnetic fields and the radius in a tokamak. But maybe there's a really clever diagnostic you can do, like fast particles or something like that. We're going to switch to a slightly quantum model of the atom. We have a range of different discrete energy levels that the electrons can occupy. These energy levels are labeled by the principal quantum number n. And, up here, infinity, this is ionization. If your electron gets this much energy, it becomes free again. And the energies of these levels are given by this unit, Ry, which is the Rydberg z squared of our ion over n squared. And that equation is going to be the photon that is emitted. difference between those. neutron damage leads us to use much thicker substrates, which gives us a longer time response and so, therefore, a worse bolometer. So, ironically, the bolometers that will be used on [INAUDIBLE] are significantly worse than the bolometer used on existing devices. And I'm sure that [? Spark ?] will have exactly the same problem. Almost everyone in the world uses this design of bolometer that they pioneered on ASDEX Upgrade in the '80s. No one has come up with a better system yet.
+
+ROUGE-1: 13.09, ROUGE-2: 12.53, ROUGE-L: 12.79
+BERTScore: 62.36
+
+==============================================
+==================== [79/100] ====================
+Summary:
+So, last time we were starting to talk about the sort of the general overview of what reinforcement learning involves. We introduced the notion [NOISE] of a model, a value, and a policy. Can anybody remember off the top of their head what a model was in the context of reinforcement learning? So what we're gonna do today is, sort of, um, build up for Markov Processes, up to Markov Decision Processes. And this build, I think, is sort of a nice one because it allows one to think about what happens in the cases where you might not have control over the world. on sort of the contraction operator. So, if an operator is a contraction it means that if you apply it to two different things, you can think of these as value functions. The distance between them shrinks after, um, or at least is no bigger after you apply the operator compared to their distance before. So how do we prove this? Um, we prove it- for interest of time I'll show you the proof. Again, I'm happy to go through it,. um, I- or we can go throughIt in office hours et cetera.
+
+ROUGE-1: 2.84, ROUGE-2: 2.76, ROUGE-L: 2.84
+BERTScore: 65.41
+
+==============================================
+==================== [80/100] ====================
+Summary:
+Professor: angular momentum is a set of operators that provide observables, things we can measure. He says they're particularly important for systems in which you have central potentials. Professor: If you have two energy for every system except for every energy except for 0, you have a problem. You know the problem, if you can uniquely characterize the states of the system, then you can learn more about the physics of this state, he says, and you can also know more about physics of a circle.
+
+ROUGE-1: 7.95, ROUGE-2: 5.53, ROUGE-L: 6.20
+BERTScore: 59.10
+
+==============================================
+==================== [81/100] ====================
+Summary:
+In order to do that, I basically have to do the integral. So here it is. We have psi of x and t. It's integral dk phi of k e to the ikx minus omega of kt. If you want to see the distortion, you have to keep that [INAUDIBLE]. We'll do that in a week from now. And then, you say, look. There's lots of things making it look like a difficult integral, but it's not as difficult as it looks.
+
+ROUGE-1: 15.65, ROUGE-2: 15.13, ROUGE-L: 15.65
+BERTScore: 62.97
+
+==============================================
+==================== [82/100] ====================
+Summary:
+There are three common uses of a rotation matrix. The first is to represent an orientation. The second is to change the frame of reference of a vector. And the third is to rotate a vector or frame. To demonstrate these, I will use these three coordinate frames, representing the same space with different orientations. To help you visualize these frames in 3 dimensions, I'll use my handy tinkertoy frame. In the next video, we will learn how to represent the angular velocity of a frame.
+
+ROUGE-1: 23.67, ROUGE-2: 23.19, ROUGE-L: 23.67
+BERTScore: 67.50
+
+==============================================
+==================== [83/100] ====================
+Summary:
+Coded imaging is a form of a co-design between how you capture the image and how you process the image. In the Fourier domain, convolution in the image domain is multiplication in the standard Fourier transform. If you have a sharp photo and a blurred photo, you can basically represent that as asharp photo. The concept of a position or superposition applies to all three types, shadows- or refraction- or reflection-based techniques. It's a way to recover the sharp detail afterwards in software. Raskar: Compressed sensing or compressed imaging comes up when you want to take something that is much higher resolution but recover it in a compressed way. He says a group at Rice University has been able to measure the z-dimension down to about 10 nanometers. Raskar says the idea is to take one single photo and turn it on and off to get a million-pixel image, which can then be used to reconstruct neuronal structures in three-dimensional form. The concept is mathematically easy to explain, he says. which is how to write a paper and wishlist for photography. Which isHow to Write a Paper and Wishlist for Photography: How to Write A Paper and Write A Wishlist For The Camera. For more information on writing a paper or wishlist, go to: http://www.cnn.com/2013/01/30/photography/how-to-write-a-paper-and-wishlist-for-photography-how- to- Write-A-Paper-And-Wishlist.html.
+
+ROUGE-1: 3.18, ROUGE-2: 2.32, ROUGE-L: 2.49
+BERTScore: 57.70
+
+==============================================
+==================== [84/100] ====================
+Summary:
+Prof. Clark: Middle class was a form of self-identity that was constructed in the way being a worker was constructed, or being a noble. When you see Daumier or you see Delacroix's famous, Liberty Leading the People, and you see the bourgeois, there with his top hat, he's dressed in a bourgeois uniform like this. That emerges out of the bourgeois century. The middle classes started dressing like this in the nineteenth century, dark with a little bit of color. Once we've got an increase in the wealth of the middle classes, then you wanted the political power.
+
+ROUGE-1: 2.50, ROUGE-2: 2.33, ROUGE-L: 2.35
+BERTScore: 65.10
+
+==============================================
+==================== [85/100] ====================
+Summary:
+Researchers have confirmed a second smaller space Rock smashed into the sea off the coast of West Africa creating a large crater during the same era. Scientists say it would have caused a tsunami at least 800 M High to tear across the Atlantic Ocean. The asteroid that's believed to have wiped them out 66 million years ago was not the only one researchers have confirmed. The discovery is exciting that it happens to be potentially close to the same time as the chicku event known to be the the main cause of the extinction event that killed the dinosaurs.
+
+ROUGE-1: 38.76, ROUGE-2: 35.80, ROUGE-L: 31.78
+BERTScore: 63.39
+
+==============================================
+==================== [86/100] ====================
+Summary:
+In automotive design Dynamics plays a very important part because it's not rigid body Dynamics it's a bunch of rigid bodies with springs the Springs are called starts with an S suspens suspensions right and there's a trade-off between how comfortable the ride is and how tightly the car handles. In Dynamics there two sides to it one is how will its various degrees of freedom behave over time if you you know stretch it and let it go and it goes twang you know boing right and you want to figure out how it goes in time that that's analysis. call this Theta the initial length is L one and the initial velocity is we'll call it a scalar because this is how I'm defining the problem of V1 when we actually solve it we might have to define a vector okay. As the thing's going around this person is going to pull the string down and as it kind of goes around it's going to spiral in and end up it's a new length L2 and the question is what is V2 going to be okay. would have to do one of two things I would have had to either calculate this term or calculate or make you know make my frame attach it to the truck. I've just done it in a very precise way okay so in the end there's no surprise the whole point is to show you they could be surprises but be careful any questions about this all right snap quiz in the next 3 minutes I want you to calculate for me the final velocity literally 3 minutes because I have toDo the dumbbell problem. Non-standard coordinates do I need to describe the configuration of this dumbbell let me make a proposal to you what if I said let's label them first of all let's call this particle o this point O. Let's call uh this guy P by the way I didn't give you the masses right but let's give them different masses M1 Q M2 and I will state Here length I don't want to mess up the diagram isal to 2 R so here's my proposal for a set of generalized coordinates I could use X and Y for particle P1 and particle Q is that reasonable it's perfectly reasonable.
+
+ROUGE-1: 7.60, ROUGE-2: 7.41, ROUGE-L: 7.56
+BERTScore: 63.58
+
+==============================================
+==================== [87/100] ====================
+Summary:
+Andrej Karpathy: In this module, I'm going to briefly introduce the idea of differentiable programming. Differentiable programming is closely related to deep learning. It allows you to build up an increasingly more sophisticated model without losing track of what's going on. So let's suppose you want to do image classification. We need some way of representing images. To fix this problem, we introduce convolutional neural networks which is a refinement of fully connected neural networks. So here is an example of ConvNet in action. In NLP, words are discrete objects and neural networks speak vectors. So whenever you're doing NLP with neural nets, you first have to embed words, or more generally, tokens. There's a lot of processing that needs to happen and it's hard to kind of specify in advance. A SequenceModel is going to be something that takes a sequence of input vectors and produces a corresponding sequence of output vectors where each vector in this sequence is a process with respect to the other elements. I'm going to talk about two implementations of the sequence models. One is recurrent neural networks and one is transformers. encourage you to consult the original source if you want kind of the actual, the full gory details. Another thing I haven't talked about is learning any of these models. It's going to be using some variant of stochastic gradient descent, but there's often various tricks that are needed to get it to work. But maybe the final thing I'll leave you with is the idea that all of differentiable programming is built out of modules. Even if you kind of don't understand or I didn't explain the details, I think it's really important to pay attention to the type signature of these functions.
+
+ROUGE-1: 11.34, ROUGE-2: 10.75, ROUGE-L: 10.68
+BERTScore: 63.86
+
+==============================================
+==================== [88/100] ====================
+Summary:
+Professor Amy Hungerford: Today it is my great privilege and pleasure to introduce Andrew Goldstone, a TF in this course. Andrew is a fourth-year student in the Ph.D. program in English, and he is writing a dissertation on the autonomy of the work of art in modernism. On Monday we had three main themes that were used to introduce this novel to you. And that's the question that I'm mostly going to focus on today. I'm going to bracket the ethical question, leave that for Monday's lecture.
+
+ROUGE-1: 2.80, ROUGE-2: 2.74, ROUGE-L: 2.80
+BERTScore: 71.06
+
+==============================================
+==================== [89/100] ====================
+Summary:
+NORVIN RICHARDS: Today is phonetics, which means that today we begin making funny sounds at each other. One standard way of talking about different kinds of speech sounds is to talk about where in the vocal tract the flow of air can get obstructed. So for example, there are what are called bilabial sounds. These are sounds which are made with both lips. And so that's what you do for the sounds that are at the beginnings of words like "paint" and "bath," and "mouth," and well, "wipe"
+
+ROUGE-1: 1.50, ROUGE-2: 1.47, ROUGE-L: 1.50
+BERTScore: 59.61
+
+==============================================
+==================== [90/100] ====================
+Summary:
+Expectation is a basic question that will come up again and again when we look at random variables and probability theory. We're imagining n independent flips of a coin with bias p. The probability of heads is p. It would be biased in favor of heads if p is greater than 1/2. And we want to know how many heads are expected. So what's the expected number of heads? Well, we already know-- we've examined the binomial distribution B n,p.
+
+ROUGE-1: 19.54, ROUGE-2: 18.43, ROUGE-L: 15.40
+BERTScore: 71.67
+
+==============================================
+==================== [91/100] ====================
+Summary:
+Aristotle was born 384,15 years after the trial of Socrates. He was sent by his father to go to college. Unlike most of you, Aristotle did not spend four years at the Platonic Academy. He remained attached to it for the next 20, until the death of Plato. Unlike his intellectual godfather, Socrates, who wrote nothing but conversed endlessly, Aristotle wrote disciplined and thematic treatises on virtually every topic. He collected constitutions, 158 of them in all, from throughout the ancient world.
+
+ROUGE-1: 3.18, ROUGE-2: 2.99, ROUGE-L: 3.18
+BERTScore: 58.58
+
+==============================================
+==================== [92/100] ====================
+Summary:
+Mathematically, a consumer is trying to maximize his utility. And this utility maximization has to be done with respect to some constraint and the constraint the budget constraint we take P 1 x 1; P 2 x 2 should be less than or equal to I. In real life, it is possible that a person derives some satisfaction from having some money left in his pocket, but the way this problem has been framed here the person’s satisfaction depends only on his level of consumption of good 1, and good 2.
+
+ROUGE-1: 8.97, ROUGE-2: 8.69, ROUGE-L: 8.97
+BERTScore: 69.92
+
+==============================================
+==================== [93/100] ====================
+Summary:
+MIT OpenCourseWare is a free, online education platform. MIT OpenCourse Ware is available in English and French. The weekly Newsquiz tests students' knowledge of MIT courses. This week's quiz includes questions about the i3, Mr. Sticky, and the smart car. The winner will receive a prize for their best knowledge of an MIT course in English or French. Back to Mail Online home.Back to the page you came from.. The quiz: Do you have a concept you want to share? If so, please share it with us. defined could almost apply to a Tramway as well. If this was like a streetcar, don't you think it would apply to that as well? So I think the fact that it's a personal vehicle, I think it's important. So the key in this is, describe the concept using few words precisely, but to set it apart from neighboring concepts. What about Rolex Center? It's a single-layer building with multiple straw used as a library for people to meet and study. The refrigerator effectively becomes a food spoilage rate reduction device. The key idea is to start thinking in an abstract way and all of a sudden all these other possibilities become possible. To then actually deliver that value you need to design the product, the product system, and understand the operand, the thing that is being operated on or transformed by the primary value delivery process. In order to chill, we need a chiller, and there are different types of chillers, so it's not enough to pick a particular concept. You have to eventually pick a specific function. or an architecture. So the key decisions are the rows. There are factors in the rows, and then for each row you think about what are the number of possible alternatives for doing this. And then you enumerate all possible combinations. And the big challenge with this, of course, is if you have many factors, you could generate many infeasible architectures. Not all these combinations are actually feasible. So that's architecture enumeration, and there's different ways of doing this at different layers of abstraction. A3 assignment A3 asks students to come up with new ways of brainstorming. Students must use mind maps, morphological matrices, and architecture enumeration. The assignment is due in two weeks and will be graded on a scale of 1-10. The final assignment will be given to students at the end of the month and the results will be published in the next few days. For more information on the assignment, visit the assignment website. It is open to students from all over the world and can be downloaded from the assignment site.
+
+ROUGE-1: 11.43, ROUGE-2: 8.57, ROUGE-L: 8.40
+BERTScore: 57.47
+
+==============================================
+==================== [94/100] ====================
+Summary:
+then we are going to continue with the second part of the lecture today which focuses on the problem what actually happens if the gaussian assumption that i have about my constraints doesn't hold. As you will see in some small examples having this outliers in your optimization problem is something which hurts dramatically which actually screw up your solution. Already a few outliers can lead to a environment model which is completely unusable for doing any navigation task so where the geometry of what you computed doesn't fit to the real world geometry anymore and one of the questions actually how to handle that.
+
+ROUGE-1: 3.25, ROUGE-2: 3.16, ROUGE-L: 3.25
+BERTScore: 65.73
+
+==============================================
+==================== [95/100] ====================
+Summary:
+John Stuart Mill is the principle expositor of neoclassical utilitarianism. The rights-utility synthesis signals that we're looking for an attempt to put together both a commitment to utilitarian efficiency that's grounded in science on the one hand, and respect for individual rights that's grounding in the workmanship ideal on the other hand. At the same time, more or less, there were very important developments in moral philosophy that I just want to alert you to. The doctrine that I'm mentioning here is the doctrine that would come to be called emotivism. Prof: These indifference curves cannot cross. Can anybody tell us why? Why can't they cross? Wait for the mic. Student: Because at the intersection they should have the same utility. Prof: So you've got a kind of contradiction on your hands, is that right? Student: Yeah. Professor: Okay, and just to spell out the contradiction more emphatically--I think you basically made the point. So we have a distribution here, okay? Now what Pareto said, he said, "Let's draw a line north-south through the status quo"
+
+ROUGE-1: 5.65, ROUGE-2: 5.38, ROUGE-L: 5.53
+BERTScore: 64.10
+
+==============================================
+==================== [96/100] ====================
+Summary:
+HONG LIU: Today, we talk about chiral fermions. He says the Dirac equation requires, actually, psi to have four components. But there are two ways to reduce it, and one is called the Majorana fermion, he says. HONG LIu: You don't need four components to be able to transform under Lorentz. You just need a smaller unit, OK? He says this tells you that at least two components already can transform. HONG LIU: So, by definition, discrete symmetries are symmetry, which don't have continuous parameters. So for a complex scalar field, then this is no longer a discrete symmetry because, remember, we can rotate phi by a phase. You can exchange phi to phi star, OK? It's a complex conjugation. So often, this will give a symbol-- T, T-- and heuristically we can think of phi as creating one particle and one antiparticle.
+
+ROUGE-1: 3.37, ROUGE-2: 2.72, ROUGE-L: 3.00
+BERTScore: 65.66
+
+==============================================
+==================== [97/100] ====================
+Summary:
+The best-case scenario for expansionary fiscal policy is when there are lots of underemployed resources in the economy. By increasing spending, the federal government can try to counteract falling aggregate demand. In one scenario, government spending doesn't have to be as large as the fall in "C," or consumption, to counteract the recession, and that's because of the multiplier effect. But, as always, shifting lines on a graph is much easier than shifting around real resources in a multi-trillion dollar economy.
+
+ROUGE-1: 30.09, ROUGE-2: 28.77, ROUGE-L: 30.09
+BERTScore: 67.40
+
+==============================================
+==================== [98/100] ====================
+Summary:
+Sarah thread sterner shows you how to wear and take off a mask. She explains how to determine which part of the mask is the front versus the back. She also shows how to mold the nose piece of the face mask with the finger tips of both hands. Finally, she shows you the best way to remove the mask by placing it over your ears and pulling it under your chin when removing the mask it's important to remember that the front is considered contaminated so remove it with the fingertip and then perform hand hygiene.
+
+ROUGE-1: 29.04, ROUGE-2: 20.29, ROUGE-L: 23.82
+BERTScore: 64.55
+
+==============================================
+==================== [99/100] ====================
+Summary:
+In this lecture, we're going to talk about how neurons function and how researchers are able to control that function in order to modify behavior. Then we'll talk about synapses and how synapses function to communicate between neurons. And this is going to involve also sort of understanding how certain antidepressants, like Prozac, work. And then we'll end by talking about how researchers did this experiment to wake up the mouse. It all starts with something that I told you about at the beginning of the semester, which is that the plasma membrane separates distinct compartments. you to test the function of the neuron in the behavior of an organism. So, in this case, this mouse, the light is shined into its brain, and they're testing a specific type of neuron that is involved in arousal of the mouse. And it's going to wake up right now. There it goes. It woke up. You see now its muscle activity is going, OK? So you can test thefunction of specific nerve cells using this approach, and it's because you have a light-sensitive sodium channel.
+
+ROUGE-1: 5.75, ROUGE-2: 5.57, ROUGE-L: 5.72
+BERTScore: 67.89
+
+==============================================
+==================== [100/100] ====================
+Summary:
+In this problem, we're going to be dealing with a variation of the usual coin-flipping problem. But in this case, the bias itself of the coin is going toBe random. And we're told that the expectation of this bias is some mu and that the variance of the bias isSome sigma squared. And what we'll be asked is find a bunch of different expectations, covariances, and variances. We'll see that this problem gives us some good exercise in a few concepts, a lot of iterated expectations. An art that you learn through more practice. But one good rule of thumb is, when you have kind of a hierarchy or layers of randomness, it's useful to condition on the layer above where that is, in this case, the random bias of the coin itself. Once you condition on that layer above, that makes the next level much simpler. Because you kind of assume that you know what all the previous levels ofrandomness are, and that helps you calculate what the expectation for this current level.
+
+ROUGE-1: 10.90, ROUGE-2: 10.35, ROUGE-L: 10.53
+BERTScore: 70.24
+
+==============================================

@@ -1,0 +1,30 @@
+experiment_name: "timeline_500_0.4_1"
+
+mini_batch:
+  size: 8
+  # N means the number of cluster text in one inference
+  # strongly recommend to set N to half ~ two-thirds of your VRAM(GB)
+
+data:
+  source: "youtube" # "opensource"
+  opensource: "ccdv/govreport-summarization"
+  youtube: "WhiteboardLLM/Data"
+  index_set: 1
+
+segment:
+  args:
+    n_word: 500
+    n_overlap: 0
+    fix_size: False
+
+concat:
+  method: "concate_time_based"
+  args:
+    threshold: 0.4
+
+summary:
+  args:
+    min_length: 100
+    max_length: 1024
+
+save_summaries: True

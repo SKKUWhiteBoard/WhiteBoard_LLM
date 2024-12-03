@@ -1,0 +1,32 @@
+experiment_name: "timebased_gov3"
+
+mini_batch:
+  size: 16
+  # N for divide batch into N mini-batches
+  # -1 for don't use mini batch
+
+data:
+  source: "opensource" # "opensource", "youtube"
+  opensource: "ccdv/govreport-summarization"
+  youtube: "WhiteboardLLM/Data"
+  index_set: 3
+
+segment:
+  args:
+    n_word: 150
+    n_overlap: 0
+    fix_size: False
+
+concat:
+  method: "concate_time_based"
+  args:
+    threshold: 0.65
+    # eps: 0.15
+    # min_samples: 3
+
+summary:
+  args:
+    min_length: 100
+    max_length: 1024
+
+save_summaries: True

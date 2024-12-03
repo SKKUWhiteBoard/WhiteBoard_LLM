@@ -1,0 +1,800 @@
+==================== [1/100] ====================
+Summary:
+In 1995, over 9,000 foreign physicians with J-1 visas were in the United States for graduate medical education or training. The number of waivers being processed for physicians to practice in underserved areas each year has grown from 70 in 1990, to 1,374 in 1995. Waiver physicians are practicing in virtually every state; most are primary care physicians. Indications are that in 1995, about half of the foreign physicians that were supposed to return home were granted waivers of this requirement.
+
+ROUGE-1: 1.44, ROUGE-2: 1.38, ROUGE-L: 1.42
+BERTScore: 61.15
+
+==============================================
+==================== [2/100] ====================
+Summary:
+Report explains the process for filling positions to which the President makes appointments with the advice and consent of the Senate. It identifies, for the 111 th Congress, all nominations to full-time positions requiring Senate confirmation in 41 organizations in the executive branch. A profile of each agency tracks the agency's nominations, reports. The profiles also identify, for each agency, positions requiringSenate confirmation, the incumbents in those positions as of the end of the 111th Congress, and the pay levels of those officials.
+
+ROUGE-1: 3.50, ROUGE-2: 3.29, ROUGE-L: 3.45
+BERTScore: 67.45
+
+==============================================
+==================== [3/100] ====================
+Summary:
+TPPs prepare teaching candidates to employ effective teaching techniques and gain real-world experience in the classroom. States have discretion in how they conduct oversight of TPP quality. Education does not have direct oversight authority over TPPs. Title II of the awarding and administering several competitive grants provides funding for reforms to the TPP system. In September 2014, 24 districts received $35 million in grants to improve teacher preparation for science, technology, engineering, and math teachers, including the Race to the Top Fund, Investing in Effective Educator Development Fund, and Supporting the Transition to Teaching grant program.
+
+ROUGE-1: 2.46, ROUGE-2: 2.03, ROUGE-L: 2.33
+BERTScore: 61.33
+
+==============================================
+==================== [4/100] ====================
+Summary:
+At the end of July 2010, over 10,000 military medical personnel were deployed to Iraq and Afghanistan. The United States’ military presence in Iraq is scheduled to end no later than December 31, 2011. The military has established five levels of medical care to treat injured or sick military personnel, with each level providing progressively more intensive treatment. Not all patients progress through all levels of care, and patients being evacuated may skip one or more levels of treatment as appropriate. The U.S. command structure in Iraq and. Afghanistan has evolved over time.
+
+ROUGE-1: 2.28, ROUGE-2: 2.16, ROUGE-L: 2.25
+BERTScore: 67.33
+
+==============================================
+==================== [5/100] ====================
+Summary:
+Bureau of Reclamation's Friant Dam on the San Joaquin River became fully operational in the 1940s. As a result, approximately 60 miles of the river is dry in most years, making it impossible to support Chinook salmon populations. A U.S. District Court judge has since ruled that operation ofFriant Dam violates state law. Parties agreed to negotiate a settlement instead of proceeding to trial on a remedy regarding the court's ruling.. Full implementation of the Settlement would require congressional authorization and appropriations. If Congress does not act on the legislation, some fear that the court will order a remedy that may differ from the Settlement.
+
+ROUGE-1: 6.12, ROUGE-2: 5.67, ROUGE-L: 6.12
+BERTScore: 67.65
+
+==============================================
+==================== [6/100] ====================
+Summary:
+Military construction appropriations fund the planning, design, construction, alteration, and improvement of military facilities worldwide. As of fiscal year 2006, DOD had 3,731 installations, with 766 installations located overseas. DOD has been reexamining overseas basing requirements to allow for greater U.S. military flexibility to combat conventional and asymmetric threats worldwide. Guam provides strategic flexibility, freedom of action, and prompt global action for the Global War on Terrorism, peace and crisis response, DOD says.
+
+ROUGE-1: 1.27, ROUGE-2: 1.18, ROUGE-L: 1.27
+BERTScore: 67.69
+
+==============================================
+==================== [7/100] ====================
+Summary:
+As of December 31, 2010, there were 6,364 community banks (commercial banks with total assets of $1 billion or less) This represents about 92 percent of all commercial banks, although only about 10 percent of commercial bank assets nationwide. Banks in the U.S. are supervised by one of the following three federal regulators: FDIC, Federal Reserve or OCC. The purpose of federal banking supervision is to help ensure that banks throughout the financial system are operating in a safe and sound manner.
+
+ROUGE-1: 1.19, ROUGE-2: 1.10, ROUGE-L: 1.15
+BERTScore: 66.94
+
+==============================================
+==================== [8/100] ====================
+Summary:
+The Obama Administration has been critical of the apparently flawed Russian presidential election. Some in Congress also have criticized the conduct of the election, but have endorsed continued engagement. Congress may consider the implications of another Putin presidency, lagging democratization, and human rights abuses in Russia as it debates possible future foreign assistance and trade legislation. The trigger for wider open discontent was a December 2011 election to Russia's legislature, the Duma, that was widely viewed by many Russians as not free and fair, writes Peter Bergen.
+
+ROUGE-1: 3.04, ROUGE-2: 2.90, ROUGE-L: 3.04
+BERTScore: 67.77
+
+==============================================
+==================== [9/100] ====================
+Summary:
+The Magnuson-Stevens Fisheries Conservation and Management Act granted responsibility for managing marine resources to the Secretary of Commerce. The act also established eight regional fishery management councils, each responsible for making recommendations about managing fisheries in federal waters. In addition to these eight councils, NMFS has six regional science centers, which are responsible for generating the scientific information necessary for the conservation, management, and use of each region's marine resources. Since 1995, the Northwest Center has had lead responsibility for conducting stock assessments on Pacific groundfish.
+
+ROUGE-1: 1.99, ROUGE-2: 1.90, ROUGE-L: 1.99
+BERTScore: 66.13
+
+==============================================
+==================== [10/100] ====================
+Summary:
+CMS reported total obligations for CMS contracts in fiscal year 2008 were $3.6 billion. Since 1998, obligations to fiscal intermediaries, carriers, and Medicare Administrative Contractors (contractors that primarily process Medicare claims) have decreased approximately 16 percent. Obligations for other- than-claims processing activities, such as the 1-800 help line, information technology and financial management initiatives, and program management and consulting services, have increased 466 percent. CMS is required to complete Medicare contracting reform by 2011.
+
+ROUGE-1: 1.13, ROUGE-2: 1.08, ROUGE-L: 1.13
+BERTScore: 70.65
+
+==============================================
+==================== [11/100] ====================
+Summary:
+Since the early 1980s, roughly half of the private-sector work force has participated in either a defined benefit (DB) retirement plan, commonly known as a pension, or a defined contribution (DC) plan. Congress created IRAs, in part, to help those individuals not covered by a DB or DC plan save for retirement. Almost half of all U.S. private sector workers in 2006 were employed by firms with fewer than 100 employees, and only 1 in 4 of these workers worked for an employer sponsoring a retirement plan.
+
+ROUGE-1: 2.85, ROUGE-2: 2.79, ROUGE-L: 2.85
+BERTScore: 70.78
+
+==============================================
+==================== [12/100] ====================
+Summary:
+Unauthorized switching, known as "slamming," has a negative impact on both the consumers and suppliers of telecommunications services. Consumers often do not realize they have been slammed until they find unfamiliar names or charges on their telephone bills. The potential for slamming is expected to increase as competition in the provision of intrastate long distance and local telecommunications services becomes more widespread. The industry is attempting to self-regulate and stop this activity. The FCC has revised its rules with an eye to strengthening its regulations.
+
+ROUGE-1: 2.24, ROUGE-2: 2.13, ROUGE-L: 2.21
+BERTScore: 62.08
+
+==============================================
+==================== [13/100] ====================
+Summary:
+The IG Act created independent IG offices at 30 major departments and agencies with IGs appointed by the President, confirmed by the Senate. In 1988, the IG Act was amended to establish additional IG offices located in 33 DFEs defined by the act. The presidentially appointed IGs and the DFE IGs reported to us total budget authority for fiscal year 2010 of about $2.2 billion. Although not in the scope of our review, there are 10 IGs established by other statutes with provisions similar to those in the IG act.
+
+ROUGE-1: 3.59, ROUGE-2: 3.47, ROUGE-L: 3.35
+BERTScore: 73.18
+
+==============================================
+==================== [14/100] ====================
+Summary:
+As of May 2016, the UN reported that more than 4.8 million Syrians had fled the country and registered as refugees. According to USAID, as of February 2016, U.S. government assistance was reaching 4 million people inside Syria per month. In general, food, shelter, nonfood items, health and nutrition, and water, sanitation and hygiene are among the main types of humanitarian assistance provided inside the country. The United States provided more than a quarter of the total international funding for the 2015 Syria humanitarian response.
+
+ROUGE-1: 2.37, ROUGE-2: 2.29, ROUGE-L: 2.18
+BERTScore: 70.77
+
+==============================================
+==================== [15/100] ====================
+Summary:
+Medicare now covers a number of preventive services, including immunizations and cancer screenings. Not all beneficiaries avail themselves of covered preventive services. Some beneficiaries may simply choose not to use these services, but others may be unaware that the services are available or covered by Medicare. For some beneficiaries, certain services may not be warranted or may be of limited value. Many Medicare beneficiaries may not know that they are at risk for health conditions that preventive care could detect, authors say. care depends on an individual’s age and health risks, not simply on the results of a standard battery of tests.
+
+ROUGE-1: 10.25, ROUGE-2: 9.75, ROUGE-L: 9.44
+BERTScore: 71.55
+
+==============================================
+==================== [16/100] ====================
+Summary:
+In November 2011, President Obama and leaders of the European Union (EU) named a High Level Working Group on Jobs and Growth to recommend steps to broaden transatlantic economic ties. In February 2013, the working group called for a new bilateral agreement to govern transatlantic trade and investment. In 2012, the EU 27 produced more than the United States—16.2 million vehicles compared to 10.3 million. The formal TTIP negotiations began in July 2013. Motor vehicle safety and emissions standards are areas where the U.S. and the EU could break new ground.
+
+ROUGE-1: 2.46, ROUGE-2: 2.38, ROUGE-L: 2.25
+BERTScore: 67.94
+
+==============================================
+==================== [17/100] ====================
+Summary:
+H.R. 157 / S. 160 provided for a permanent increase in the size of the U.S. House of Representatives, from 435 seats to 437 seats. Both versions treated the District of Columbia as if it were a state for the purposes of the allocation of House seats. When Alaska and Hawaii were admitted in 1959 and 1960 the House size was temporarily increased to 4 37. By retaining seats, a House size of 468 would have resulted in no state losing seats held from the 112 th to the 116 th Congresses.
+
+ROUGE-1: 13.77, ROUGE-2: 12.88, ROUGE-L: 12.10
+BERTScore: 68.46
+
+==============================================
+==================== [18/100] ====================
+Summary:
+The Financial Stability Oversight Council (FSOC) was created to address some of the perceived regulatory weaknesses that may have contributed to the magnitude of the financial crisis of 2008. The council has a permanent staff with the ability to gather confidential financial information and the staff of the OFR are to be experts in the financial field. The FSOC provides a common forum for financial regulators to evaluate and address systemic risks that might emanate from less regulated non-bank financial institutions. It may set aside some financial regulations for consumers if the rules might cause systemic risk.
+
+ROUGE-1: 1.76, ROUGE-2: 1.71, ROUGE-L: 1.66
+BERTScore: 66.76
+
+==============================================
+==================== [19/100] ====================
+Summary:
+In r e Terrorist Attacks on September 11, 2001 , is a consolidated case that includes, among other claims, claims against the Kingdom of Saudi Arabia. Plaintiffs argued that these Saudi defendants played a "critical role" in the September 11 attacks. In August 2008, the U.S. Court of Appeals for the Second Circuit affirmed dismissals of the claims against Saudi defendants. This report explains the legal bases for the dismissals and provides an update to the status of the case. The report addresses relevant legislative developments in its final section.
+
+ROUGE-1: 2.67, ROUGE-2: 2.52, ROUGE-L: 2.67
+BERTScore: 70.87
+
+==============================================
+==================== [20/100] ====================
+Summary:
+Following the September 11, 2001, attack on the WTC, FEMA provided funding to HHS to establish certain WTC health programs. FEMA entered into interagency agreements with HHS agencies, such as NIOSH, ASPR, and ATSDR. HHS’s disaster response and recovery activities operate within an administrative and legal framework that helps to define federal agency roles and responsibilities. In fiscal year 2006, the Congress appropriated $75 million to CDC that was available for monitoring and treatment services for certain WTC responders.
+
+ROUGE-1: 2.49, ROUGE-2: 2.42, ROUGE-L: 2.21
+BERTScore: 73.86
+
+==============================================
+==================== [21/100] ====================
+Summary:
+DHS’s efforts to strengthen and integrate its management functions have resulted in progress addressing our criteria for removal from the high-risk list. In our February 2015 high- Risk update report, we found that DHS had met two criteria and partially met the remaining three criteria. DHS subsequently met an additional criterion—establishing a framework for monitoring progress—and therefore as of March 2016, has met three criteria, as shown in table 1. We continue to believe that it will be important for DHS to maintain its current level of top leadership support and commitment to ensure continued progress.
+
+ROUGE-1: 3.44, ROUGE-2: 3.37, ROUGE-L: 3.44
+BERTScore: 73.00
+
+==============================================
+==================== [22/100] ====================
+Summary:
+Social media can be accessed by computers, tablets, smart and cellular telephones, and mobile telephone text messaging (SMS) The use of social media is an evolving phenomenon. Rapid changes in communication technologies in the past decade have enabled people to interact and share information through media that were non-existent or widely unavailable as recently as 15 years ago. In the last 10 years social media has played an increasing role in emergencies and disasters in both the public and private sectors. For example, during Hurricane Gustav, a Community Emergency Response Team used social media to send mass email notifications to team members through Facebook.
+
+ROUGE-1: 2.66, ROUGE-2: 2.58, ROUGE-L: 2.66
+BERTScore: 70.29
+
+==============================================
+==================== [23/100] ====================
+Summary:
+Mining left behind legacy of abandoned mines, structures, safety hazards, and contaminated land and water. Many parties responsible for hardrock mining sites have been liquidated through bankruptcy or otherwise dissolved. EPA administers the Superfund program to address the health threats posed by contaminated waste sites. EPA also requires that parties statutorily responsible for cleaning up contaminated sites bear the cost of cleaning up the contaminated sites, including abandoned hardrock mine sites. Some 63 hardrock sites were on the National Priorities List and another 93 had the potential to be added.
+
+ROUGE-1: 3.76, ROUGE-2: 3.01, ROUGE-L: 3.34
+BERTScore: 60.46
+
+==============================================
+==================== [24/100] ====================
+Summary:
+From October 1, 2010, until the enactment of this legislation on April 11, 2011, the legislative branch operated on continuing resolutions. Division G of the FY2012 Consolidated Appropriations Act ( H.R. 2055 , P.L. 112-74 ) provided $4.307 billion in discretionary funding. This level is $236.9 million (5.2%) below the FY2011 enacted level. The legislative branch represents approximately 0.4% of the total discretionary appropriations provided in this act.
+
+ROUGE-1: 1.94, ROUGE-2: 1.86, ROUGE-L: 1.70
+BERTScore: 74.41
+
+==============================================
+==================== [25/100] ====================
+Summary:
+GAO: OMB and Treasury have made progress implementing 5 of our recommendations related to DATA Act implementation. Additional effort is needed to address 11 previous GAO recommendations that remain open. Data Standards Committee held its inaugural meeting on September 15, 2016, and will meet on a monthly basis. In October 2016, according to OMB staff, the charter was under review by the DATA Act Executive Steering Committee. A common set of key practices for developing, managing, and enforcing data standards should include the key practices shown in the text box below.
+
+ROUGE-1: 1.74, ROUGE-2: 1.62, ROUGE-L: 1.72
+BERTScore: 61.69
+
+==============================================
+==================== [26/100] ====================
+Summary:
+President Donald J. Trump announced the nomination of Judge Neil M. Gorsuch of the U.S. Court of Appeals for the Tenth Circuit (Tenth Circuit) to fill the vacancy on the Supreme Court of the United States created by the 2016 death of Justice Antonin Scalia. This report provides an overview of Judge Gorsuch's jurisprudence and discusses how the High Court might be affected if he were to succeed Justice Scalia. It is important to note that, for various reasons, it is difficult to predict accurately an individual's likely contributions to the Court based on their prior experience.
+
+ROUGE-1: 0.69, ROUGE-2: 0.67, ROUGE-L: 0.68
+BERTScore: 73.67
+
+==============================================
+==================== [27/100] ====================
+Summary:
+Obesity rates have risen substantially in recent decades, from 13% of the adult population in the 1960s to 36% in 2009-2010. The number of calories consumed has increased from a daily average of 1,875 calories during 1977-1978 to 2,067 calories during 2005-2008. Calorie labeling on menus has been adopted as one approach to making consumers aware of the amount of calories they are consuming. The Centers for Disease Control and Prevention have deemed menu labeling a "winnable battle"
+
+ROUGE-1: 2.86, ROUGE-2: 2.76, ROUGE-L: 2.86
+BERTScore: 56.07
+
+==============================================
+==================== [28/100] ====================
+Summary:
+Concessions include food operations, vending machines, retail shops, public pay telephones, barber/beauty shops, transportation, lodging, marinas, and campgrounds. We excluded day care centers, employee association stores, and services provided by visually impaired persons under the Randolph-Sheppard Act. Most agreements provide that the concessioner will pay the government either a flat fee or a percentage of gross revenues. Each agency is responsible for developing, implementing, and monitoring its concessions program to ensure that the federal government receives a fair return.
+
+ROUGE-1: 2.27, ROUGE-2: 2.15, ROUGE-L: 2.13
+BERTScore: 69.02
+
+==============================================
+==================== [29/100] ====================
+Summary:
+The Army Guard is the oldest component of any of the uniformed services. It traces its roots to the colonial militia, and claims a “birth”of 1636. Today, the Army Guard exists in 54 locations that include all 50 states, the District of Columbia, and three territories: Guam, the Virgin Islands, and Puerto Rico. There are about 2,300 Army Guard units within these locations and over 350,000 Army Guard members. The Army Guard has armories and training facilities in more than 2,800 communities.
+
+ROUGE-1: 0.49, ROUGE-2: 0.48, ROUGE-L: 0.49
+BERTScore: 68.20
+
+==============================================
+==================== [30/100] ====================
+Summary:
+Section 808 of the NDAA for fiscal year 2012 limited DOD’s total obligations for contract services in fiscal years 2012 through 2014. The limit does not apply to contract services for military construction, research and development, and services funded for overseas contingency operations. The spending limit identified in the act applies to DOD in its entirety. Congress has also enacted legislation to improve the availability of information on DOD”s acquisition of services and to help the department make more strategic decisions about the appropriate workforce mix of military, civilian and contractor personnel.
+
+ROUGE-1: 3.66, ROUGE-2: 3.50, ROUGE-L: 3.66
+BERTScore: 73.46
+
+==============================================
+==================== [31/100] ====================
+Summary:
+Congress created the largest national and community service program since the Civilian Conservation Corps of the 1930s. AmeriCorps*USA allows participants to earn education awards to help pay for postsecondary education. Participants earn an education award of $4,725 for full-time service or half of that amount for part- time service. The awards are held in trust by the U.S. Treasury, are paid directly to qualified postsecondary institutions or student loan lenders and must be used within 7 years after service is completed.
+
+ROUGE-1: 6.48, ROUGE-2: 6.18, ROUGE-L: 6.48
+BERTScore: 70.06
+
+==============================================
+==================== [32/100] ====================
+Summary:
+Security experts have raised concerns that terrorists may try to smuggle radiological or nuclear materials into the U.S. No terrorists have detonated a dirty bomb in a city, but Chechen separatists placed a canister containing cesium-137 in a Moscow park in the mid- 1990s. FEMA has not completed planning to help cities and states recover from RDD or IND incidents, says Peter Bergen. Bergen: FEMA has placed a higher priority on developing a strategy to respond to domestic RDD and IND incidents.
+
+ROUGE-1: 1.34, ROUGE-2: 1.19, ROUGE-L: 1.29
+BERTScore: 61.24
+
+==============================================
+==================== [33/100] ====================
+Summary:
+Several key sources provide information on the number and characteristics of working children. The Current Population Survey (CPS) provides data on where children work, the types of jobs they hold, and how many hours a week they work. The National Longitudinal Survey of Youth (NLSY) contains data on one group of approximately 9,000 children born from 1980 to 1984. The second set is the National Agricultural Workers Survey in which data are collected several times each year from a sample of crop agricultural workers. Once children reach age 16, under the age of 18, they are prohibited from working in jobs covered by these Hazardous Occupations Orders.
+
+ROUGE-1: 1.37, ROUGE-2: 1.31, ROUGE-L: 1.37
+BERTScore: 70.90
+
+==============================================
+==================== [34/100] ====================
+Summary:
+The panelists attributed many of the ATC modernization program’s chronic problems to cultural and technical factors. They cited resistance to change at all levels within the agency and insufficient technical expertise as key factors impeding modernization. The panel was not representative of all potential stakeholders, but it provided a rich dialogue, the authors say. They say the panel provided strong messages in responding to each of the panelists’ questions and comments. The authors say more thought, discussion, and research are needed to develop greater agreement on what we really know.
+
+ROUGE-1: 1.93, ROUGE-2: 1.59, ROUGE-L: 1.54
+BERTScore: 66.61
+
+==============================================
+==================== [35/100] ====================
+Summary:
+SOCOM was the first combatant command endowed with acquisition authority and its own budget line. SOCOM has an Acquisition Executive who has the authority to negotiate memoranda of agreement with the military departments. The military services are responsible for funding certain types of SOCOM training, service-common equipment, and professional services. The SOCOM Commander is directly responsible for all portions of the command and the Acquisition Executive (AE) reports directly to the Commander. This direct chain of command allows for rapid communication on purpose, intent, and decisionmaking.
+
+ROUGE-1: 6.26, ROUGE-2: 6.05, ROUGE-L: 5.61
+BERTScore: 60.98
+
+==============================================
+==================== [36/100] ====================
+Summary:
+Fiscal year 2011 marked the eighth year of implementation of the Improper Payments Information Act of 2002 (IPIA) IPIA requires executive branch agencies to annually review all programs and activities to identify those that are susceptible to significant improper payments. IPERA included a new, broader requirement for agencies to conduct recovery audits, where cost effective, for each program and activity with at least $1 million in annual program outlays. OMB continues to play a key role in the oversight of the governmentwide improper payments problem.
+
+ROUGE-1: 3.63, ROUGE-2: 3.46, ROUGE-L: 3.63
+BERTScore: 69.59
+
+==============================================
+==================== [37/100] ====================
+Summary:
+The Army plans to purchase 85,488 FMTV trucks to replace its aging medium truck fleet. The FMTV acquisition strategy has two phases—prototype and production. The Army did not execute a low-risk acquisition strategy, the authors say. The authors recommend that the Army include safeguards in follow-on production contracts so that it does not repeat errors and does perform a cost and benefit analysis of its second source plans before continuing with them. They say the Army used a streamlined acquisition strategy to reduce the time required to develop and field FMTV vehicles.
+
+ROUGE-1: 3.71, ROUGE-2: 3.35, ROUGE-L: 3.43
+BERTScore: 68.19
+
+==============================================
+==================== [38/100] ====================
+Summary:
+The Federal Workforce Restructuring Act of 1994 (P.L. 103-226) placed annual ceilings on executive branch full-time equivalent (FTE) positions from fiscal years 1994 through 1999. To help accomplish this downsizing, the act allowed non-Department of Defense (DOD) executive branch agencies to pay buyouts. As of September 30, 1995, more than 112,500 buyouts had been paid governmentwide. The federal workforce is being reduced at a faster pace than was called for by the act.
+
+ROUGE-1: 7.13, ROUGE-2: 6.95, ROUGE-L: 7.13
+BERTScore: 61.68
+
+==============================================
+==================== [39/100] ====================
+Summary:
+Using TRLs we developed for these technologies, we found consensus among stakeholders that CCS is less mature than efficiency technologies. Commercial deployment of CCS within 10 to 15 years is possible according to DOE and other stakeholders, but is contingent on overcoming a variety of economic, technical, and legal challenges. Many technologies to improve plant efficiency have been used and are available for commercial use now, but still face challenges. Neither the final rule will address liability for unintended releases of CO emissions in lieu of more efficient coal plants.
+
+ROUGE-1: 8.24, ROUGE-2: 7.97, ROUGE-L: 8.24
+BERTScore: 57.26
+
+==============================================
+==================== [40/100] ====================
+Summary:
+The Higher Education Act of 1965 (HEA) is being considered for reauthorization. Title IV of theact authorizes the major federal student aid programs. In FY2003, the federal student loan programs provided $45.8 billion in new loans to students and their parents. The FFEL and DL programs provide the following types of loans: Stafford loans (subsidized and unsubsidized): Lowinterest, variable rate loans available to undergraduate and graduate students. Consolidation loans: Loans that provide borrowersrefinancing options.
+
+ROUGE-1: 3.04, ROUGE-2: 2.84, ROUGE-L: 3.04
+BERTScore: 66.37
+
+==============================================
+==================== [41/100] ====================
+Summary:
+Section 1098 of the Intermodal Surface Transportation Efficiency Act of 1991 (ISTEA) tasked GAO with reviewing the process for distributing highway. Act provided unprecedented authorization of $122 billion for highways, bridges, and related activities for fiscal years 1992-97. Funding funded primarily through federal highway user taxes such as those on motor fuels (gasoline, gasohol, and diesel), tires, and trucks. Funds from these sources are collected from users and credited to the Highway Trust Fund for highway and mass transit projects.
+
+ROUGE-1: 1.61, ROUGE-2: 1.53, ROUGE-L: 1.61
+BERTScore: 70.90
+
+==============================================
+==================== [42/100] ====================
+Summary:
+Disability Insurance (DI) and Supplemental Security Income (SSI) provide benefits to people with disabilities. DI is an insurance program that provides benefits to workers who become unable to work because of a long-term disability. SSI provides cash benefits for disabled, blind, or aged people who have low income and limited resources. The Social Security Act’s definition of disability for adults is the same under both programs. The continue even after the person reaches full retirement age (when disability benefits convert to retirement benefits)
+
+ROUGE-1: 1.98, ROUGE-2: 1.79, ROUGE-L: 1.77
+BERTScore: 69.69
+
+==============================================
+==================== [43/100] ====================
+Summary:
+Commercialization of air navigation services was intended to relieve the government of a fiscal responsibility. According to ICAO, the government should still regulate the safety of the ANSP’s operations. The ANSP should be encouraged to be as competitive, efficient, and cost-effective as any other commercial business. The five commercialized ANSPs are affiliated with one or more international aviation-related organizations. All five ANSPS are also members of the Civil Air Navigation Services Organization (CANSO)
+
+ROUGE-1: 1.82, ROUGE-2: 1.65, ROUGE-L: 1.82
+BERTScore: 65.35
+
+==============================================
+==================== [44/100] ====================
+Summary:
+The Constitution gives Congress the authority to impeach and remove the President, Vice President, and other federal "civil officers" The House has impeached 19 individuals: 15 federal judges, one Senator, one Cabinet member, and two Presidents. The Senate has conducted 16 full impeachment trials. Conviction of an individual requires a two-thirds majority of the present Senators on one of the articles brought by the House. If the Senate convicts the official of the alleged offenses, the result is removal from office of those still in office.
+
+ROUGE-1: 2.04, ROUGE-2: 1.97, ROUGE-L: 1.99
+BERTScore: 70.14
+
+==============================================
+==================== [45/100] ====================
+Summary:
+Offshoring, also known as offshore outsourcing, has been taking place for decades. The extension of offshoring from U.S. manufacturers to service providers has heightened public policy concerns. Offshoring is contributing to the slow rebound of the labor market from the 2007-2009 recession. Some economists agree that it benefits the nation as a whole by enabling firms to sell a greater variety of higher quality products to U.s. consumers at lower prices. But some question whether this scenario applies to services offsh outsourcing.
+
+ROUGE-1: 4.50, ROUGE-2: 4.02, ROUGE-L: 4.39
+BERTScore: 71.51
+
+==============================================
+==================== [46/100] ====================
+Summary:
+The 1986 amendments to RCRA established the LUST Trust Fund to finance the cleanup of petroleum releases from underground storage tanks. Until recently, states could use these funds only for cleanup and related administrative and enforcement activities. The Energy Policy Act of 2005 (the 2005 Act), enacted in August 2005, expanded the permitted uses of the Lust Trust Fund. EPA will undertake a cleanup only when there is a major public health or environmental emergency, and no responsible party is able or willing to provide an adequate and timely response.
+
+ROUGE-1: 1.04, ROUGE-2: 0.98, ROUGE-L: 1.04
+BERTScore: 65.87
+
+==============================================
+==================== [47/100] ====================
+Summary:
+Congress and the Executive Office of the President have directed federal agencies to address the potential impacts of climate change. Climate change has the potential to affect many aspects of the environment and society in which water resource management plays an active role. Climate-related changes are expected to continue and increase in intensity in some areas of the nation. Adaptation is a risk-management strategy to protect vulnerable sectors and communities that might be affected by climate change, the authors say. The options for responding to climate change will likely require a partnership between federal, state, and local interests, they say.
+
+ROUGE-1: 2.68, ROUGE-2: 2.50, ROUGE-L: 2.39
+BERTScore: 66.71
+
+==============================================
+==================== [48/100] ====================
+Summary:
+In the mid-1990s, the Army Military History Institute began developing proposed legislation for charging and retaining fees to defray costs of providing historical information to the public. Congress enacted Section 1085 of the National Defense Authorization Act for Fiscal Year 2001, which authorizes the charging of fees by one designated primary archive in each of the four military departments. The four designated archives are the Air Force Historical Research Agency at Maxwell AFB, Alabama; Army Military history Institute at Carlisle Barracks, Pennsylvania; Marine Corps Historical Center at Washington Navy Yard, D.C.
+
+ROUGE-1: 5.22, ROUGE-2: 5.11, ROUGE-L: 5.22
+BERTScore: 70.51
+
+==============================================
+==================== [49/100] ====================
+Summary:
+The Refugee Protection Act of 2011 would make significant revisions to asylum policy. The bill would eliminate the time limits on seeking asylum in cases of changed circumstances. It would also proscribe conditions under which an asylum seeker who was a victim of terrorist coercion would not be excluded as a terrorist. The U.S. has long held to the principle that it will not return a foreign national to a country where his life or freedom would be threatened. The law states other conditions for mandatory denials of asylum claims, including when the alien has been convicted of a serious crime.
+
+ROUGE-1: 2.42, ROUGE-2: 2.23, ROUGE-L: 2.30
+BERTScore: 67.70
+
+==============================================
+==================== [50/100] ====================
+Summary:
+Under the PPACA MLR requirements, private insurers must report annually to CMS. Insurers must pay rebates when their MLRs do not meet or exceed the minimum applicable MLR standards. PPACA requires that private insurers offering group or individual health insurance coverage report annually on the various components that are used to calculate annually on their MLR. The MLR data that insurers report to CMS include the following components, as required by law: Medical claims. Expenses for quality improvement (QI) activities. Non-claims costs.
+
+ROUGE-1: 4.51, ROUGE-2: 4.13, ROUGE-L: 4.51
+BERTScore: 69.74
+
+==============================================
+==================== [51/100] ====================
+Summary:
+The original UN headquarters complex, located in New York City and constructed between 1949 and 1952, no longer conforms to current safety, fire and building codes. Over the last 50 years there have been no major renovations or upgrades to the buildings or their systems. In September 2005, the headquarters complex was shut down and the staff sent home because a main breaker for electrical power to the top floors of the Secretariat building failed. This failure could have resulted in a major fire. The UN is vulnerable to fraud, waste, abuse and mismanagement due to a range of weaknesses in existing oversight.
+
+ROUGE-1: 4.39, ROUGE-2: 4.22, ROUGE-L: 4.39
+BERTScore: 66.84
+
+==============================================
+==================== [52/100] ====================
+Summary:
+En Route System (ERS) airfields provide critical air component for U.S. defense strategy. ERS provides capabilities needed to handle peacetime operations and smaller-scale contingency operations. According to DOD’s January 2001 estimate, the 13 ERS airfields would not currently have enough capacity to move the required amounts of personnel and equipment to the war zones. DOD expects the shortfall to be largely eliminated by 2005, but the assumptions and modeling approach DOD uses in its calculations raise some uncertainty about the precise size of the shortfall.
+
+ROUGE-1: 2.42, ROUGE-2: 2.15, ROUGE-L: 2.37
+BERTScore: 61.92
+
+==============================================
+==================== [53/100] ====================
+Summary:
+In general, both HUD and USDA programs target families at lower income levels. USDA programs also target families with incomes that are very low and low. Waiting lists for many types of subsidized housing, including housing for the elderly, are often long. Each federal assistance program usually has its own eligibility criteria, application, documentation requirements, and time frames. Achieving results on public problems, such as the potentially large service needs of a growing elderly population, increasingly calls for effective interagency coordination, GAO says.
+
+ROUGE-1: 6.91, ROUGE-2: 6.41, ROUGE-L: 5.98
+BERTScore: 64.43
+
+==============================================
+==================== [54/100] ====================
+Summary:
+U.S. relies on a complex array of computer-dependent and mutually supportive organizational components. Software code that is poorly developed or purposely injected with malicious code could be used to disrupt these and other DOD information systems. Despite the risks associated with foreign access to defense systems, DOD acquisition policy does not require program managers to identify and manage the amount of foreign involvement in software development for defense systems. The Department of Defense estimates that it spends about 40 percent of its Research, Development, Test, and Evaluation budget on software.
+
+ROUGE-1: 2.72, ROUGE-2: 2.51, ROUGE-L: 2.48
+BERTScore: 64.71
+
+==============================================
+==================== [55/100] ====================
+Summary:
+Social Security plays an important role in reducing poverty, not only among the aged but among children as well. Unlike welfare programs, eligibility is determined on the basis of limited income. Social Security is a work-related entitlement, in which benefits are determined on workers' employment and earnings history, without respect to current income. In December 2012, 3.3 million Social Security beneficiaries (5.7% of all beneficiaries) were children under the age of 18. Average monthly benefits of children of disabled workers were lowest, about $323 in December 2012.
+
+ROUGE-1: 5.64, ROUGE-2: 5.27, ROUGE-L: 5.64
+BERTScore: 65.18
+
+==============================================
+==================== [56/100] ====================
+Summary:
+In fiscal year 1998, the Congress appropriated $25 billion in discretionary budget authority for the Department of Housing and Urban Development’s programs. This represented a 30-percent increase over the fiscal year 1997 level of $19.3 billion. HUD provides rental housing assistance that enables about 4.7 million low-income households to obtain safe, decent, and affordable housing. HUD assists about two-thirds of these households through its Section 8 housing assistance program. In fiscal year 1996, HUD spent about $7 billion to provide tenant-based rental assistance.
+
+ROUGE-1: 2.17, ROUGE-2: 2.07, ROUGE-L: 2.14
+BERTScore: 74.05
+
+==============================================
+==================== [57/100] ====================
+Summary:
+In the 1800s, the private sector played a central role in financing early transportation infrastructure development in the United States. Conventional transit projects generally follow a ‘design-bid-build’ approach. More recently, there has been a move back towards policies that encourage more private and public blending of funding, responsibility, and control in transportation projects. Much of the federal government’s share of new capital investment in mass transportation has come through FTA’S New Starts program, which identifies and recommends new fixed-guideway transit projects.
+
+ROUGE-1: 1.15, ROUGE-2: 1.09, ROUGE-L: 1.05
+BERTScore: 66.40
+
+==============================================
+==================== [58/100] ====================
+Summary:
+Education administers and oversees federal student aid programs authorized by HEA, monitors participants’ activities. The five principal entities involved in FFELP are students, schools, lenders, guaranty agencies,and Education. Ineligible lenders use trustees to securitize portfolios of student loans, report says. In 1998, HEA was amended to include a provision stating that eligible lenders that act as trustees are responsible for meeting statutory and regulatory requirements for the loans they act as trustee for. The report is concerned primarily with trustee arrangements used to enable ineligible lenders to make and hold student loans.
+
+ROUGE-1: 4.57, ROUGE-2: 4.08, ROUGE-L: 4.33
+BERTScore: 62.10
+
+==============================================
+==================== [59/100] ====================
+Summary:
+MRAPs generally incorporate a "V"-shaped hull and armor plating designed to provide protection against mines and IEDs. Army and Marines first employed MRAPs in limited numbers in Iraq and Afghanistan in 2003, primarily for route clearance and explosive ordnance disposal (EOD) operations. As of July 21, 2011, 14,749 MR APs had been delivered to Afghanistan, including 6,980 M-ATVs. DOD officials have indicated that this requirement may increase Afghanistan.
+
+ROUGE-1: 8.02, ROUGE-2: 7.22, ROUGE-L: 7.56
+BERTScore: 70.52
+
+==============================================
+==================== [60/100] ====================
+Summary:
+The EU's Emissions Trading System (ETS) is a cornerstone of the EU's efforts to meet itsobligation under the Kyoto Protocol. It covers more than 11,500 energy intensive facilities acrossthe 25 EU Member countries, including oil refineries, powerplants over 20 megawatts (MW) incapacity, coke ovens, and iron and steel plants. The first trading period began January 1,2005. A second trading period is scheduled to begin in 2008, covering the period of the KyotoProtocol, with a third one planned for 2013.
+
+ROUGE-1: 2.75, ROUGE-2: 2.68, ROUGE-L: 2.75
+BERTScore: 71.74
+
+==============================================
+==================== [61/100] ====================
+Summary:
+Title V of the Social Security Act (SSA) authorizes funding for services and projects. Title V was enacted by Congress in 1935 to promote and support the health of mothers and children. The MCH Services Block Grant was appropriated $638.2 million in funding for FY2016. The majority of this funding is distributed to the 50 states, the District of Columbia, Puerto Rico, Guam, the Virgin Islands, American Samoa, the Federated States of Micronesia, and Palau.
+
+ROUGE-1: 1.89, ROUGE-2: 1.79, ROUGE-L: 1.89
+BERTScore: 58.80
+
+==============================================
+==================== [62/100] ====================
+Summary:
+According to data from EIA, there were 143 petroleum refineries in the United States as of January 2013, with a capacity to process 17.8 million barrels of crude oil per day. Most refining capacity (almost 90 percent) is located in the Gulf Coast, West Coast, and Midwest regions. Retail prices for regular gasoline averaged $3.63 per gallon in 2012, the highest annual average price when adjusted for inflation since 1976. The refining industry was a low-return industry for much of the prior two decades.
+
+ROUGE-1: 1.43, ROUGE-2: 1.38, ROUGE-L: 1.42
+BERTScore: 61.25
+
+==============================================
+==================== [63/100] ====================
+Summary:
+ROTC is the largest of the three major officer commissioning programs for DOD. ROTC programs prepare college and university students to serve as officers in the military services. Most states have a unit from each service located within the state and all states have at least one unit. The military services’ ROTT programs each came within a few percentage points of meeting or exceeding the annual officer production goals that they established to meet their respective authorized end strengths. But each service reported that various factors may affect their ability to meet these goals, and that they have faced challenges commissioning officers for certain occupational specialties.
+
+ROUGE-1: 3.30, ROUGE-2: 3.08, ROUGE-L: 3.27
+BERTScore: 64.82
+
+==============================================
+==================== [64/100] ====================
+Summary:
+We reported in 2008 that DB plan investments in hedge funds and private equity have grown, but such investments are generally a small portion of plan assets. The average allocation to hedge funds among plans with such investments was a little over 5 percent in 2010. Of the 78 large plans that reported hedge fund investments in 2010, 20 had allocations of 10 percent or more. Leverage can magnify profits, but can also magnify losses to the fund’s investors, the authors say. The authors note that hedge fund managers may decline to disclose information on asset holdings and the net value.
+
+ROUGE-1: 6.78, ROUGE-2: 6.37, ROUGE-L: 6.43
+BERTScore: 69.25
+
+==============================================
+==================== [65/100] ====================
+Summary:
+BCBP has undertaken efforts to focus its enforcement on selecting and inspecting the highest-risk incoming cargo. It has a number of initiatives underway aimed at improving its ability to identify potentially risky cargo for inspection. From a trade facilitation perspective, BCBP has made some progress in implementing initiatives that are designed to improve the efficiency of its regulation of commercial activities. But additional challenges remain, including the need to improve its evolving trade compliance program and acquire a new trade processing system. The priority mission of BCBP is to prevent terrorists and terrorist weapons from entering the United States.
+
+ROUGE-1: 4.28, ROUGE-2: 4.07, ROUGE-L: 4.19
+BERTScore: 72.15
+
+==============================================
+==================== [66/100] ====================
+Summary:
+Radar is the primary means used by enemy forces to detect, track, and target U.S. aircraft with missiles and guns. suppression aircraft focus on trying to neutralize, degrade, or destroy the enemy’s air defense radar equipment. Since the end of Desert Storm in 1991, suppression aircraft have been continuously deployed to protect fighter aircraft maintaining the no-fly zones over Iraq. More recently, EA-6Bs and EC-130s saw combat in Afghanistan Air defenses there were relatively weak compared to those faced by those in Yugoslavia.
+
+ROUGE-1: 3.75, ROUGE-2: 3.54, ROUGE-L: 3.75
+BERTScore: 64.86
+
+==============================================
+==================== [67/100] ====================
+Summary:
+On October 14, 2011, the House passed the Coal Residuals Reuse and Management Act ( H.R. 2273 ). On August 2, 2012, the Coal Ash Recycling and Oversight Act of 2012 (S. 3512) was introduced in the Senate. The bills would have created a framework that states could use to create permit programs for the "management and disposal" of coal combustion residuals (CCRs) The approach to creating state permit programs was largely the same in each bill. Legislation addressing CCRs may be considered in the 113 th Congress.
+
+ROUGE-1: 0.76, ROUGE-2: 0.74, ROUGE-L: 0.76
+BERTScore: 73.06
+
+==============================================
+==================== [68/100] ====================
+Summary:
+Most Navy ships procured since the late 1950s have been funded in accordance with the full funding policy. Full funding policy means that DOD cannot contract for the construction of a new weapon or piece of equipment until funding for the entire cost of that item has been approved by Congress. Congress's decision on ship funding approaches could also affect future Navy capabilities, annual Navy funding requirements, and the shipbuilding industrial base. The issue for Congress is whether to maintain current practices for funding Navy ship procurement or change them by increasing the use of incremental funding.
+
+ROUGE-1: 1.57, ROUGE-2: 1.52, ROUGE-L: 1.47
+BERTScore: 72.87
+
+==============================================
+==================== [69/100] ====================
+Summary:
+Congress has been deeply involved for decades in setting policy, providing funding, and supporting or rejecting programs for the nuclear weapons enterprise. One issue of long-standing concern to Congress is the production of "pits" A pit is a hollow plutonium shell that is imploded with conventional explosives to create a nuclear explosion that triggers the rest of the weapon. Some argue that the capacity to manufacture new pits may be needed to extend the service life of certain existing weapons, and to hedge against possible geopolitical surprises.
+
+ROUGE-1: 1.55, ROUGE-2: 1.50, ROUGE-L: 1.55
+BERTScore: 66.83
+
+==============================================
+==================== [70/100] ====================
+Summary:
+NASA and its international partners are building the space station to serve as an orbiting research facility. The space shuttle is the primary vehicle supporting the assembly and resupply of the station. While the shuttle has been grounded, space station crew transfers and logistics resupplies have depended on Russian Soyuz and Progress vehicles. Europe and Japan are also developing logistics cargo vehicles to support space station operations later this decade. These Russian, European, and Japanese vehicles are launched on expendable rockets. The European Automated Transfer Vehicle (ATV) is being designed to rendezvous and dock with space station’s Russian Service Module.
+
+ROUGE-1: 5.46, ROUGE-2: 5.24, ROUGE-L: 5.46
+BERTScore: 73.33
+
+==============================================
+==================== [71/100] ====================
+Summary:
+VA pays monthly disability compensation benefits to veterans with service-connected disabilities. VA also pays compensation to some spouses, children, and parents of deceased veterans and service members. Congress established the Veterans’ Disability Benefits Commission to study the appropriateness of VA disability benefits. VA continues to experience significant service delivery challenges including lengthy processing times and inaccurate and inconsistent decisions, the report says. of VA’s inventory of pending claims and their average time pending have increased significantly in the last 3 years. VA reduced the average age of its pending claims.
+
+ROUGE-1: 5.30, ROUGE-2: 5.01, ROUGE-L: 5.24
+BERTScore: 68.63
+
+==============================================
+==================== [72/100] ====================
+Summary:
+The Crime Awareness and Campus Security Act of 1990 requires colleges to publish an annual security report. The report includes statements about campus law enforcement policies, security education and crime prevention programs, alcohol and drug policies, sexual assault education and prevention programs. The Department of Education is responsible for issuing guidance to implement the law, monitoring colleges’ compliance with its requirements, and issuing two reports: a compilation of exemplary campus security practices and a report to the Congress on campus crime statistics. Two bills introduced in the 104th Congress would have required more detailed and current campus security records to be made accessible to the public.
+
+ROUGE-1: 5.13, ROUGE-2: 4.94, ROUGE-L: 5.04
+BERTScore: 72.86
+
+==============================================
+==================== [73/100] ====================
+Summary:
+In 1986, the United States, the FSM, and the RMI entered into the original Compact of Free Association. Economic development and self-sufficiency were not achieved under the original compact. U.S. assistance accounted for more than 50 percent of government revenues throughout the compact period. The United States negotiated separate amended compacts with RMI and FSM that went into effect on May 1, 2004, and June 25, 2004. The amendedcompacts continue the military relationship, including access to military facilities on Kwajalein Atoll.
+
+ROUGE-1: 1.61, ROUGE-2: 1.43, ROUGE-L: 1.55
+BERTScore: 66.16
+
+==============================================
+==================== [74/100] ====================
+Summary:
+The department is facing near and long-term internal fiscal pressures. DOD has dominated GAO’s list of federal programs and operations at high risk of being vulnerable to fraud, waste, abuse. DOD financial managers are responsible for the functions of budgeting, financing, accounting for transactions and events, and reporting of financial and budgetary information. The military services play a vital role in that they authorize the expenditure of funds and are the source of most of the financial information that allows DFAS to make payroll and contractor payments.
+
+ROUGE-1: 2.74, ROUGE-2: 2.62, ROUGE-L: 2.74
+BERTScore: 64.63
+
+==============================================
+==================== [75/100] ====================
+Summary:
+Since 2007, the Federal Highway Administration has amended certain national standards for traffic signs. Among the new standards were a measurable standard for the minimum level of nighttime visibility of signs. The lettering standard applies only to signs with names of places, streets, and highways. Nighttime crash rates are estimated to be three times higher than daytime rates, and the fatality rate for nighttime driving is also higher than for daytime driving. But ensuring that signs are easily visible at night is becoming a more significant safety issue.
+
+ROUGE-1: 7.37, ROUGE-2: 7.04, ROUGE-L: 7.29
+BERTScore: 62.41
+
+==============================================
+==================== [76/100] ====================
+Summary:
+The Volcker Rule is designed to prohibit banks from engaging in risky, short-term, speculative trading and investing in private equity and hedge funds. These are practices long condemned by the Rule's namesake, former Federal Reserve Chairman Paul A. Volcker. The Federal Reserve Board set the date when conformance with the Rule is required as July 21, 2015, although that date could be extended an additional two years. The report concludes by addressing other aspects of the Rule that apply generally to banking entities.
+
+ROUGE-1: 2.34, ROUGE-2: 2.20, ROUGE-L: 2.34
+BERTScore: 65.54
+
+==============================================
+==================== [77/100] ====================
+Summary:
+In 1999, an estimated 90 million persons 16 and older reported that they had participated in some sort of formal learning activity. Enrolling in a certificate or degree program is an important opportunity for millions of adults who seek personal growth, or advancement in their working lives. In the 1999-2000 academic year, adult students received about $3.3 billion in grant assistance and $8.5 billion in loan assistance from programs authorized under Title IV of the Higher Education Act. To receive federal financial aid, students must meet several eligibility requirements.
+
+ROUGE-1: 2.10, ROUGE-2: 2.03, ROUGE-L: 2.10
+BERTScore: 70.75
+
+==============================================
+==================== [78/100] ====================
+Summary:
+The Department of Veterans Affairs (VA) provides a range of benefits and services to veterans. The VA carries out its programs nationwide through three administrations and the board of veterans appeals. The Veterans Health Administration (VHA) is responsible for health-care services and medical research programs. In FY2007, the VHA operated 155 medical centers, 135 nursing homes, 717 ambulatory care and community-based outpatient clinics (CBOCs) and 209 Readjustment Counseling Centers (Vet Centers) The VHA also pays for care provided to veterans by private-sector providers.
+
+ROUGE-1: 2.21, ROUGE-2: 2.13, ROUGE-L: 2.21
+BERTScore: 61.06
+
+==============================================
+==================== [79/100] ====================
+Summary:
+The Toxic Substances Control Act was enacted in 1976. TSCA authorizes EPA to review chemicals already in commerce (existing chemicals) and chemicals yet to enter commerce (new chemicals) Of the over 83,000 chemicals currently in the T SCA inventory, about 62,000 were already inCommerce when EPA began reviewing chemicals in 1979. Since then, over 21,000 new chemicals were added to the inventory and are now in use as existing chemicals. Like the United States, the European Union has laws and regulations governing the manufacturing and use of chemicals.
+
+ROUGE-1: 3.54, ROUGE-2: 3.34, ROUGE-L: 3.54
+BERTScore: 68.47
+
+==============================================
+==================== [80/100] ====================
+Summary:
+A persistent set of issues has stymied significant progress in detecting and deterring existing threats and implementing effective safeguard measures. Issues that appear to continually challenge U.S. cybersecurity efforts include uncertainty of the geographic location of the perpetrators of cyber attacks. Cybersecurity is a cross-cutting field that affects many government and non-governmental stakeholders. No single official oversees cybersecurity policy across the federal government, and no single agency has the responsibility or authority to match the scope and scale of the challenge, authors say.
+
+ROUGE-1: 2.09, ROUGE-2: 1.97, ROUGE-L: 1.94
+BERTScore: 70.87
+
+==============================================
+==================== [81/100] ====================
+Summary:
+Since 1872, hardrock mining on federal lands has been governed by the General Mining Law. The law allows virtually free access to open public domain lands for mineral prospecting, staking claims, exploration and development, and extraction without payment of a royalty. Congress has repeatedly considered, but not passed, reform of the Mining Law, including, in part, to require the payment of royalties. This report analyzes proposals to impose a royalty on hardrock (locatable minerals) minerals on federal domain lands. It also discusses the federal tax treatment of the hardrock mineral industry.
+
+ROUGE-1: 1.33, ROUGE-2: 1.24, ROUGE-L: 1.30
+BERTScore: 67.62
+
+==============================================
+==================== [82/100] ====================
+Summary:
+The Coast Guard uses the U.S. Navy’s COTF to conduct operational tests for its major acquisition programs. Operational testing can occur over many test events, including Initial Operational Test and Evaluation. The test event concludes with a rating of operationally effective or not effective, operationally suitable or not suitable. As of January, IOT&E took place about 2 years later than planned and after the 8 NSCs were under contract, the Coast Guard says.
+
+ROUGE-1: 4.30, ROUGE-2: 3.73, ROUGE-L: 4.18
+BERTScore: 56.55
+
+==============================================
+==================== [83/100] ====================
+Summary:
+MOBILE5a is a computer program that estimates the emissions of carbon monoxide, hydrocarbons, and nitrogen oxides for eight different types of gasoline-fueled and diesel highway motor vehicles. The first MOBILE model was made available for use in 1978; since that time, major updates and improvements to the model have been made. The model exists because precise information about the emissions behavior of the approximately 200 million vehicles in use in the United States is not known, yet the need exists to estimate the impact of motor vehicles on air quality.
+
+ROUGE-1: 2.17, ROUGE-2: 2.12, ROUGE-L: 2.17
+BERTScore: 65.40
+
+==============================================
+==================== [84/100] ====================
+Summary:
+Both the House and the Senate are considering legislation to support medical innovation. Reforms to the National Institutes of Health (NIH) and changes to the drug, biologic and device approval pathways at the Food and Drug Administration (FDA) Both NIH and FDA are agencies within the Department of Health and Human Services (HHS) The House passed H.R. 6 , the 21 st Century Cures Act, on July 10, 2015, on a vote of 344 to 77. The Senate's medical innovation package is that chamber's companion effort to the House's 21 st century Cures initiative.
+
+ROUGE-1: 0.70, ROUGE-2: 0.65, ROUGE-L: 0.68
+BERTScore: 65.85
+
+==============================================
+==================== [85/100] ====================
+Summary:
+USDA’s CBAs provide services such as farm loans and conservation assistance. Under the E- File Act, these agencies were required to establish an electronic filing and retrieval system enabling farmers and other agricultural producers to access departmental forms via the Internet. By December 1, 2000, USDA was to submit to Congress a plan for enabling producers to obtain forms and information, such as crop insurance applications and production and yield reports, over the Web. By June 20, 2002, agricultural producers be further mandated to file paperwork electronically with USDA if they choose to do so.
+
+ROUGE-1: 4.93, ROUGE-2: 4.68, ROUGE-L: 4.62
+BERTScore: 71.69
+
+==============================================
+==================== [86/100] ====================
+Summary:
+User financing is one approach to financing federal programs or activities. Some excise taxes, however, can also be described as a form of user financing. The inspection fees vary in the way they are set, collected, used, and reviewed. The fees can only recoup authorized program costs to the extent that total reimbursable program costs do not exceed the rate caps prescribed in statute. The AQI fee statute grants the Secretary of Agriculture broad discretion to prescribe and collect fees sufficient to cover the cost of providing agricultural quarantine and inspection services.
+
+ROUGE-1: 1.93, ROUGE-2: 1.85, ROUGE-L: 1.91
+BERTScore: 61.84
+
+==============================================
+==================== [87/100] ====================
+Summary:
+USDA, FDA, EPA, and NMFS are involved in key program functions related to food safety. In fiscal year 2003, the four federal agencies spent nearly $1.7 billion on food safety-related activities. USDA and FDA are responsible for most federal food safety resources. The agencies’ expenditures vary by program function (as shown in fig. 3). For example, USDA’s inspection/enforcement expenditures made up almost three-quarters of the total spent by these agencies for that program function.
+
+ROUGE-1: 1.22, ROUGE-2: 1.20, ROUGE-L: 1.22
+BERTScore: 59.44
+
+==============================================
+==================== [88/100] ====================
+Summary:
+Federal agencies rely on computerized information systems to process, maintain, and report large volumes of sensitive data. Ineffective protection of these systems and information can impair delivery of vital services and result in loss or theft of computer resources, assets, and funds. IRS employs about 90,000 people in its Washington, D.C., headquarters and at more than 550 offices in all 50 states, U.S. territories, and some embassies and consulates. During fiscal year 2015, IRS collected more than $3.3 trillion; processed more than 243 million tax returns and other forms.
+
+ROUGE-1: 3.84, ROUGE-2: 3.63, ROUGE-L: 3.46
+BERTScore: 65.43
+
+==============================================
+==================== [89/100] ====================
+Summary:
+Most discussions of Russian interests in Iraq focus on economic factors. Moscow has cultivated friendly relations with Baghdad since the 1960s. Russian oil companies have contracts that could be worth as much as $30 billion over 20 years to develop Iraqi oil fields. Russian firms have contractsworth billions to helpmodernize Iraq's economic infrastructure. Russia profits greatly from high oil prices. But Russian leaders fear that a post-Saddam Iraq mightmaximize its oil output, dramatically driving down the price of oil. Russian policy is also motivated by a desire to restrain U.S. global domination.
+
+ROUGE-1: 8.44, ROUGE-2: 7.10, ROUGE-L: 7.99
+BERTScore: 68.01
+
+==============================================
+==================== [90/100] ====================
+Summary:
+The focus of patent examination is to determine whether the invention in a patent application satisfies the legal requirements for a patent. As of May 2015, USPTO had nearly 8,300 patent examiners across the eight technology centers we reviewed. Examiners are expected to complete their examination of an application in a certain number of hours. The allotted time includes the time needed to review the application, perform a search for prior art, and complete all office actions. For example, an examiner reviewing an application related to wire fabrics and structure may be allotted about 14 hours for examination.
+
+ROUGE-1: 1.14, ROUGE-2: 1.12, ROUGE-L: 1.09
+BERTScore: 69.21
+
+==============================================
+==================== [91/100] ====================
+Summary:
+Prepositioned equipment and supplies are strategic assets, along with sealift and airlift, for projecting military power. These assets include combat equipment, spare parts, and sustainment supplies that are stored on ships and on land in locations around the world. Military equipment and infrastructure are often located in corrosive environments that increase the deterioration of assets and shorten their useful life. Higher rates of corrosion result in increased repairs and replacements, drive up costs, and take critical systems out of action, reducing mission readiness.
+
+ROUGE-1: 3.15, ROUGE-2: 3.03, ROUGE-L: 3.15
+BERTScore: 68.83
+
+==============================================
+==================== [92/100] ====================
+Summary:
+Congress has enacted several laws to assist agencies and the federal government in managing IT investments. About 8.5 percent of federal agencies’ planned spending for fiscal year 2016 has gone toward provisioned IT services, leaving the vast majority of spending going toward IT that is non-provisioned. The federal government has spent billions of dollars on failed and poorly performing IT investments which often suffered from ineffective management, such as project planning, requirements definition, and program oversight and governance. In the last 6 years, we made approximately 800 recommendations to agencies to improve the transparency and oversight of underperforming IT investments and manage more effectively.
+
+ROUGE-1: 1.83, ROUGE-2: 1.71, ROUGE-L: 1.83
+BERTScore: 55.72
+
+==============================================
+==================== [93/100] ====================
+Summary:
+Census data remain an important element in allocating federal aid to state and local governments. Accurate census results are critical because the data are used to reapportion seats in the House of Representatives and for congressional redistricting. To help ensure the accuracy of census data, the bureau conducted a number of quality assurance programs. The Full Count Review program was designed to rapidly examine, rectify if possible, and clear census data files and products for subsequent processing or public release. It ran from June 2000 through March 2001.
+
+ROUGE-1: 4.77, ROUGE-2: 4.50, ROUGE-L: 4.12
+BERTScore: 68.94
+
+==============================================
+==================== [94/100] ====================
+Summary:
+An ISP’s traffic connects to a backbone Internet backbone networks. Unlike telecommunications services, the provision of Internet backbone service is not regulated. Two types of facilities are used for the exchange of data traffic by interconnected Internet backbone providers. Backbone providers have points of presence in varied locations, although they concentrate these facilities in more densely-populated areas where Internet end users’ demands for access are greatest. In a “peering” relationship, backbone providers exchange traffic destined for each other without the imposition of a fee.
+
+ROUGE-1: 2.12, ROUGE-2: 1.97, ROUGE-L: 1.85
+BERTScore: 65.11
+
+==============================================
+==================== [95/100] ====================
+Summary:
+The key objectives of U.S. public diplomacy are to engage, inform, and influence overseas audiences. Since the terrorist attacks of September 11, 2001, State has expanded its public diplomacy efforts globally. The BBG manages and oversees the Voice of America (VOA), Radio/TV Marti, Radio Free Europe/Radio Liberty, and the Alhurra TV Network. As shown in figure 1, State and the BBG spent close to $1.5 billion on public diplomacy programs in fiscal year 2006.
+
+ROUGE-1: 3.28, ROUGE-2: 3.15, ROUGE-L: 3.28
+BERTScore: 70.71
+
+==============================================
+==================== [96/100] ====================
+Summary:
+In January 2003, we designated implementation and transformation of the new Department of Homeland Security as high risk. One of the department’s key challenges is integrating the components’ respective financial management systems, many of which were outdated and had limited functionality, as well as addressing weaknesses from the inherited components. Failure to effectively carry out its mission would potentially expose the nation to very serious consequences, the report says. The report says that without sound internal control and accurate and timely financial information, it is not possible to accomplish the agenda and secure the best performance.
+
+ROUGE-1: 3.07, ROUGE-2: 2.84, ROUGE-L: 2.68
+BERTScore: 65.63
+
+==============================================
+==================== [97/100] ====================
+Summary:
+U.S. economy and security are heavily dependent on oil, natural gas, and other energy commodities. Nearly half of the nation’s oil is transported from overseas by tankers. FBI shares responsibility with the Coast Guard for preventing and responding to terrorist incidents in the maritime environment. Terrorists have attempted and carried out attacks on energy tankers since September 11, 2001, authors say. They say piracy threatens transiting one of the world's busiest shipping lanes through the Suez Canal.
+
+ROUGE-1: 3.07, ROUGE-2: 2.72, ROUGE-L: 2.99
+BERTScore: 67.27
+
+==============================================
+==================== [98/100] ====================
+Summary:
+In September 2008, ongoing financial turmoil escalated into a financial panic. Large financial institutions, such as Lehman Brothers and AIG, were failing. In spite of a loss of confidence in other parts of the financial system, the insured banking sector saw few bank runs. Extending deposit and the moral hazard created by deposit insurance may have strengthened the banking system by discouraging some borrowers from withdrawing their deposits during the height of financial stress. The TAG program provides unlimited deposit insurance for $1.4 trillion in noninterest-bearing transaction accounts (NIBTAs)
+
+ROUGE-1: 5.22, ROUGE-2: 5.05, ROUGE-L: 4.99
+BERTScore: 71.47
+
+==============================================
+==================== [99/100] ====================
+Summary:
+FPS assesses risk and recommends countermeasures to GSA and tenant agencies. But FPS’s ability to influence the allocation of resources using risk management is limited. Security equipment that FPS recommends may not be implemented if tenant agencies are unwilling to fund it. FPS takes a building-by-building approach to risk management, using an outdated risk assessment tool to create building security assessments (BSA) The current approach provides less assurance that the most critical risks at federal buildings are being prioritized and mitigated.
+
+ROUGE-1: 2.29, ROUGE-2: 2.13, ROUGE-L: 2.26
+BERTScore: 70.53
+
+==============================================
+==================== [100/100] ====================
+Summary:
+In July 1997, the Secretary-General proposed a broad reform agenda to transform the UN. The United States, through the Department of State in Washington, D.C., and the U.S. Mission to the United Nations in New York, continues to advocate reform of UN management processes. In October 2006, we reported slow progress in five key UN management reform areas. In the past year, the ethics office has hired a permanent director and additional staff. The office has begun to enforce a whistleblower protection policy, but concerns have been raised about the policy’s jurisdiction.
+
+ROUGE-1: 2.05, ROUGE-2: 1.94, ROUGE-L: 1.83
+BERTScore: 66.90
+
+==============================================

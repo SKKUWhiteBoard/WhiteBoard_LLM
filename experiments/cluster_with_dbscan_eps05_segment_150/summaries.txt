@@ -1,0 +1,800 @@
+==================== [1/100] ====================
+Summary:
+CASEY RODRIGUEZ: We proved two theorems last time, and we used them for-- and we had a couple of applications of them. The first was that a sequence converges to x if and only if the limit as n goes to infinity of the absolute value of xn minus x goes to 0. And then we also had the squeeze theorem, that if you have three sequences-- a sub n, b subn, and x sub n. such that the limit as k goes to infinity of x sub n sub k equals liminf of xsub n. And again, this is a subsequence of a convergent sequence, so it's convergent and convergence of the same thing, L. So that implies that this thing is equal to L. And therefore, the limsup and the liminf equal each other, and they also equal the limit of the original sequence. That is the end of the proof of this theorem. we've only defined what it means to take a real number to an integer power, but-- and n-th roots. So using that, we can then define how totake a real numbers to a rational power. All of that is just to say that what we've done up to now-- these things actually do make sense. You don't need the exponential and the logarithm to make sense of a positive real number. OK? But we're just going to use the basic properties of exponents throughout all this.
+
+ROUGE-1: 5.81, ROUGE-2: 5.60, ROUGE-L: 4.76
+BERTScore: 70.29
+
+==============================================
+==================== [2/100] ====================
+Summary:
+The meaning of the wave function is that the norm squared psi of x, norm squared, it's complex, dx is the probability of finding the particle- There's an n in their. Finding the particle-- in the region between x and x plus dx. OK? And third, the superposition principle. If there are two possible configurations the system can be in, which in quantum mechanics means two different wave functions that could describe the system given psi 1 and psi 2. All reasonable functions are equally reasonable as wave functions. There's no primacy in wave functions or in states. your memory. Gainst death and all oblivious enmity shall you pace forth. Your praise shall still find room, even in the eyes of all posterity. So no judgment arise till you yourself judgment arise. You live in this and dwell in lover's eyes. May your day be filled with love and poetry. Whatever state you're in, we will always love you. Signed, Jack Florian, James [INAUDIBLE]. [LAUGHTER] PROFESSOR: Thank you, sir. Every vector can be written as the sum of other vectors, right? So there's no such thing as a state which is not a superposition. In 3D, the wave function would be a function of all three positions x, y and z. Physics tells you this is a good model, and it works really well. And to the degree that it doesn't fit the data, it's wrong. There's no God given basis for the universe. This isn't something we derive. This is something we declare.
+
+ROUGE-1: 4.45, ROUGE-2: 4.27, ROUGE-L: 3.47
+BERTScore: 63.33
+
+==============================================
+==================== [3/100] ====================
+Summary:
+the Lord Byron George Gordon Lord Byron very interesting very outgoing very flamboyant personality he stood out. He was an individual that you know probably was a bit of a celebrity to some degree he had the money he was wanting it. He had a lot of love affairs going on he kind of ran out his welcome and all of a sudden he becomes a literary relevance so people actually think wow you actually contribute something instead of you're famous for being famous kind of like some people we might be able to mention. coming in and the sound will be identical in conclusion at the very end he comes back from talking about all of the size in his love for nature and sums it back that you know and I have loved the ocean so just in case you forgot throughout these short two pages to whom he was speaking or addressing we see once again that it is nature and don't forget what an apostrophe is okay remember I told you when we learned it that's hey you're going to need to remember this and people tend to forget for some strange reason. "Heath Ledger was a bold person he was rebellious you know in nature and such and you know he had a you know kind of a tragic end there" "He was a very bold and very dangerous individual okay if you look in the right-hand page and I want you to read this page when you have time" "A lot of times when the tragedy is somebody who is young and had some sort of accomplishments" "You know we're brilliant at whatever they did but you know they they died young"
+
+ROUGE-1: 21.72, ROUGE-2: 21.22, ROUGE-L: 14.85
+BERTScore: 64.35
+
+==============================================
+==================== [4/100] ====================
+Summary:
+When you do not have unlimited amount of everything you will have to make a choice, what to produce? In what quantity you should produce a particular good. Allocation is nothing but assignment, allotment, share, but in economics we are more technical about this particular term allocation. So, allocation here means solving these three fundamental or basic questions of economics, and the first question is what to production? The second is how to produce and the third is for whom to produce. Depending on who makes these decisions we have different form of economy, who makes this decisions. the government. So, this is a concept, an extreme concept that we typically do not find, but you would see in newspapers talk about moving towards laissez faire or moving away from laissezes faire. The government. is not a government, it is a body that has the power to decide what happens to people's lives. The. government is not the government. It is a group of people who have the power. to make decisions about people’s lives. It has the ability to make changes to the law. but after 1991 after economic liberalization we are slowly moving towards market based economy, but we are not yet there. One concept that I would like to emphasize here is laissez faire, this is a French word it means leaving it alone. This is an extreme version of market economy where private parties are absolutely free from government interaction, intervention such as tariffs, tax, regulations. So, individuals transact without any interference of the government. But still I would say that we have mixed economy.
+
+ROUGE-1: 42.05, ROUGE-2: 34.00, ROUGE-L: 31.62
+BERTScore: 63.28
+
+==============================================
+==================== [5/100] ====================
+Summary:
+Albert Meyer: Random variables are an absolutely fundamental concept in probability theory. He says in a game called the bigger number game, two teams try to pick the larger number. Meyerer: Team 2 picks one of the pieces of paper and turns it over and looks at the number on it. And then, based on what that number is, they make a decision, stick with the number they have or switch to the other unknown number on the face down piece of paper, he says.
+
+ROUGE-1: 6.86, ROUGE-2: 6.02, ROUGE-L: 6.52
+BERTScore: 64.60
+
+==============================================
+==================== [6/100] ====================
+Summary:
+review um convolutions and and the architecture of a CNN to make this more clear and put it put it into perspective how it relates to um just standard um dense neural networks I think it's fine um so we talked I think I think most people felt okay about um the actual mechanics of doing a convolution. When you have images and a CNN you can simply just do convolutions instead of your normal matrix multiplication. You have pooling layers if you want to decrease the size of this volume because it can get quite unwieldy. so these are some things that these models wanted to optimize over time accuracy performance and model size um model size is something that has a trade-off if you get too big you lose out on other metrics like accuracy. performance is something directly corresponds to depthwise convolutions and mobile nuts for Edge Computing and things like that. You want to drastically reduce the number of computations that you want to do yep that is basically everything for today thank you guys for coming oh and there will also be a quiz. Foreign and I should turn off the zoom background blur Ry options like this oh it does show up uh yeah there's like speaker notes on your screen but there's be careful because I accidentally just put something else in the first longer okay I don't have too many but yeah there're an interview oh this is where it has speaker notes and stuff I think it's fine I don’t need this man that eraser is disgusting this one yeah oh wow you're really going at it well I just think I was just too ready to go I usually uh yeah as our slides were they and put which is the product describing to replace the names of it.
+
+ROUGE-1: 7.36, ROUGE-2: 7.17, ROUGE-L: 5.00
+BERTScore: 68.98
+
+==============================================
+==================== [7/100] ====================
+Summary:
+The principles of baking show us how to make bread with and without a bereavement. We'll make three breads one with the brief mint and two without one of the breads without the bereavement will be bulk fermented in the fridge for 24 hours. The third one will be made with a brief mint which will be left for 12 hours to ferment then it'll be mixed into the main dough. The breads will then take the same amount of time to make but why would you add the extra step of making a briefment when cold fermenting?
+
+ROUGE-1: 13.99, ROUGE-2: 12.17, ROUGE-L: 12.58
+BERTScore: 67.22
+
+==============================================
+==================== [8/100] ====================
+Summary:
+Bayard Rustin was the chief organizer of the 1963 March on Washington for Jobs and Freedom. Rustin grew up in a Quaker household, and began peacefully protesting racial segregation in high school. He was jailed in 1944 as a conscientious objector to World War II. In the 1980s, he publicly came out as gay, and was instrumental in drawing attention to the AIDS crisis until his death in 1987. In 2013, fifty years after the March On Washington, President Barack Obama posthumously awarded him the Presidential Medal of Freedom. are or who we love.” “I’m so proud of you,” she says. “You’re so beautiful.’ ““I love you, too,’ I say. I love you so much.“” I’ll always love you. ”I will never forget you. ””“We’ve been through a lot. We’d rather be here than there. ’’” are or who we love.” “I’m so proud of you,” she says. “You’re so beautiful.’ ““I love you, too,’ I say. I love you so much.“” I’ll always love you. ”I will never forget you. ””“We’ve been through a lot. We’d rather be here than there. ’’”
+
+ROUGE-1: 26.58, ROUGE-2: 21.42, ROUGE-L: 21.86
+BERTScore: 53.73
+
+==============================================
+==================== [9/100] ====================
+Summary:
+Christine Hayes: God's choice of Israel as the chosen one occurs for the first time in the Book of Deuteronomy. She says it is by no special virtue or merit that Israel was the one chosen. Hayes: The privilege of having been chosen or singled out entails obligations and responsibility. Deuteronomistic historian in general will get to the idea of God's providential concern for Israel, she says. in a moment we will see how important that is, or in a few lectures,how important that idea is for the Deuteronomic historian ingeneral.
+
+ROUGE-1: 2.05, ROUGE-2: 1.69, ROUGE-L: 1.71
+BERTScore: 62.12
+
+==============================================
+==================== [10/100] ====================
+Summary:
+Bogdan Fedeles: Today we're going to be talking about Problem 2 of Problem Set 4. We'll be discussing in detail the mechanism of HMG-CoA synthase, a key enzyme in central metabolism. The enzyme is responsible for making the five carbon building blocks from which all sterols, such as cholesterol and steroid hormones, are made. The reaction will start by forming this thioester between the acetoacetyl- CoA carbons and the cysteine in the active site of the enzyme. experimental work and evidence. The study of the effects of drugs on the human body was conducted in the 1970s and 1980s. The results of the study were published in a book called "The Effects of Drugs on the Human Body" The book was published by Oxford University Press in 1989. It was the first of its kind to be published in the U.S. and is published by Simon & Schuster, a division of Simon and Schuster Inc. in New York. The book is available in hardback and paperback. experimental work and evidence. The study of the effects of drugs on the human body was conducted in the 1970s and 1980s. The results of the study were published in a book called "The Effects of Drugs on the Human Body" The book was published by Oxford University Press in 1989. It was the first of its kind to be published in the U.S. and is published by Simon & Schuster, a division of Simon and Schuster Inc. in New York. The book is available in hardback and paperback.
+
+ROUGE-1: 9.79, ROUGE-2: 5.19, ROUGE-L: 8.49
+BERTScore: 56.80
+
+==============================================
+==================== [11/100] ====================
+Summary:
+Alberto Riva: How is all this information represented? What are the different ways that we can store and describe this information? Where does it come from, where is it stored, how do we find retrieve and use it? He says there are some very deep differences between the kind of information you find when you're talking about the genotype, and when we'retalking about phenotypes. He says each one has its own specific nature and function, and needs to be treated with different tools.
+
+ROUGE-1: 1.49, ROUGE-2: 1.36, ROUGE-L: 1.42
+BERTScore: 59.96
+
+==============================================
+==================== [12/100] ====================
+Summary:
+This week in week three, we're actually going to have some human language, and so this lecture has no partial derivative signs in it. In assignment three, what you're doing is building a neural dependency parser. And so we hope that you can put together what you learned about neural networks last week and the content of today, and jump straight right in to building the neural dependency parsers. And since I missed my office hours yesterday, I'm gonna have a shortened office hour tomorrow from 1:00 to 2:20. neural transition based dependency parsers. We sort of have gone down that we've halve that error-error rate. And we're now down to sort of about a five percent error rate. Yeah. I'm basically out of time now but there is further work including, you know, at Stanford. It's more accurate than 95 percent, right? So we- we're still going on but I think I'd better stop here today, um, and that's neural dependency parsing. [NOISE]. "What can go wrong?" is a way of saying, ''What can't go wrong?' "So, here, is a newspaper article. Uh, ''San Jose cop kills man with knife''. Um, now, this has two meanings and the two meanings, um, depend on, well, what you decide depends on what, you know, what modifies what?" "Once you start having a lot of things that have choices like this, you stop having- if I wanna put an analysis ac- on to this sentence I've to work out the right structure"
+
+ROUGE-1: 4.09, ROUGE-2: 3.95, ROUGE-L: 3.32
+BERTScore: 65.32
+
+==============================================
+==================== [13/100] ====================
+Summary:
+The final exam is in this room on Monday at 9:30 a.m. so uh get here in plenty of time remember to position yourselves with seating as I said before so we SE sit in theice odd-numbered seats number one right here and number one on that row over there same thing is true if you sit up above okay um and uh you will get a full hour and 50 minutes to take the exam. If you did not get a note card on Wednesday when I passed them out you'll have to come to my office to get them from me. Glycogen phosphor is U an enzyme that's regulated in several ways. It exists in two forms it exists in the glycogenosphor a form which is the form that has the phosphate on that people describe as the more active and it has the form without the phosphate known as the glycogens phosphor B that people say is less active. Def phosphorilation involves a kise or phosphatase right the r&t involve allosteric affectors okay all right okay so that's where we start now. hear the bgs oh you heard the BS okay Night Fever Night Fever right okay so anyway and what succeeded the bGS was a really important group known as right the back street boy what a group huh and of course what succeeded them we know of course was um yeah low moment in music I think but if you thought you've seen low moments in music You Ain't Seen Nothing Yet let me introduce the next bees that are going to turn the music world upside down through the bio comical choir please come down. 5m I'll have my car pack with information so I don't have to memorize it and I'll feel like aart with my party just one to go and then ho I'll be all right I think you got it thank you. [Applause] oh yes thank you thank you [Music] sh if if if you're too crowded for the final and I don’t get a chance to say it I hope you have a great holiday and I will see you next time thank you indeed you too study hard. okay folks let's get started how's everybody doing pretty good Santa Claus has come to town and you know Santa does with naughty kids. I will autograph these for you you can sell them on eBay I you know how much you might make from your knowledge here okay so knowledge is power knowledge may be money. Heather started go for SES work almost identically Amino a TR tight changing their structure when they S1 then there are elect shs at the AC as theaction next [Applause]
+
+ROUGE-1: 14.29, ROUGE-2: 13.88, ROUGE-L: 11.76
+BERTScore: 62.89
+
+==============================================
+==================== [14/100] ====================
+Summary:
+JUDY HOYT: Hopefully everybody's recovered from their Thanksgiving feast. What I'm showing up here is the schedule to orient us. This is lecture 22. We'll talk about silicides, device contacts, and I've added in a new material this year on novel gate materials. And then next week we have two class periods scheduled. There'll be four speakers in each. And those will be the oral reports and the student reports given on Tuesday and Thursday. And I just want to remind people, if you're doing an oral report, you're expected to provide handouts. about your oral report or whatever, please get back to me. OK, thanks. About your oralReport.com. About. Your oral report. About Your Oral Report. Please get. back tome. about your oralreport or whatever. about. your oral Report or whatever,. please getback to me about.your oral Report. about Your OralReport.org. OK. Thanks, thanks, thanks for your report. You can send it to me via e-mail at jennifer@dailymail.co.uk. Figure 11-35. There's a reference to it in your textbook, a paper that an article that talks about it in much more detail on how it's actually made. On the left-hand side is showing the mask layout in order to make one of these structures. It's still a very tricky process. The reaction temperature or the thermal stability temperature is reasonably low. So you cannot take these and then take them to a backend process that is too hot. It was only published by IBM a couple of years ago.
+
+ROUGE-1: 3.39, ROUGE-2: 2.87, ROUGE-L: 3.14
+BERTScore: 65.64
+
+==============================================
+==================== [15/100] ====================
+Summary:
+The dagger algorithm aims to provide a more principled solution to the imitational and distributional Shi problem. The idea in dagger is to actually run the policy in the real world see which states it visits and ask humans to label those States. The goal is to collect data in such a way that P Pi Theta can actually learn from the data it's trained on. The basic version of dagger works like this and that's the version that you will all be implementing in your homework. It's a very simple algorithm to implement if you can get those labels. It can actually get up to fly pretty reliably through a forest dodging trees. experience and they can continuously self-improve and get better and better in principle exceeding the performance of humans now in order to start thinking about that we have to introduce some terminology and notation. We have to actually Define what it is that we want if our goal is no longer just to imitate but we want to do something else. In general we can have arbitrary cost on States and actions and those can Define arbitrary control tasks like not being eaten by tigers or reaching a desired destination. thing you actually want like reaching your destination or avoiding a car accident and then use those with more the more powerful reinforcement learning algorithms. In future weeks, we'll cover more of the powerful algorithms that we'll be covering in the next few weeks. We'll also cover how to use these algorithms to help you get what you want in the real world. Back to the page you came from. Follow us on Twitter @CNNOpinion and @cnnOpinION. We'd like to hear from you. Humans need to provide data for imitation learning which is sometimes fine but deep learning works best when the data is very plentiful. If the if the algorithm can collect data autonomously then we can be in that regime where deep Nets really Thrive. The other thing is that humans are not good at providing some kinds of actions so humans might be pretty good at specifying whether you should go left or right on a hiking trail but not so good at controlling a quadcopter through a remote control. If you want to control a giant robotic spider well good luck finding a human who can operate that.
+
+ROUGE-1: 34.12, ROUGE-2: 29.76, ROUGE-L: 20.61
+BERTScore: 60.42
+
+==============================================
+==================== [16/100] ====================
+Summary:
+Jonathan Gruber: What stops people from bingeing on everything? It's their budget constraint. Gruber says budget constraints are limited resources. He says you can essentially devote your income to some combination of pizza and cookies, but you have to consider how much they actually cost in doing that. Grubert: Every extra cookie that you buy, holding your income constant, lowers the amount of pizza you can have by p sub p, OK? He says we are not literally transforming pizza into cookies, which would be kind of cool. stop there. We will come back on Monday, and we'll talk about how we actually go from this stuff to the demand curves we started the class with. Back to the page you came from. back to CNN.com home. Follow us on Twitter @cnnireport and @CNNOpinion. Follow CNN Living on Facebook and Twitter. For more, go to www.cnn.com/lifestyle and www.dailymail.co.uk/lpin. earn, OK? That is there won't be any savings or borrowing. Now that is a simplifying assumption. And, indeed, we'll spend a couple lectures at the end of the semester talking about what happens when people can save or borrow. That said, this is not a terrible description of most Americans. The median American household has $400 in the bank. So that's what we'll do. We will come back on Monday, and we'll talk about how we actually go from this stuff to the demand curves we started the class with.
+
+ROUGE-1: 4.95, ROUGE-2: 4.04, ROUGE-L: 3.93
+BERTScore: 66.87
+
+==============================================
+==================== [17/100] ====================
+Summary:
+Professor Shelly Kagan: Life on the experience machine is perfect as long as you've got the right tape playing. But if something's missing from that life, there's more to the best kind of life than just having the right mental states, she says. Different theories of well-being might answer that in different ways, Professor Kagan says. But the crucial point is that it takes more to have the best life than getting the right insides, says Kagan, and that gives a whole lot of value to your life. ask--so I'll throw the question out and we'll call it a day, start with this next time--then we have to ask, would it really be better to know? would you want the birthmark? Would you want to know exactly how much time you've got left? All Right. See you next time. Back to the page you came from. Click here for more from CNN iReport. Back To the pageyou came from, back to thepage you were from. all think accomplishment's important, but it's not as though any old accomplishment is important. We can say that there are certain things that are good above and beyond experiences. After all, not every bit of knowledge is equally valuable. It's one thing to know your place in the universe, or to know the fundamental laws of physics. But it's another The narrative arc, as I put it. The story "bad to good" is the kind of story we want for ourselves, while the story "good to bad" is not.
+
+ROUGE-1: 6.31, ROUGE-2: 5.52, ROUGE-L: 4.80
+BERTScore: 62.12
+
+==============================================
+==================== [18/100] ====================
+Summary:
+Michael Short: How do you know what, let's say, your dose distance relationship is? And how do you calculate all this stuff? Short: I've actually laser-cut out a little Geiger counter jig from a previous class. The international design center has a laser cutter that you can sign up to use. And it's set to just take a Geigercounter and put your sources at some fixed distance away. It's a pretty good approximation to the solid angle of something for very long distances. Michael Short: I used to do environmental samples in this lab. He says the environmental side of this has quieted down a lot. But it's still useful for a bunch of things, he says. Short: The weirdest thing I've been asked to count? That's already activated, or? MICHAEL SHORT: At all. That was one of my samples. And the hair is a pain in the neck to work with. So I hope none of you give me hair samples. I won't run them. where it started, the 13.42 inches out of the bottom of the core. It might not make it all the way back up to [INAUDIBLE]. FRANK WARMSLEY: It'll be close. Compensate with the reg rod if you need to. 30.8. OK. And that's the end of the exercise. We'll be back in a few minutes with the results of the test. We hope to see you on "Larry King Live" next week. Most of the Boston area is 21, but once you leave Boston-- MICHAEL SHORT: It varies. If I've got something that's very radioactive, I'll just space it out away from the detector. If you've got things that's really hot, it just kind of swamps out the electronics. We did just go for a solid angle too, today. This is the spectrum I'm collecting on MIT 1. Right now, I don't know-- samples. But we'll figure out how many samples we'll run.
+
+ROUGE-1: 4.40, ROUGE-2: 3.98, ROUGE-L: 3.38
+BERTScore: 63.83
+
+==============================================
+==================== [19/100] ====================
+Summary:
+Professor: We're going to start with a short review problem on rugged landscapes. Then we'll get into the core topic of the class, which is evolutionary game theory. We'll discuss why it is that you don't need to invoke any notion of rationality. And we'll say something about the evolution of cooperation and experiments that one can do with microbial populations in the laboratory. The course is part of MIT OpenCourseWare, a free, online education program. To make a donation or view additional materials from hundreds of MIT courses, visit MIT Open courseWare at ocw.mit.edu. not the definition of that. But this thing is true, which means that it's a Nash equilibrium. And if you have questions about this, I'm happy to answer it. It's explained in the book as well. We are out of time, so I should let you go. But good luck on the exam next Thursday. If you have Questions and you want to meet with me, I am available on Tuesday. So please let me know. I'll be happy to talk to you. a minute. But if you don't understand what's going on, it'll take you an hour. Ready? Three, two, one. OK, all right, so we do have a fair range of answers. I'd say it might be kind of something like 50-50. And that's great. It means that there should be something to talk about. So turn to a neighbor. You should be able to find somebody that disagrees with you. And if everyone around you agrees, you can maybe-- all right. So there's a group of D's and aGroup of B's here, which means that everybody-- AUDIENCE: Let's fight.
+
+ROUGE-1: 5.40, ROUGE-2: 5.03, ROUGE-L: 4.12
+BERTScore: 64.90
+
+==============================================
+==================== [20/100] ====================
+Summary:
+In this video i'm going to be covering sinus tachycardia. sinus tells us that we're dealing with a heart rhythm that originates in the sa node. The sa node is really the starting point of the electrical conduction system. If this process is occurring like it should it should cause this heart to beat at about 60 to 100 beats per minute on the ecg. On the flip side let's say that this sa nodes is disease it's causing the heart to beating slowly.
+
+ROUGE-1: 4.32, ROUGE-2: 4.13, ROUGE-L: 4.18
+BERTScore: 65.06
+
+==============================================
+==================== [21/100] ====================
+Summary:
+In this problem, we're given a collection of 10 variables, x1 through x10, where each i, xi, is a uniform random variable between 0 and 1. And we'd like to develop a bound on the probability that some of the 10 variables being greater than 7 using different methods. In part A we'll be using the Markov's inequality written here. And in part B, we'll use the Chebyshev inequality, which takes into account the variance of random variable x.
+
+ROUGE-1: 9.95, ROUGE-2: 9.61, ROUGE-L: 9.83
+BERTScore: 73.92
+
+==============================================
+==================== [22/100] ====================
+Summary:
+the string, too, were massless. So we have simply mp plus mw a. And so we can now solve for the tension in the string, which is equal to mp plusmw times g plus a divided by 3. And recall that this tension, that the string is pulling, this is what we called the force that the person [? of ?] the string on the person. And by Newton's third law, that's also, on the washer, that’s also the force. So now that we've combined pulley A, string 2, platform, and washer as our system, we can now address our question. If we measure the acceleration of the person, what is the force that the person pulls the rope down with? Well, of course, that will just be the tension in the string. And with this simple system,we can now apply Newton's second law, F equals ma. And so by thinking about how to choose a system, what could be a very complicated problem, with lots of equations, is simply one equation.
+
+ROUGE-1: 75.59, ROUGE-2: 74.19, ROUGE-L: 49.24
+BERTScore: 84.87
+
+==============================================
+==================== [23/100] ====================
+Summary:
+In order to be successful whenever you're drawing blood or starting IVs you really have to know a couple things number one you need to know the name of the vein that you're going to use and its location along with what can that vein actually handle. Some veins can only handle about a 20 or a 22 gauge IV cannula versus some of them can handle 18 gages 16 gages. I also like to use accessories cephalic vein along with the median vein of the forearm and of course those hand mains the dorsal venous network.
+
+ROUGE-1: 13.00, ROUGE-2: 12.62, ROUGE-L: 13.00
+BERTScore: 67.49
+
+==============================================
+==================== [24/100] ====================
+Summary:
+When we talk about complement and substitute, we have to be clear whether we are talking about the demand side or the supply side. So, what do we mean, when do we say a good is complement in production or complement in supply? Can you give an example, first substitute think about it? Plastic chair to iron chair like. Boeing is a manufacturer of airplanes; it makes civilian airplanes as well as military aircrafts. If there is an increase in price of military aircraft, what would happen? Boeing devote more a space to military. To manufacturing, to manufacture military. aircrafts, it would go down. So, now we have enough knowledge. So that, to talk about the factors affecting the supply schedule or supply function. So, now that we have that knowledge, we can talk about how to get the most out of the resources that are available to us. That's what we're trying to do here. We're going to try and get the best of both worlds. We'll see how it goes from here. It'll be interesting to see how we get on with it. We've got a long way to go, but we're getting there. So, now we have enough knowledge. So that, to talk about the factors affecting the supply schedule or supply function. So, now that we have that knowledge, we can talk about how to get the most out of the resources that are available to us. That's what we're trying to do here. We're going to try and get the best of both worlds. We'll see how it goes from here. It'll be interesting to see how we get on with it. We've got a long way to go, but we're getting there.
+
+ROUGE-1: 46.00, ROUGE-2: 28.14, ROUGE-L: 29.37
+BERTScore: 62.02
+
+==============================================
+==================== [25/100] ====================
+Summary:
+Rebecca Sasse: Social intelligence should pervade our thinking about the mind and brain. She says social cognition is thrilling and terrifying, especially when people are hoping for a coherent theory of all of that. SSE: It's not how we avoid bumping into people in subways, but a lot of the kind of social cognition we do about the other kind of people. S SE: Moral judgment is an important feature of our social cognition, and it's also an important part of the rest of our cognition. false belief task looks like. This is being given to a five-year-old human child. Do you know what pirates really like? CHILD: What? REBECCA SAXE: Pirates really like cheese sandwiches. Here comes Ivan. He says, I want my cheese sandwich. And he takes this one. Uh oh-- why did he take that one? OK, and so the traditional read of what just happened there is that's a kid who gets wanting. But he doesn't get believing.
+
+ROUGE-1: 3.20, ROUGE-2: 2.87, ROUGE-L: 2.89
+BERTScore: 55.90
+
+==============================================
+==================== [26/100] ====================
+Summary:
+Joanne Stubbe's lab works on the only cool enzyme in the world-- ribonucleotide reductase. It's the only way in all organisms that you make the building blocks de novo that are required for DNA biosynthesis and repair. If you inhibit this enzyme, you have no building blocks. You can't survive. So from a practical point of view, it's the target of drugs they use therapeutically in the treatment of cancer. And I think in probably not so distant future in the antibacterials because there are sufficient differences between humans and bacteria reductases. and do the same chemistry, but they have different metal cofactors depending on where they evolved. The function in all cases is to generate a radical in the active site and then the chemistry is the same in all these things. And the function of the metalcofactors in all case is to create a radical, which is the key to the chemistry in all of these cases, says Dr. Michael Bociurkiw, a professor of chemistry at the University of California, San Diego. and do the same chemistry, but they have different metal cofactors depending on where they evolved. The function in all cases is to generate a radical in the active site and then the chemistry is the same in all these things. And the function of the metalcofactors in all case is to create a radical, which is the key to the chemistry in all of these cases, says Dr. Michael Bociurkiw, a professor of chemistry at the University of California, San Diego.
+
+ROUGE-1: 46.86, ROUGE-2: 34.79, ROUGE-L: 36.63
+BERTScore: 67.35
+
+==============================================
+==================== [27/100] ====================
+Summary:
+Derivative is a linear operation. The product rule fg prime plus gf prime. The quotient rule. And above all, the chain rule. The derivative of this-- of that chain of functions, that composite function is the derivative of f with. respect to g times the derivative. of g with respect to x. That's really-- that it's chains of functions that really blow open the functions or we can deal with. OK so I want to take that derivative, I notice the t is appearing there in the usual place, and it's also inside the integral. this isn't so practical. Tangent parabola, quite practical. Higher order terms, less-- much less practical. But the formula is beautiful because you see the pattern, that's really what mathematics is about. They all fit that pattern and when you add up all the terms, if you have a nice function, then the approximation becomes perfect and you would have equality. And those are the best functions of mathematics and exponential is of course one of them. OK that's calculus. Well, part of calculus. Calculus is the big application of calculus, so it's kind of interesting to see what part of calculus actually get used in differential equations. The derivative of x to the n, the derivative of sine and cosine. Above all, the derivatives of e to the x, which is e tothe x. And I'm going to show you what I see, and it's not everything by any means, but it's some basic ideas, but not all the details you learned.
+
+ROUGE-1: 25.27, ROUGE-2: 24.35, ROUGE-L: 17.58
+BERTScore: 71.13
+
+==============================================
+==================== [28/100] ====================
+Summary:
+okay so welcome to the last lecture of this course here in this winter term and what we discussed so far in the course were mainly the so-called backends or optimization engines or probablistic estimation techniques. Today I would like to give a very very of course brief short overview about front ends and one important aspect inside successful front ends on how to determine if a constraint is likely to be a correct one so we are still interested in avoiding to add roam constraints although we've learned that we there are techniques which can deal with outliers in the data Association. Ambiguity or not it's kind of if the uncertainty lips of speakers need to seen all that area to make this is no that's the only place where I actually can match and about the special clustering technique for the original paper where you find all the information here's the work back in also recognizing places using spectral clustered local matches. This is exactly the approach that I presented here and actually a couple of the slides that I use in here or of the images material at least comes from a tin Olsen. I reach all the posts I'm interested in looking into but this does is ignores the loop closures so the uncertainty estimates are too big. I can compute this extremely efficient and I may inspect a few places too much but I should get all the places which I need to inspect in order to make sure I find the course with whatever 95 percent probability. This is what is done in practice to what inverting this matrix age there so far we really tried to explicitly invert it used whatever Spurs to rescue decomposition or whatever techniques we used.
+
+ROUGE-1: 4.30, ROUGE-2: 4.23, ROUGE-L: 3.64
+BERTScore: 68.22
+
+==============================================
+==================== [29/100] ====================
+Summary:
+marketing marketing that's capital n a you guys do it okay come on stay with me here no sleeping no facebooking who's facebooking now anybody no text messaging all right no periscoping marketing is about creating. Marketing is about four things creating communicating delivering and exchanging value that's in chapter one so who can tell me what marketing is somebody good what's your name genius chingus go ahead tell us what is marketing i don't know but i know it's about creating right excellent good job. chapter one target market is different from target audience target audience is who we want to buy our product or service. We're going to determine the need is through marketing research. We do focus groups where we have 12 people in a room and with a moderator we ask them a series of questions like what are some of the problems that they have when cooking or baking. We don't have anything statistically significant all we have is the input of 48 people that cost 50,000 dollars to have a lot of experience in marketing. is that going to cost a hundred and fifty thousand dollars to do more intercept in multiple cities and get approximately 1500 respondents now when we do focus groups we also do multiple rounds of focus groups because each round is iterative so we learn from the first round of focus group and then we incorporate that in the next round before we do the quantitative research. i recommend that do the focus groups then we're going to do quantitative research before that now both of those focus groups and questionnaires qualitative and quantitative research as i describe that. For something to be of a good value it doesn't need to be a low price it could be a high price but it's a very high quality and it has a lot of benefits. Value does not mean low price so that's a good example anybody have another example of where something might be very expensive but not the lowest price yes go ahead tell us your name theresa bad. You guys are not wrestling fans you don't know randy orton that's his thing no rko yes out of nowhere. You haven't been to madison square garden if you were there i would have seen you.
+
+ROUGE-1: 23.07, ROUGE-2: 22.40, ROUGE-L: 16.49
+BERTScore: 65.99
+
+==============================================
+==================== [30/100] ====================
+Summary:
+Bentham's principle is "the greatest happiness of the greatest number" He thinks all utility is quantifiable and expressible through money. He also has a doctrine of revealed preference, where we can vary the price to get information about your utility. Bentham allows interpersonal comparisons of utility, so we can say that if you take one unit of utility from one person and give it to another person, you can make comparisons across individuals that we can make across society. And we could even influence your behavior without actually changing your preferences, and that's a very important distinction. classical to what we're going to all neoclassical utilitarianism is a subject with which I will begin on Wednesday. See you then for the next installment of this week's Daily Discussion, which will focus on the role of utilitarianism in the development of the modern world. Back to Mail Online home. back to the page you came from. Click here to read the first installment of the Daily Discussion. Follow us on Twitter @CNNOpinion and @jennifer_newton. Spitzer's integrity is blown it's not like there's some--it's a binary good. People either think he's either a hypocrite or he's not, it' a binary thing. So there might be some goods like integrity that are not easily capture-able in this logic. We should put that out there, but yeah, over here? What about health? It's not quite binary because you can be in medium health, but I think it would be pretty useful to be healthy and then super healthy, ad infinitum.
+
+ROUGE-1: 8.09, ROUGE-2: 6.84, ROUGE-L: 6.46
+BERTScore: 57.86
+
+==============================================
+==================== [31/100] ====================
+Summary:
+Lipids are mostly hydrophobic, which can also be referred to as lipophilic. In those fatty acids, they could be fully saturated. This is a very important semi-permeable membranes are made up through the non-covalent, supramolecular association of phospholipid monomer units. If they were fully permeable, anything could come and go and they wouldn't be much use frankly. But because they're semi- permeable, only a few things can come and going without extra help.
+
+ROUGE-1: 1.99, ROUGE-2: 1.86, ROUGE-L: 1.99
+BERTScore: 54.41
+
+==============================================
+==================== [32/100] ====================
+Summary:
+Professor: "It is impossible to represent the half integer states with a wave function which represents a probability distribution on a sphere" "The bigger the magnetic moment, the bigger the deflection" "If the force is proportional to the strength of your magnet, then how far-- if you send this magnet through a region, it'll get deflected in one direction or the other" "How far it gets deflected is determined by how big of a magnet you sent through. You send in a bigger magnet, it deflects more" nice bit of experimental data, but we've discovered the energy is, in fact, not just independent of m, but it's independent of l, too. Why? What symmetry is explaining this extra degeneracy? We'll pick that up next time. Back to Mail Online home. back to the page you came from. Click here to read the rest of the article. Back To the pageyou came from, click here to reads the rest. Back into the pageYou can now read the full article on this site. The kinetic energy term comes from the angular momentum. If you're spinning, and you pull in your arms, you have to do work, right? You have to pull those guys in. You're increasing your kinetic energy due to conservation of angular momentum,right? If you have rotationally invariance, as you bring in your hand you're increasing the kinetic energy. And so, here's the first thing, so we look at this equation. So, we had this differential equation-- this guy-- and we want to solve it.
+
+ROUGE-1: 3.91, ROUGE-2: 3.48, ROUGE-L: 3.48
+BERTScore: 56.93
+
+==============================================
+==================== [33/100] ====================
+Summary:
+John Guttag: This is the 60002 course, the second half of 600. The main topic of the course is what I think of as computational models. How do we use computation to understand the world in which we live? What is a model? To me, it's an experimental device that can help us understand something that has happened, to build a model that explains phenomena we see every day, or to predict the future, something that hasn't happened. The course is really less about programming and more about dipping your toe into the exotic world of data science. with an objective function that's either to be maximized or minimized. We then often have to layer on top of that objective function a set of constraints, sometimes empty, that we have to obey. So for, example, if I'm going from New York to Boston, I might want to find a route by car or plane or train that minimizes the total travel time. We use these things all the time. I commute to work using Waze, which essentially is solving-- not very well, I believe-- an optimization problem to minimize my time. and I'm going to allow myself 1,000 calories. Well, here what we see is the winner will be greedy by value, happens to find a better answer, 424 instead of 413. So there is no way to know in advance. Sometimes this definition of best might work. Sometimes no definition ofbest will work. You can't get to an optimal solution with a greedy algorithm. On Wednesday, we'll talk about how do you actually guarantee finding an optimal Solution in a better way than brute force. Python uses something called timsort, which is a variant of something called quicksort. timsort has the same worst-case complexity as merge sort. Python uses a sort algorithm called merge sort, which uses a different algorithm called sort. The sort algorithm has a power set of 100. The power set is if you have 100 Vec.value is the largest. So it's pretty obvious that this is going to give you a correct answer. You're considering all possibilities and choosing a winner, but it's usually not very practical.
+
+ROUGE-1: 13.47, ROUGE-2: 12.21, ROUGE-L: 9.56
+BERTScore: 56.32
+
+==============================================
+==================== [34/100] ====================
+Summary:
+Expectations play a big role in the decision of all economic actors. Milton Friedman called it the permanent income theory of consumption. You don't want to be moving consumption up and down like crazy. Once you realize, more or less, what you'll get on average, then you should-- consumption should be related to that concept. We will develop a life-cycle theory of Consumption, which says, look, even at the level of an individual, the day-to-day income is not really what determines consumption.
+
+ROUGE-1: 2.38, ROUGE-2: 2.22, ROUGE-L: 2.38
+BERTScore: 54.15
+
+==============================================
+==================== [35/100] ====================
+Summary:
+CNN's John Defterios takes a look at three different views of fiscal policy. Keynesian, classical and supply-side views are shown in the atas model. The Keynesian view is based on the idea that if you borrow money and make aggregate demand increase, eventually it will increase. The supply side view is more of a Keynesian approach and focuses on what happens when aggregate demand is increased rather than how much it increases. Defterius: We have three main views of how well fiscal policy works or how well it doesn't work and we're just gonna look at these.
+
+ROUGE-1: 3.50, ROUGE-2: 2.07, ROUGE-L: 2.82
+BERTScore: 56.17
+
+==============================================
+==================== [36/100] ====================
+Summary:
+Professor: The plan for today is as follows. We're going to look at this unitary time evolution and calculate this operator u, given the Hamiltonian. Then we will look at the Heisenberg picture of quantum mechanics. The Schrodinger operators acquire time dependence, which makes the relation between classical mechanics and quantum mechanics more obvious. So we'll discuss that. We'll find the heisenberg equations of motion and solve them for a particular case today. And we'll go through three cases. variables in, it just becomes identical to the Schrodinger Hamiltonian. All right, so that's all for today. I hope to see in office hours in the coming days. Be here Wednesday 12:30, maybe 12:25 would be better, and we'll see you then. [APPLAUSE] We'll be back at 12:50 on Wednesday, and be here at 1:30 on Thursday. Back to Mail Online home. back to the page you came from. of this, you will get H times that thing. So since it's a power series, you'll differentiate the first term, and you'll get the right thing. Then the second term and you will start getting everything that you need. So it's of limited usefulness. In fact, when we will discuss the rotating magnetic fields for magnetic resonance, we will not solve it in this way. We will try to figure out the solution some other way. All right, so that's all for today. I hope to see in office hours in the coming days.
+
+ROUGE-1: 5.82, ROUGE-2: 4.97, ROUGE-L: 5.02
+BERTScore: 64.36
+
+==============================================
+==================== [37/100] ====================
+Summary:
+Borat: I want to talk about my favorite part of the Second Discourse, a book that never grows old. Borat: Inequality begins in a faculty or a disposition that is untranslatable into English. He says it is amour-propre, the first term I put on the board, which is the first and most durable cause of inequality.borat: For Rousseau, this idea of pride, vanity, vainglory, Leviathan, is a very important part of political psychology. general will and how Rousseau sees it as a sort of collective answer to the problem of the securing of individual liberty. So meditate on that if you like for the next day. If you like, you can read the rest of the book tomorrow. It's a great read and a great way to start a new day. I hope you'll join me for a cup of tea and a glass of wine in the next few hours. I'm looking forward to seeing you in the morning. Government's job is not to impose a gag order on what can and cannot be said, he says. This is a respectable, sort of liberal line of thought going from Locke to John Stuart Mill, he adds. But there is something powerful and true about what the government is supposed to do, he writes. It is to protect you from harm and provide you with the freedom to practice what religion you like, consistent with others' freedom to do so too, he argues. The Danish prime minister has refused to apologize for the cartoon.
+
+ROUGE-1: 8.64, ROUGE-2: 6.54, ROUGE-L: 6.33
+BERTScore: 58.64
+
+==============================================
+==================== [38/100] ====================
+Summary:
+So I think I just spend like five minutes, just briefly review on the backpropagation last time. So I didn't have time to explain this figure, which I think probably would be useful as a high level summary of what's happening. Like this is the forward path. This is how you define network and the loss function. So you start with some example x, and then you have some-- I guess, this is a matrix vector multiplication module, and you take x inner product multiplied with w and b. And then get some activation, the pre-activation. And you get some post activation. going to discuss this more next time. So the high level thing is just that something else is driving the norm to be small. Thanks. Going to talk more about this in the next few days. Back to Mail Online home. back to the page you came from. Back To the pageYou came from: Back to thepage you camefrom. Back into the page You came from was from: The Daily Mail. Back onto the pageyou came from, the DailyMail.com page you were from. people really care about it. And what I mean by that is that even within linear models, you can try to change the model complexity. So what that means is that you just insist that you always use linear model. But what you change is to decide how many features you use. So you can start with only using one feature or two features like for example, in the house price, where you can use the square foot as the single feature, or you can collect a bunch of other features. That means you have more going to discuss this more next time.
+
+ROUGE-1: 4.05, ROUGE-2: 3.62, ROUGE-L: 3.83
+BERTScore: 68.98
+
+==============================================
+==================== [39/100] ====================
+Summary:
+Vladimir Ilyich Ulyanov, AKA Lenin, helped overthrow the Russian tsar Nicholas II in 1917. He founded the Soviet Union, one of the worst dictatorships of the 20th century. But was he a hero who toppled an oppressive tyranny or a villain who replaced it with another? It's time to put Lenin on the stand in History vs. Lenin, says Alexander Nekrassov, the author of the novel "The Death and Life of Vladimir Lenin" how would I have sounded?" We can never be sure how things could've unfolded if different people were in power or different decisions were made, but to avoid the mistakes of the past, we must always be willing to put historical figures on trial. We must never forget that history is not an exact copy of the present, but it can be a guide to the future. It can be used to learn from the mistakes made in the past and to make better decisions in the present. It is never too late to put a historical figure on trial for their actions. how would I have sounded?" We can never be sure how things could've unfolded if different people were in power or different decisions were made, but to avoid the mistakes of the past, we must always be willing to put historical figures on trial. We must never forget that history is not an exact copy of the present, but it can be a guide to the future. It can be used to learn from the mistakes made in the past and to make better decisions in the present. It is never too late to put a historical figure on trial for their actions.
+
+ROUGE-1: 32.58, ROUGE-2: 17.20, ROUGE-L: 20.22
+BERTScore: 57.61
+
+==============================================
+==================== [40/100] ====================
+Summary:
+The goal of this course is to give you the tools to interpret complicated phenomena. You don't know anything unless you have a reductionist picture of what's going on. The relationship between the effective quantum number and the ionization energy of a state then provides a hydrogen-atom-based structural model for everything you can observe. Your support will help MIT OpenCourseWare continue to offer high-quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT Open courseWare at ocw.mit.edu. shielding arguments are capable of explaining that. OK, so this is the end of atoms. And I've asked you to observe some complicated algebra which you're never going to do. Everything you need to know about atoms, you can tell a computer, and it can do it. Now molecules are much more complicated. And that's we're going to start on next time. We'll start with molecular orbital theory. I'm not going to be presenting the normal textbook approach. I'll present an interpretive approach, where you understand why things happen. Hermann Hissinger: Klemperer showed me, on a scrap of paper, how to do many-electron wave functions. That was it. That has been the foundation of my career for the last 50 years. He says the truth is really very complicated. You can't solve helium or any more-than-one-electrons problem exactly. But you can do it really well, and it just costs computer time, he says, and if the computer is doing the work, you don't really care.
+
+ROUGE-1: 9.14, ROUGE-2: 8.42, ROUGE-L: 5.42
+BERTScore: 64.48
+
+==============================================
+==================== [41/100] ====================
+Summary:
+As a nurse we will transfuse a patient who is low on red blood cells with new blood cells via a venous access of some type. Red blood cells are very vital for our survival and how our body works so in other words our body can't function very well without them. Most hospitals require that you're a registered nurse in order to transfuse the blood so again follow your Hospital protocol with that. You can access the free quiz that will test you on this procedure so let's get started.
+
+ROUGE-1: 3.97, ROUGE-2: 3.81, ROUGE-L: 3.81
+BERTScore: 64.22
+
+==============================================
+==================== [42/100] ====================
+Summary:
+In particle physics and in nuclear physics, we use a system called natural units. This system is based on fundamental concepts of quantum mechanics and special relativity. In this class, we'll use natural units in some examples, and SI units in others. This will use Heaviside-Lorentz units and combine them with some measurable units we discussed in the previous class. We'll end the discussion in 8.701 on units, and come back in the next class to talk about the theory of relativity. always be clear from the problem we're looking at. Always be clear about what you're trying to do. Always show us how you're going to solve a problem. Always. Show us how to get to the solution you're looking for. always. show us the way to get there.always. be clear of the problem you're aiming to solve. always be clear. of the goal you're seeking to achieve.always be. clear of your goal. of getting to the answer you're after. always be clear from the problem we're looking at. Always be clear about what you're trying to do. Always show us how you're going to solve a problem. Always. Show us how to get to the solution you're looking for. always. show us the way to get there.always. be clear of the problem you're aiming to solve. always be clear. of the goal you're seeking to achieve.always be. clear of your goal. of getting to the answer you're after.
+
+ROUGE-1: 30.08, ROUGE-2: 15.93, ROUGE-L: 15.13
+BERTScore: 53.12
+
+==============================================
+==================== [43/100] ====================
+Summary:
+Jeffrey Grossman: We're going to talk about energy storage. He says the planet is kind of a storage device for that thing over there. Most energy storage needs are going to be around a year or less, he says. Grossman says electricity is more and more important in our lives. We'll go into batteries and then talk about the chemistry of batteries and throw in a couple of, why this matters, he writes..com/jeffrey-grossman/energy-storage-technique. The growth in solar and wind has been incredible over the last 10, 20 years. The problem, as I think I've shown you, is the variability. There's no way to use renewables at large scales unless you store it. You can't solve renewables at the scale of the grid without storage. And no option exists today. It might be batteries, but there's nothing that actually does it today at the scales that we are at.go in everything now, all the way up to the grid. And that was my last Why This Matters in the last 2 and 1/2 minutes. need. So that's a real challenge for chemistry. I hope you guys have a great Thanksgiving and maybe hook up some different metals. And I'll see you all next week. Back to the page you came from. Follow us on Twitter @CNNOpinion and @cnnireport. Back To the pageyou came from, back to the CNNOpinions page.Back to thepage you came From. Back from the CNN Opinion page. Back in the page, click here for the latest from CNN. think about entropy as disorder. Entropy is about accessibility to states. It's about how many states you have to be in. A messier room does not have higher entropy, and in this case, it's just simply the rules of the algorithm. I have rules here about need. So that's a real challenge for chemistry. And I hope you guys have a great Thanksgiving and maybe hook up some different metals. And we'll see you all next week. Back to the page you came from.
+
+ROUGE-1: 7.76, ROUGE-2: 6.20, ROUGE-L: 5.21
+BERTScore: 61.12
+
+==============================================
+==================== [44/100] ====================
+Summary:
+Last time we talked about some of the kind of the bigger questions in deep learning theory. And today, we are going to start talking about the optimization perspective in deeplearning for two lectures. The main focus is to analyze what the functions you are optimizing look like so that you can use some trivial or some standard optimization algorithm for it. The bigger question we are trying to address here is that why many optimization algorithm are designed for convex functions. But why they can still work for nonconvex functions? assume that the input are linearly separable, then there is a proof for this. And there are a bunch of other cases where you can have some partial results. Next week, in the next lecture, maybe the second half of next lecture,. I'm also going to give another result, which is somewhat more general. It applies to many different architectures, but it has other kind of constraints. First of all, it doesn't really show exactly these kind of landscape properties. It shows that these kinds of properties holds for a region, for a special region in the parameter space. with a recommendation system. So suppose you think of we have a matrix. And in one side, the columns are indexed by the users. And every user probably have an opinion about every item, right? Either they like it or not, so and so forth. So that's why you have to recover all the rest of the entries to serve the users better in the future. And the most used method to solve this is basically nonconvex optimization to find this ground truth matrix M.
+
+ROUGE-1: 5.39, ROUGE-2: 5.27, ROUGE-L: 4.76
+BERTScore: 68.81
+
+==============================================
+==================== [45/100] ====================
+Summary:
+Iceland is one of the world's most active volcanic hotspots crafer has erupted 30 times in a thousand years and last blue in the 1980s. Scientists are now preparing to drill into it the is to learn more about how volcanoes behave so that we can better predict eruptions and also tap into a super hot source of energy volcanoes can be spectacular but they're also devastating around the world millions of people live close to them here in Iceland. Researchers here hope their work will change that helping to save lives and money while also pioneering a form of volcano power.
+
+ROUGE-1: 23.42, ROUGE-2: 22.80, ROUGE-L: 23.42
+BERTScore: 66.24
+
+==============================================
+==================== [46/100] ====================
+Summary:
+Taxes are one of three different kinds of tax we're gonna have aggressive so with our regressive tax as people earn more income base they are attacked a smaller amount of smaller percentage of the rounding. It's not the dollar amount it's gonna be obvious that everyone is must and a larger dollar amount in taxes their income goes up it's nothing down it's the percent of their income that you're spending that's what determines put the tax is regressive and what we see here is taxes.
+
+ROUGE-1: 5.90, ROUGE-2: 5.78, ROUGE-L: 5.90
+BERTScore: 69.17
+
+==============================================
+==================== [47/100] ====================
+Summary:
+that we are going to be looking for in an estimator, trying to find them to be unbiased. But we'll see that it's actually maybe not enough. So unbiasedness should not be something you lose your sleep over. Something that's slightly better is the risk, really the quadratics risk, which is expectation of-- so if I have an estimators, theta hat, I'm going to look at the expectation of theta hats n minus theta squared. And so for example, if the quadratic risk goes to 0, then that means that thetahat converges to theta in the L2 sense. this constant is 0 for my purposes, or 25 if you prefer. All right. So we'll just keep going on this property next time. And we'll see how from here we can move on to-- the likelihood is actually going to come out of this formula. Thanks. Back to Mail Online home. back to the page you came from. Back from the page where you came From. Click here to go to the show page where we'll be talking about the probability of winning the lottery. In this chapter, we're going to talk about maximum likelihood estimation. Maximum likelihood is the function, so we need to maximize a function. Sometimes, you have closed-form solutions. You can take the derivative and set it equal to 0 and solve it. But sometimes, you actually need to resort to algorithms to do that. And we'll briefly touch upon it, but this is definitely not the focus of this class. We'll just keep going on this property next time. OK? Any other question. Thanks.
+
+ROUGE-1: 4.11, ROUGE-2: 3.63, ROUGE-L: 3.71
+BERTScore: 68.60
+
+==============================================
+==================== [48/100] ====================
+Summary:
+The grading scheme will not be worse than what I've given you here. The great divide-- the great divide or the grade divide-- at 85% between A and B, 70% between B and C, 60% between C and D, and below 50% earns you an F. I don't think anybody can get into this environment as long as they participate. The first one deals with the particle physics content, and the second one with the nuclear physics and experimental method as well. Markus Klute: This class will be taught in an inverted classroom or flipped classroom setting. The course evaluation or your evaluation in this course will be made up 50% out of homework. The great divide-- the great divide or the grade divide-- at 85% between A and B, 70% between B and C, 60% between C and D, and below 50% earns you an F. The grading scheme will not be worse than what I've given you here, Klute says.
+
+ROUGE-1: 35.32, ROUGE-2: 29.17, ROUGE-L: 20.00
+BERTScore: 55.60
+
+==============================================
+==================== [49/100] ====================
+Summary:
+In this problem, we are given a joint PDF for x and y. And then we are asked to compute the variance of x plus y. We're told we should compute this variance by using something called the law of total variance. So first, I want to focus on this term-- the conditional expectation of X plus y conditioned on x. So this is actually just x plus the expectation of y given x. And because it's uniformly distributed and because expectation acts like center of mass, we know that the expectation should be the midpoint.
+
+ROUGE-1: 11.36, ROUGE-2: 11.14, ROUGE-L: 11.36
+BERTScore: 69.68
+
+==============================================
+==================== [50/100] ====================
+Summary:
+In the second half of the course, we'll talk about multisequence alignment. We'll also talk about the ClustalWustal algorithm. And then when we get into the transcriptome part of the transcript, we will talk about a star alignment. The course is offered by MIT OpenCourseWare, which is licensed under a Creative Commons license. For more information, visit ocw.mit.edu/opencourses and follow us on Twitter @MITOpenCourses. Bayes' theorem: Probability of a model and the probability of the sequence are prior probabilities. These are probabilities which are not conditional. They do not depend on something else. Now let's see what all this Bayesian stuff is useful for. We're going to be doing-- of the various applications, we had recognition discrimination and database search. We'll have two models, a model that we actually have a hydrolase and themodel that we have randomness. So we want to report all the sequences where the probability that that sequence is better than that sequence given a null model or random amino acids is significant. Student: Do you know the basis for thinking that the context for a dinucleotide is either an ocean or an island, in other words, only two states? Why couldn't the context be five states? GEORGE CHURCH: OK. Question. Student: Why can't there be more than two states for the context of a dinoinucleotide? Student: I want to know why there can't be more states for dinosucleotides. George Church: I don't know, but I think there must be. will be a recursive algorithm where the score of a two-character string is defined in terms of the maximum of various shorter strings. The number of different cases we have here-- before, it was 3 for a global alignment, which was k, being the number of sequences, was 2. Now k is three for a three-way comparison. And all possible subsets is 2 to the k minus 1, in this case, so it's 7. So seven cases, best score for S1 with each of the others.
+
+ROUGE-1: 8.58, ROUGE-2: 7.20, ROUGE-L: 5.58
+BERTScore: 64.00
+
+==============================================
+==================== [51/100] ====================
+Summary:
+in this module of tools and equipment we're going to explore cookware and storage wear. There are five basic metals that are used in cookware aluminum copper stainless steel cast iron and carbon steel aluminum pots and pans are the ubiquitous pans that you'll find in most every kitchen. A saute pan or satwa is one with the straight sides and has a larger surface area which makes it ideal for tasks like searing meat or reducing a pan sauce we also like it because we're less likely to slosh things over the side a sawtooth or skillet has a slope side and is used mainly in sauteing the slope sides providing the ample and perfect angle for flipping your food.
+
+ROUGE-1: 7.28, ROUGE-2: 7.17, ROUGE-L: 7.28
+BERTScore: 58.32
+
+==============================================
+==================== [52/100] ====================
+Summary:
+Charles Brockden Brown: The Enlightenment is a critique of a kind of impoverished view of mind or consciousness that over-relies on reason. We started to look at it a little bit with Barlow's [assumed spelling] Raven poem with Poe. The idea takes over, things that go on when reason loses its purchase on the mind and the mind becomes maddened for example or goes insane. All of these things are things that Charles Brockden brown starts to explore, right? So again I want to review some of the places that we've been. and I never sleep but with a candle burning at my pillow. Right, so from the confidence of enlightenment, now it's the pathetic I need to have a nightlight on, right? That's what Edgar has sunk to. What has caused all of this? His experience in the woods. And we'll take it up again on Wednesday, the experience of the woods, the story of Edgar's pit and the panther. I want you to look for the motif of light in the Panther scene, and also track one particular word, and that word is savage. that in fact there is something wrong with reason as a faculty, and this can take a couple of forms. One is that all of those nice ideals that come along with the enlightenment may in fact be parasitic precisely on the kinds of negative types of thinking that they are designed to get rid of. The other thing is that reason itself may not be as powerful as we think, that there might be other things going in, on within human consciousness that are either hostile to reason or are its opposite.
+
+ROUGE-1: 4.41, ROUGE-2: 4.29, ROUGE-L: 3.41
+BERTScore: 75.65
+
+==============================================
+==================== [53/100] ====================
+Summary:
+Markus Klute: In this chapter, we look at tests and implications of special relativity. One experimental test is stellar aberration, which we discussed can be explained by special relativity and by velocity addition. Light isotropy is being tested in a variety of different experiments, including Michelson-Morley and Kennedy and Thorndike. We will have a discussion of implications ofspecial relativity as we move on from here, Klute says. The final chapter of the special relativity course will be presented in the spring of 2015. and optics, upon the principle of relative movement." We now know this was wrong, but scientific process happens in scientific environment. And I started this class by explaining that one needs to be open minded to learn and to study and to grow scientifically. And one has to question the assumptions, understand the assumptions when then go into measurements. So this is the first part of this chapter where we talk about tests. We will have a discussion of implications of special relativity as we move on from here. One of the hypotheses you could have is that the photon actually is a massive particle. This would directly modify Coulomb's laws, which are tested experimentally. Another class of experiment is where we look directly at time dilation, for example, in the decay of the muon. There is weird electromagnetic effect if you introduce a mass to the photons like torque on a magnetic ring. Again, here precision measurements have been performed. And they're all in agreement with the hypothesis that the photons are massless.
+
+ROUGE-1: 44.56, ROUGE-2: 39.24, ROUGE-L: 27.31
+BERTScore: 69.57
+
+==============================================
+==================== [54/100] ====================
+Summary:
+In the colonial era, most American women of European descent lived lives much like those of their European counterparts: They were legally and socially subservient to men. Lower and working class women were actually more equal to men of their own classes, but only because they were, like, equally poor. As production shifted from homes to factories, it shifted away from women doing the producing. This led to the so-called “cult of domesticity,” which like most cults, I am opposed to. in comments where you can also ask questions about today’s video that will be answered by our team of historians. Thanks for watching Crash Course and as we say in my hometown, don’t forget to be awesome. Back to the page you came from with this week's Crash Course video. Follow us on Facebook and Twitter @CrashCourse and @CNNOpinion. For more Crash Course videos, visit CNN.com/Crashcourse and follow us on Twitter @cnncrashcourse. American women changed the world for better and for worse, just as great men do. And along the way, they made “the woman question’ part of the movement for social reform in the United States. In doing so, American women chipped away at the idea that a woman’s place must be in the home. That might not have been a presidential election or a war, but it is still bringing real change to our real lives on a daily basis. I’ll see you next week.
+
+ROUGE-1: 15.71, ROUGE-2: 14.14, ROUGE-L: 13.58
+BERTScore: 58.08
+
+==============================================
+==================== [55/100] ====================
+Summary:
+it might even be active already some of you may have read it you know you hear a lot of this uh you know young students dying young you know how tragic it was and and things of that nature um and this is to an athlete diane is the main focus um look at what he says about that individual and how they you know can celebrate and reflect on that individual. okay this one is an example of the literal element a lyric poem um as we were listening to it we kind of really sensed a flow a melody kind of um you know a nice little song. here in when i was 1 and 20 the kid kind of learns his learns his uh his issues and still 22. that's still pretty young to learn um to learn a life lesson. That's when i learned a lot about myself. That was when I was 1 to 20. I'm 22 now. I've still got a long way to go, but that's a good thing. I still have a lot to learn. I don't think i've learned all of my lessons yet, but I'm getting there. ae houseman 998-999 was a very intellectual individual. His studies of greek and latin for the most part were self-taught. Most of his poetry especially towards the end if you look on the right there the grief and poetry era. He can tap into that pain and that darkness and help you know other people and and help spread emotion through and through to an athlete dying young on page 1000 for us to an athletes dying young there's an article that i'm going to have you take a look at later.
+
+ROUGE-1: 28.74, ROUGE-2: 24.17, ROUGE-L: 16.62
+BERTScore: 64.42
+
+==============================================
+==================== [56/100] ====================
+Summary:
+the same connection. The pion here is spin 0, and if you discuss this in the rest frame of the pion, the electron and the positron fly off in opposite directions, which means that the spin doesn't in align to 0. So that's why this is highly suppressed. It's not 0, because you can find-- you can put [INAUDIBLE] into a rest frame, where you're just basically looking at both particles from one side that was coming to you, and in that case, it's allowed. In quantum mechanics, the spin of a particle with a vector is quantized. You find that it's square root of f times s plus 1 in units of h-bar. If you want to get an eigenvalue with the physical state of particles, which axis are the right ones to choose-- or, sensible? There's no right and wrong in this discussion. It's not 0, because you can put [INAUDIBLE] into the rest frame, where you're just basically looking at both particles from one side.
+
+ROUGE-1: 38.75, ROUGE-2: 34.34, ROUGE-L: 25.76
+BERTScore: 67.81
+
+==============================================
+==================== [57/100] ====================
+Summary:
+In the 5th Century BC Athens was a direct democracy that encouraged wide participation through the principle of ho boulomenos, or anyone who wishes. This meant that any of its approximately 30,000 eligible citizens could attend the ecclesia, a general assembly meeting several times a month. The Athenian system also relied on a 500 member governing council called the Boule, to set the agenda and evaluate proposals. Some ancient philosophers, including Plato, disparaged this form of democracy as being anarchic and run by fools. poll, all examples of how the democratic principle behind sortition still survives today. Polls show that the principle of sortition is still very much alive and well in the United States today. The majority of Americans support sortition, with the majority of people in the U.S. voting in favor of it by a wide margin in the last presidential election in 2008. The most popular type of vote in the 2008 election was for the Democratic Party, followed by the Republican Party and the Libertarian Party. The Democratic Party won the popular vote. poll, all examples of how the democratic principle behind sortition still survives today. Polls show that the principle of sortition is still very much alive and well in the United States today. The majority of Americans support sortition, with the majority of people in the U.S. voting in favor of it by a wide margin in the last presidential election in 2008. The most popular type of vote in the 2008 election was for the Democratic Party, followed by the Republican Party and the Libertarian Party. The Democratic Party won the popular vote.
+
+ROUGE-1: 41.43, ROUGE-2: 22.77, ROUGE-L: 24.72
+BERTScore: 58.46
+
+==============================================
+==================== [58/100] ====================
+Summary:
+Last time, we covered Fourier series and the Fourier transform. Today, we're going to talk about the convolution theorem, noise and filtering Shannon-Nyquist sampling theorem and spectral estimation. Next, we'll move on to spectrograms and an important idea of windowing and tapering, time bandwidth product, and some more advanced filtering methods. And we'll end with a look at a square wave that we've been talking about, the square wave is symmetric or even.
+
+ROUGE-1: 1.67, ROUGE-2: 1.54, ROUGE-L: 1.58
+BERTScore: 65.68
+
+==============================================
+==================== [59/100] ====================
+Summary:
+level problem sets. Developing a command of mechanics is a powerful tool for understanding the world around us. Welcome to 8.01, the latest version of the Java programming language. We hope to see you in the next edition of Java 8, which is scheduled to be released later this year. For more information, visit the official Java 8 website or follow us on Twitter at @joshjenson and @jenniferjenson. For the latest Java 8 news, visit our news page. The science of classical mechanics establishes an important principle of cause and effect. Newton's Laws of Motion established the scientific principle of analyzing observed phenomenon through the use of clearly articulated mathematical models rather than through intuition. Developing a command of mechanics is a powerful tool for understanding the world around us. 8.01 assumes a strong background in high school level physics and mathematics, so a previous course in calculus is not a prerequisite. It is a rigorous and technically challenging course aimed at MIT undergraduates. In each of these lessons, you will find a series of short lightboard videos that will help you understand concepts.
+
+ROUGE-1: 54.93, ROUGE-2: 42.33, ROUGE-L: 41.01
+BERTScore: 71.31
+
+==============================================
+==================== [60/100] ====================
+Summary:
+In this video, we'll look at an application of the probabilistic method to graph theory. An independent set in a graph is a subset of vertices with no two adjacent. Caro-Wei's theorem says that every graph G contains a large independent set of size at least the following quantity: summing over all v among vertices G, 1 over the degree of v plus 1. We'll see an application and some ways to interpret this result in graph theory as well as the corollary of Turan's theorem.
+
+ROUGE-1: 12.56, ROUGE-2: 11.61, ROUGE-L: 12.15
+BERTScore: 67.12
+
+==============================================
+==================== [61/100] ====================
+Summary:
+Professor: The games that we'll end up playing today are games from last year. A lot of them are actually the final semester-- the final project. Professor: I want you to keep in mind that you're not constrained to building games that look exactly like those. "You when you actually play someone else's game, then you're the most important person," he says. "If that person's experience is problematic or exciting or engaged or outright hostile to other players, that's making it the way that they want to take it" to get all the Carcassonne bits back. So and then we'll pick this up in about five minutes. We'll be back with the rest of the story in a few minutes. Back to Mail Online home. back to the page you came from. Click here to read the full transcript of this article. Back To the pageyou came from, click here to Read the Full Transcript of this Article. Backto the pageYou came from the page You were from, Click Here to Read The Full Transcript. In a digital game, save some random number seed at the time when the save is made so that outcome's always the same. In a visual game, that's telling me visibly, right now, that this might be the way I get to do that. Visibility has something to do with the intent of the player of the user in Norman's case. He's talking about the face on it, which I always thought was a little bit strange about-- that might have been designed, too.
+
+ROUGE-1: 4.72, ROUGE-2: 3.91, ROUGE-L: 4.17
+BERTScore: 59.04
+
+==============================================
+==================== [62/100] ====================
+Summary:
+Lecturer: We can take a two by two Hamiltonian and exactly diagonalize it. In the next lecture, we'll look at non-degenerate perturbation theory. The next lecture will be on the interactions between normal modes of a polyatomic molecule and an ordinary, ordinary,harmonic oscillator. The lecture will also look at the effect of the structural parameters in this Hamiltonian on the energy levels and properties of the system. It will be presented by Robert Field, a spectroscopist and professor at MIT. names that any educated physical chemist will know to say, oh, that's the Bixon-Jortner. And they're still alive. They're still doing beautiful stuff. But anyway, that is all I want to say today. I will do details on one mode and Morse oscillator in other sorts of things next time. Back to Mail Online home. back to the page you came from. Back To the pageyou came from, Back to thepage you came From. Back into the page. to know J, CJ eigenstates. Once you have this, then you know how to write the time dependent wave function. And then there's the origin of life. You need two particles to come together and start to condense into a liquid. That's the beginning. Perturbation theory explains the long range interactions by which all gas phase particles attract each other weakly. So that's important too. And so you'll be able to do all of this stuff. So here we have non-degenerate perturbation Theory. And it is isn't just blowing smoke.
+
+ROUGE-1: 8.24, ROUGE-2: 6.86, ROUGE-L: 6.29
+BERTScore: 56.78
+
+==============================================
+==================== [63/100] ====================
+Summary:
+If certain amount of output can be produced by given amount of inputs, then the same combination of input puts can also be used to produce less. The key word is feasibility technology. So, if it is feasible to produce half kg of curd from 1 kg of milk, then it is possible to produce 250 grams of curD from 1kg of milk. The second is no free lunch. At least 1 input is required to produce some output, or more than you know more than 1 kind of output. Third is non reversibility, what it means is that a production process cannot be reversed. feasible here, y is taking care of not only inputs but also output. The combination is all given here and this exhibits convexity. This is a simple example of how to make a complex shape. The shape can be any shape at any time. It can be either a shape or a shape-shift shape. It is possible to combine two shapes to create a shape that looks like a shape shape. For example, the shape could look like the shape of a circle or a circle. same proportion, then output will also decrease in the same proportion and this is possible this is feasible fine. The easier is easier way easier although they these two are not same, but the similar 1 implies the other, but not the other way around. If this is the input combination and it is feasible to combine them, in this way and get some output, then also it is also possible to combine lambda x 1 to lambda x 2 of course, here we are not talking about the amount of output.
+
+ROUGE-1: 16.73, ROUGE-2: 14.01, ROUGE-L: 14.58
+BERTScore: 64.62
+
+==============================================
+==================== [64/100] ====================
+Summary:
+The Great Wall began as multiple walls of rammed earth built by individual feudal states during the Chunqiu period to protect against nomadic raiders north of China. Under the Han Dynasty, the wall grew longer still, reaching 3700 miles, and spanning from Dunhuang to the Bohai Sea. After the Ming dynasty gained control in 1368, they began to refortify and further consolidate the wall using bricks and stones from local kilns. The wall was formidable but not invincible. Both Genghis and his son Khublai Khan managed to surmount the wall during the Mongol invasion of the 13th Century. main body and expanding this remarkable monument to human achievement. Main body is made up of three parts: the head, the torso, and the legs. The main body of the main body is the most important part of the body. The second part is the lower body, which includes the legs, the arms, the legs and the feet. The third part is made of the lower torso, which is the largest body of its kind. The last part is called the lower legs, which are made of marble and marble. main body and expanding this remarkable monument to human achievement. Main body is made up of three parts: the head, the torso, and the legs. The main body of the main body is the most important part of the body. The second part is the lower body, which includes the legs, the arms, the legs and the feet. The third part is made of the lower torso, which is the largest body of its kind. The last part is called the lower legs, which are made of marble and marble.
+
+ROUGE-1: 40.31, ROUGE-2: 24.78, ROUGE-L: 26.28
+BERTScore: 61.51
+
+==============================================
+==================== [65/100] ====================
+Summary:
+The panelists included a law school professor, a radiology professor, and a professor of privacy and fairness. They discussed how AI could be used to make decisions about bail, parole, and sentencing. The panelists also discussed the role of judges and how they might use AI to help them make these decisions. They also discussed how the use of technology to determine whose liberty is deprived raises concerns about transparency and interpretability next week, but today's is really about fairness and transparency.tenor of the times. When he was an undergraduate at Caltech, the Caltech faculty decided that they wanted to include student members of all the faculty committees. One day, one of the professors said here's what we ought to do. We ought to take the 230 people that we've just offered admission to and we should reject them all and take the next 230 people, and then see whether the faculty notices.look like they're a better bet. So that's just an example. And more, Science Friday had a nice show that you can listen to about this issue. can't define a universal notion of what it means to discriminate because it's very much tied to these questions of what is practically and morally irrelevant in the decisions that you're making. And so it's going to be different in criminal law than it is in medicine. And it's feature-specific as well, so you have to take the individual features into account. The government has tried to regulate these domains, and so credit is regulated by the Equal Credit Opportunity Act, education by the Civil Rights Act and various amendments. fairness popping up at different universities. University of Pennsylvania has the science of Data ethics, and I've mentioned already this fairness in machine learning class at Berkeley. This is, in fact, one of the topics we've talked about. I'm on a committee that is planning the activities of the new Schwarzman College of Computing. The college obviously hasn't started yet, so we don't have anything other than this lecture and a few other things like that in the works, but the plan is there to expand more in this area. Peter Solovits: I got a call from a committee of the National Academy of Science, Engineering, and Medicine. The committee is chaired by David Baltimore, who used to be an MIT professor. Solovitsch: They convened a meeting to talk about the set of topics that I've listed here. He says the issue of using litigation to target scientists who have opinions that you don't like is a big one. The more general issue of how do you communicate advances in life sciences to a skeptical public is another.
+
+ROUGE-1: 8.81, ROUGE-2: 7.65, ROUGE-L: 6.75
+BERTScore: 60.70
+
+==============================================
+==================== [66/100] ====================
+Summary:
+problem which, for those of you who had trouble with COMSOL, might take some extra time, since it's the first time you're doing it. So I would suggest you at least give it a try early. I'm sure the TAs would be very happy to help you to force COMsOL to cooperate. All right, so we're going to talk about partial differential equations. And, as it sounds, what's different about a partial differential equation is, it has partial derivatives in it. set up is right, so you can use it. But if you can, it can be pretty good. All right. See you on Friday. Back to Mail Online home. back to the page you came from. Click here for the latest from CNN.com. Back To the pageYou came from the page You came from: Back to the Page You Came From: Back To The Page You Were Originally From: The page you were originally from: The Page you were initially from: the Page you started from. MIT OpenCourseWare offers high quality educational resources for free. To make a donation, or to view additional materials from hundreds of MIT courses, visit MIT OpenCourse Ware at ocw.mit.edu. The next time I'll be lecturing to you will be a week from Friday. The homework following the quiz will be posted and so you guys can get started on that. That homework involves a COMSOL speed of sound. They won't catch up to the shock. So they will have no effect whatsoever.
+
+ROUGE-1: 5.42, ROUGE-2: 4.55, ROUGE-L: 4.14
+BERTScore: 70.37
+
+==============================================
+==================== [67/100] ====================
+Summary:
+the da vinci code is not the biggest circulated book in the world. i'm like i i can't speak to don quixote so um that's something i might just have to look up because that's interesting to me. oh no you know don Quixote or something i'm just like i don't know what that is. that's an interesting thing to think about. i may have to do some research on that. i might have to find out more about it. elizabeth the first is considered one of the greatest rulers in england's history if not the greatest for women. She never married can you blame her i mean look at what she grew up with around her dad and all of those moms and stepmoms she never had any kids which that causes a problem come her end time okay where we have i don't have an heir so she eventually does set on a cousin up in scotland which is the country on the same island of england but right above it.
+
+ROUGE-1: 41.04, ROUGE-2: 34.75, ROUGE-L: 22.41
+BERTScore: 60.92
+
+==============================================
+==================== [68/100] ====================
+Summary:
+ vector, we have delta x over delta t i hat. And this component here is what we call the component of the average velocity. And, again as before, this component can be positive, zero, or negative depending on the sine of delta x. And the key point here is that average velocity depends on whatever time interval you're referring to. So that's our definition of average Velocity. And now what we want to do is consider what happens in the limit as delta t becomes smaller and smaller. And that will enable us to introduce our concept of instantaneous velocity. The average velocity depends on the time interval t to t plus delta t while the person has displaced a certain amount of vector delta r. So, as a vector, we have delta x over delta t i hat. This component here is what we call the component of the average velocity. And, again as before, this component can be positive, zero, or negative depending on the sine of delta x. And now what we want to do is consider what happens in the limit as delta t becomes smaller and smaller. And that will enable us to introduce our concept of instantaneous velocity.
+
+ROUGE-1: 74.32, ROUGE-2: 62.89, ROUGE-L: 53.86
+BERTScore: 82.65
+
+==============================================
+==================== [69/100] ====================
+Summary:
+Last week we looked at the we first saw our first magic formula which you've probably forgotten because it was a wonderful weekend so I'll remind you and um then from there we will uh resolve the spider problem and then uh we're going to solve uh the super magic formula. The Machinery I provided you is powerful enough to solve pretty much any kinematics problem because it's based purely on Geometry angular velocity is a kind of a madeup concept that just simplifies the math. yeah sorry and plus this thing okay we'll end now because Professor Socrates needs to take over this is it this is correct acceleration of P acceleration of Q with respect to B Oiler coris centripedal and you know why it doesn't go to zero because I'm not taking a Omega B cross a omeg B. I'm taking a omega B cross this whole term which is at 90° to a OmegaB got it got it? Yeah sorry and Plus this thingOkay we'llend now because professor Socrates need to takeover. but you need this correction term which is very beautiful done okay so this was the magic formula that I introduced in the last class how would we go about proving this anybody yeah do the math how wouldWe do theMath how would We prove this here's what we'll do let's prove it. I'm going to show you some videos showing you the coris force when I'm when you're done with these videos um you will a totally understand what the cholis not effect sorry not force cholis acceleration is and B have a headache rotating.
+
+ROUGE-1: 5.39, ROUGE-2: 5.06, ROUGE-L: 4.58
+BERTScore: 63.44
+
+==============================================
+==================== [70/100] ====================
+Summary:
+Al shalot is the CEO of GT Sports. He is also a member of the Esports commission the international Olympic Comm. He has been advising in the background for a while now. He says the turning point for him are the Asian Games. The Olympic Committee when they attended this event they're like okay now we get [Music] it hi there my name is Al shalots. I'm theCEO of GT sports. I've been participating to the conception and Advising the I on what's not public the Olympic sports games and it's a huge moment because we now know there is going to be an official Olympics. "Everybody wants to see what a dennish team will do against Corin I I would love to see it too you know so um I've seen a lot of players making the the guess or what the team could look like so his aspiration to be part of is is clearly part of the discussion," he says. "You follow a bit like the conversation about but uh rocket league and OverWatch back in the days at the at the World Cup for for their game and and and League of Legend also often have this conversation about creating the Euro Cup or World Cup" "Everybody wants to see what a dennish team will do against Corin I I would love to see it too you know so um I've seen a lot of players making the the guess or what the team could look like so his aspiration to be part of is is clearly part of the discussion," he says. "You follow a bit like the conversation about but uh rocket league and OverWatch back in the days at the at the World Cup for for their game and and and League of Legend also often have this conversation about creating the Euro Cup or World Cup"
+
+ROUGE-1: 14.64, ROUGE-2: 11.04, ROUGE-L: 10.55
+BERTScore: 63.51
+
+==============================================
+==================== [71/100] ====================
+Summary:
+"Apparently This Matters" is CNN Radio's weekly, offbeat look at stories you saw on CNN.com. This week, Jarrett ponders the meaning of the word "unlockable" "Unlockable," means either it's possible to unlock it, or it is not possible to lock it," Jarrett says. "Un-" combines with verbs and makes adjectives that mean more or less "not (adjective) " " Unfortunate" means not the adjective, whatever it is. construct syntactic trees for strings of words. It's often the case that we get ambiguities like the "unlockable" ambiguity. There is more than one way to combine things. And what we'll do is develop tests that allow us to see which way we've combined words in different ways. And we'll find cases where, depending on in what order you combine things, you get different meanings, and our tests will combine with that. All right. We will do this again on Tuesday. a living? How I answer depends on whether I feel like talking to the person or not. If I would like to get them to leave me alone so that I can read a book or whatever, I tell them I'm a theoretical syntactician. That usually ends the conversation fairly quickly. When it doesn't, when they say, "Oh, what's that mean? What do you work on?" Then I will say, well, I'm trying to figure out why some sentences are grammatical and others aren't.
+
+ROUGE-1: 3.43, ROUGE-2: 3.08, ROUGE-L: 2.64
+BERTScore: 58.72
+
+==============================================
+==================== [72/100] ====================
+Summary:
+William Wordsworth was a true literary pioneer he defied the conventions of his time by insisting that poetry should be should express deep feelings about everyday experiences. The Rime of the Ancient Mariner for Coleridge was as we'll read here and for the intro for that you know Wordsworth worked with him on that it was going to be a dual credit both of them were going to get credit for it but Wordsworth had to drop out of that but some of the most famous elements of the piece still are in there and they're still a focal point. like I said we first started this particular piece talking about it you know that memory if I am dead if I'm gone think back to this time sister if you can't hear my any longer just remember what my feelings are for you. "This is one I probably say the top three or four most difficult pieces not that it's crazy hard but it's just it's a lot more difficult than reading those pulp" "My voice and my spirit will continue because you'll be experiencing all of these things and thinking in the same mind frame that I was thinking" Sister I've never lost a parent um I don't know if anyone has but I would imagine that's a big gap in your life and you may be bond a little bit more with your siblings maybe she being the only female he has a sense of protection for and so being separated you can imagine the struggle that one might have in dealing with it with the loss. Up until that point you see that the you know his passion he developed for poetry for simple country living and for the natural world was to influence him for the rest of his life.
+
+ROUGE-1: 14.04, ROUGE-2: 13.60, ROUGE-L: 8.97
+BERTScore: 60.69
+
+==============================================
+==================== [73/100] ====================
+Summary:
+The goal is to understand solar cell conversion efficiency, which is the ratio of output to input energy. For most solar cells, this breaks down to the following progression, from the solar spectrum to charge collection. We're going to be focusing on charge separation, incorporating elements of either side. The total system efficiency is the product of each individual component going on in a solar cell. The energy band diagram for pn-junction in the dark is the equivalent circuit diagram for the diode under illumination.
+
+ROUGE-1: 1.93, ROUGE-2: 1.84, ROUGE-L: 1.91
+BERTScore: 61.17
+
+==============================================
+==================== [74/100] ====================
+Summary:
+Global chaos caused by a global outage the boss of the cyber security firm responsible has said it could be some time before all systems are back up and running thousands of flights have been cancelled Banking and health care has been affected including the NHS and some TV channels have been taken off air millions of people have been affected the problems are first reported in Australia before spreading across the world. tonight we'll be looking at exactly what happened and how it's affected patients passengers and businesses. BBC News as we heard the firm behind the outage crowd strike has held up its hands but admitted that it'll take time for things to get back to normal.
+
+ROUGE-1: 11.48, ROUGE-2: 11.21, ROUGE-L: 11.39
+BERTScore: 63.03
+
+==============================================
+==================== [75/100] ====================
+Summary:
+In the year 2000, four-year college grads actually earned more with their entry jobs than they're earning today. Changing technology has made wages rise more at the top, but has held wages down for a lot of other jobs. A third set of factors has to do with slower economic growth, slower productivity growth and slower dynamism in the U.S. economy, says Tyler Cowen. He says there is less demand for new labor and that makes it harder for a new college graduate to get the job he or she wants.
+
+ROUGE-1: 13.01, ROUGE-2: 11.60, ROUGE-L: 12.44
+BERTScore: 58.40
+
+==============================================
+==================== [76/100] ====================
+Summary:
+So, the first we learned rationality, rationality axioms - completeness, reflexivity and transitivity. And when our when someone’s preference exhibit these three properties, what does it mean that he is able to completely rank all his choices all his potential choices, with also possibility, with possibility that there are more than one bundle at some ranks this is a possibility. One thing also I should add that he will be able to rank only if he has finite consumption set and also what we have learned that this will translate into a utility function. So, from here we learned that indifference curve has to be downward sloping.
+
+ROUGE-1: 17.11, ROUGE-2: 16.81, ROUGE-L: 17.11
+BERTScore: 72.10
+
+==============================================
+==================== [77/100] ====================
+Summary:
+If you have a complex polyhedron, we found general unfoldings. We proved one of them. If you want an edge unfolding, that's the centuries-old open problem. For non-convex polyhedra, we know this is too much to hope for. But for general unfolding, we don't know. So today's lecture is actually mostly about these two open problems and different variations of it that we know how to solve, special cases, and changes in the model. compute the shortest paths between all pairs of vertices, something like this picture, except you don't know what it looks like in 3D. You know every edge must be a shortest path. So the edges are some subset of these guys. And so you've got lots of little convex polygons here. We know it must make a convex polyhedron. If it made two, Cauchy's rigidity theorem would tell you that they're the same. So even once you fix the gluing, you know that there's a unique convex realization. that's why you get exponential, in general. On the other hand, if your tree happens to be nice and balanced, doubling is not so bad because here you'll have constant. This a double everything below, but there's only log n levels. So is that linear? It should be about linear. It's certainly 2 to the theta log n, and it matters what this constant is. I think it's n or maybe n squared, but not too bad. So if you're lucky and the just the structure true just viewing p prime as p and p as p prime.
+
+ROUGE-1: 4.55, ROUGE-2: 4.45, ROUGE-L: 4.06
+BERTScore: 67.88
+
+==============================================
+==================== [78/100] ====================
+Summary:
+For a particle traveling in a circle, we've seen that the velocity can be written as r d theta dt. Let's now look at rotation in an arbitrary plane. And so what we're going to do is use the right hand rule to define a direction that tells you both the direction it defines the plane and it also tells you what the positive direction of rotation is for that plane. Now, in the k hat direction, in this case, I'm going to call it in the arbitrary n hat direction.
+
+ROUGE-1: 19.13, ROUGE-2: 18.37, ROUGE-L: 18.73
+BERTScore: 73.16
+
+==============================================
+==================== [79/100] ====================
+Summary:
+In week four, we take a break from learning more and more on neural network topics, and talk about final projects, but also some practical tips for building neural network systems. Today's lecture is the primary content for what you'll be using for building your assignment 4 systems. In the early 1950s, there started to be work on machine translation. Claims were made that the computer would replace most human translators. When you go in for full scale production what will the capacity be? We should be able to do about with a modern commercial computer about one to two million words an hour. that can sometimes improve performance. And we actually have that trick in the assignment 4 system. And you can try it out. So we generate along and generate our whole sentence in this manner. And that's proven to be a very effective way of getting more information from the source sentence more flexibly to allow us to generate a good translation. I'll stop here for now and at the start of next time. I will finish this off by going through the actual equations for how attention works. One French word gets translated as several English words. You can get the reverse, where you can have several French words that get translated as one English word. So mis en application is getting translated as implemented. And you can get even more complicated ones. So here we sort of have four English words being translated as two French words. But they don't really break down and translate each other well. I mean, these things don't only happen across languages. They also happen within the language when you have different ways of saying the same thing. And so even are somewhat flimsy terms.
+
+ROUGE-1: 5.44, ROUGE-2: 5.22, ROUGE-L: 4.48
+BERTScore: 62.20
+
+==============================================
+==================== [80/100] ====================
+Summary:
+Michael Short talks about radiation damage and nuclear materials. He explains the different material properties and what they actually mean. Short will be giving a talk at MRS, a materials research conference tomorrow. The talk will be on radiation damage in nuclear materials, which is the biggest research field in MIT's physics department. The course is free and available to the public. For more information, visit MIT OpenCourseWare at ocw.mit.edu/opencourses or follow us on Twitter @MITOpenCourses. the vessel too much, it's no longer a code stamp vessel. Pretty tricky spot that we're in, huh? But we're trying to science our way out of it. I don't want to keep you longer, but I'll open on Thursday with a little story about how mass attenuation coefficients can get you out of apartheid South Africa. I'm serious. And then we'll move into dose and biological effects. It's a couple minutes after. Well, it was just a few minutes. energy E and imparting kinetic energy T to another struck atom? That comes right from-- remember our treatment-- I think I've drawn this probably 50 times now. You then multiply by this little function nu of T, which represents the amount of damage, or not just ranting against it, no I am, but I'm doing so with evidence, so it's justified. These folks took pure nickel and put it in the same reactor, at the same temperature, and got the same amount of swelling. All the conditions were the same.
+
+ROUGE-1: 4.91, ROUGE-2: 4.14, ROUGE-L: 2.97
+BERTScore: 58.82
+
+==============================================
+==================== [81/100] ====================
+Summary:
+In Western astrology, it's a constellation determined by when your birthday falls in the calendar. But according to the Chinese zodiac, your shēngxiào is the animal assigned to your birth year. Of the many myths explaining these animal signs and their arrangement, the most enduring one is that of the Great Race. The first twelve animals to make it across the river would earn a spot on the zodiac calendar in the order they arrived. Each year is associated with one of the animals in this order, with the cycle starting over every 60 years.
+
+ROUGE-1: 25.00, ROUGE-2: 23.79, ROUGE-L: 24.49
+BERTScore: 67.07
+
+==============================================
+==================== [82/100] ====================
+Summary:
+In almost all cases when you address atoms, you do two photon courses because a photon is scattered. In reality, it is a two photon process and not two single photon processes. If you have any doubts about some subtleties about how is light absorbed and emitted, the correct answer is always obtained from the two-photon picture. In this chapter on two photons, I'm completely focused on the resonant terms. But since four terms is still too many, I want to just tell you what is special about two photons. this is what we want to discuss on Wednesday. And this is what I referred to as the fundamental limit of spontaneous emission because we have not lost any coherence here. It's just if the phase is only imprinted in one particle-- one particle quantum physics sets us a limitation. Oh well, we can read out the phase phi. OK. Any question? To be continued on Monday. Back to Mail Online home. back to the page you came from. Click here to read the full interview. The transition rate is Fermi's Golden Rule. It is exactly the same you have seen probably more than 100 times. People who want to measure fundamental constants-- the Rydberg constant-- want to compare lame shift with first principle QED calculations, sort of test the precision of quantum electrodynamics. This is the case for hydrogen. And, actually, with some advance in the numeric calculation of wave functions and all that, it may also be possible to do it with helium. I think so far it hasn't kind of-- helium has not replaced hydrogen.
+
+ROUGE-1: 5.31, ROUGE-2: 5.01, ROUGE-L: 4.67
+BERTScore: 62.16
+
+==============================================
+==================== [83/100] ====================
+Summary:
+- Hello, everyone. We're going to talk about deep learning software. This is a super exciting topic because it changes a lot every year. But as usual, a couple administrative notes before we dive into the material. As a reminder the project proposals for your course projects were due on Tuesday. And again, when working on assignment two, remember to stop your Google Cloud instances when you're not working to try to preserve your credits. For assignment two you really only need to use GPU instances for the last notebook. is really great for research. If you're interested in production deployment, you should probably look at Caffe, Caffe 2 or TensorFlow. PyTorch is a great choice. But it's a bit newer, has less community support, less code out there, so it could be a bit of an adventure. So it's kind of unfortunately, there's not just like one global best framework, it kind of depends on what you're actually trying to do, what applications you anticipate. The midterm will be in class on Tuesday, five nine. It'll be sort of pen and paper working through different kinds of, slightly more theoretical questions to check your understanding of the material that we've covered so far. And I think we'll probably post at least a short sort of sample of the types of questions to expect. So just, Yeah, yeah, so that's what we've done in the past is just closed note, closed book, relatively just like want to check that you understand the intuition behind most of the stuff we've presented.
+
+ROUGE-1: 3.43, ROUGE-2: 3.32, ROUGE-L: 2.61
+BERTScore: 72.06
+
+==============================================
+==================== [84/100] ====================
+Summary:
+Part 3 in our series on distributed word representations. We're going to be talking about vector comparison methods. To try to make this discussion pretty intuitive, I'm going to ground things in this running example. On the left, I have a very small vector space model. We have three words, A, B, and C. And you can see graphically that B and C are pretty close together. And A is kind of lonely down here in the corner, the infrequent one.
+
+ROUGE-1: 7.64, ROUGE-2: 7.56, ROUGE-L: 7.64
+BERTScore: 69.47
+
+==============================================
+==================== [85/100] ====================
+Summary:
+and your parents don't know just throw out William Blake you might be right okay very very famous individual so we'll be covering in the next couple days the lamb by William Blake. okay this is probably the sweetest of the poems that we have to some degree okay looking at it at face value one they have a little picture and these are the the etchings that he does okay you know with the picture that they give us to to help place things you know we have a shepherd talking to his flock okay he's out there alone he's probably has conversations with them. the field but somebody that is passionate about their religion and their faith you know the nature and the common man the shepherd person of the flock or even a child in a sense of children so it's a very short one and it's one that I believe is pretty easy to to comprehend and understand okay. "I believe it is one of the easiest to understand and understand," he says. "It's one of those things that is very, very easy to understand. It's very simple to understand" liyan blake a little bit about him he's kind of out there some of his contemporaries thought he was insane you know nowadays maybe he would be heavily medicated. He was an individual who you know was into art and was into eventually you know religion and such became a big part of his life but his as an artist you know he was a very prolific poet but he was also big-time into painting. He kind of really pushes the boundaries on and really became the form the more bear of it and a front-runner.
+
+ROUGE-1: 36.79, ROUGE-2: 33.82, ROUGE-L: 21.22
+BERTScore: 64.76
+
+==============================================
+==================== [86/100] ====================
+Summary:
+Cú Chulainn, hero of Ulster, stood at the ford at Cooley, ready to face an entire army singlehandedly. The army in question belonged to Queen Meadhbh of Connaught. Enraged at her husband’s possession of a white bull of awesome strength, she had set out to capture the fabled brown bull of Ulster at any cost. Cú Chulpainn invoked the sacred rite of single combat in order to fight the intruders one by one. broken heart, leaving behind a land that would remain ravaged by Meadhbh’s war for years to come. “I will never forget you,” he wrote to his son. ‘I will always love you.’ “You are my son,’ he replied, “and I will always be your son.” “And I will never leave you, my son. I will forever love you’, he said, ‘even though I’m no longer your son’. broken heart, leaving behind a land that would remain ravaged by Meadhbh’s war for years to come. “I will never forget you,” he wrote to his son. ‘I will always love you.’ “You are my son,’ he replied, “and I will always be your son.” “And I will never leave you, my son. I will forever love you’, he said, ‘even though I’m no longer your son’.
+
+ROUGE-1: 28.50, ROUGE-2: 20.71, ROUGE-L: 24.70
+BERTScore: 61.02
+
+==============================================
+==================== [87/100] ====================
+Summary:
+The Underworld gets a bad rap, but it's actually a lovely place to "live" It boasts historic charm and eccentric neighbors with eternal ties to the area. The community even has its own guard dog, Cerberus. Here, you'll join the ranks of royalty and heroes, including Cadmus, Patroclus, and Tisiphone. The Underworld also features four other waterways: Acheron, the river of woe; Cocytus, river ofwailing; Lethe, river. of oblivion; and Phlegethon, riverof fire. down again— all for trying to cheat death. As you can see, Achilles, the Underworld is full of exciting amenities. Here, you don't have to worry about brutal wars or painful cycles of revenge. You can finally just put your feet up and relax. It's a great place to take a break from your daily life. It also has a great view of the city of Athens, which is one of the most beautiful cities in the world. It is also a great spot to take some time off from your regular life and recharge your batteries. Tartarus is reserved for a select few who some might call the greatest sinners of all time. When Tantalus reaches for food, the branches grow taller, and when he stoops to quench his thirst, the water recedes. At their father’s order, the Danaids beheaded their husbands on their wedding night. From here, you can see the hill where Sisyphus pushes his boulder day after day, only for it to roll back. Finally, our last stop on the tour is one of our loveliest vistas.
+
+ROUGE-1: 50.38, ROUGE-2: 40.95, ROUGE-L: 32.00
+BERTScore: 63.25
+
+==============================================
+==================== [88/100] ====================
+Summary:
+Fluorescence is the emission of light in the absence of heat. Luminescence is the general term. Fluorescence is a little bit more specific. There are different types of luminescence. And you'll get to see some of those varieties of luminecence. The first thing to learn about fluorescence is how to spell it. It is actually fluor-L-L. It's a biological reaction that causes luminescent. And this is a cuttlefish shown here in this image in the corner where they are brightly lit at night.
+
+ROUGE-1: 2.46, ROUGE-2: 2.20, ROUGE-L: 2.11
+BERTScore: 60.39
+
+==============================================
+==================== [89/100] ====================
+Summary:
+ RAFAEL JARAMILLO: Today we're going to discuss the many D's of thermodynamics. We'll talk about lowercase d, lowercase Greek d, and uppercase Greek D. He'll draw a 3D visualization of how the entropy for a given phase might vary with pressure and temperature at a fixed composition. Jaramillo: The most common transformations that we talk about are transformations that take place at constant pressure and constant temperature, isobaric and isothermal transformations.
+
+ROUGE-1: 14.16, ROUGE-2: 13.02, ROUGE-L: 12.42
+BERTScore: 64.81
+
+==============================================
+==================== [90/100] ====================
+Summary:
+In this video I'm going to be going over lung oscilation specifically the sites of where you osculate. We're going to go over some audio clips of normal breath sounds and where you should hear them at CU that's a big thing. We'll also go over abnormal breath sounds. In the next video I'll be performing an assessment on a patient and show you how to listen with your stethoscope to these sides. I'll also give you some landmarks to make your job easier so you'll know what intercostal space correlates with which lobe of the lung.
+
+ROUGE-1: 6.12, ROUGE-2: 5.42, ROUGE-L: 4.95
+BERTScore: 70.72
+
+==============================================
+==================== [91/100] ====================
+Summary:
+Professor Donald Kagan: Sparta is the most important of the early poleis. He says the only decisions made were questions of whether to go to war, whether to make peace. Kagan says when a question was put to the Spartans, they responded by shouting and banging on their shields. The only people who spoke at those assemblies were the kings, the gerousia, or a group of people I haven't mentioned to you yet, the ephors, the five ephor. that there are the kinds of discontents that we have been talking about which find the leader in the form of a man who is an outstanding figure for some reason, who is willing to try to establish a tyranny. That it fails, I think, is an indication that the same forces haven't reached the power in Athens that they had reached in Megara, Corinth, Sicyon, and places like that. It's a warning about troubles ahead and I'll turn to those troubles in the next hour. what we have, not a monarchy, but a republic. Dominated insofar as it's dominated by anybody but individual aristocrats, by the areopagus. At some point in the history of that institution it consists now of men who have been archon. The year after their archonship they automatically go into the areOPagus and remain areopagites for life. Well, that gives the counsel of theAreopagus even more power and influence, because they consist now, exclusively after awhile, of people who've been chosen for their individual qualities.
+
+ROUGE-1: 5.10, ROUGE-2: 4.78, ROUGE-L: 4.49
+BERTScore: 58.98
+
+==============================================
+==================== [92/100] ====================
+Summary:
+Ka-Yen: "I walked into MIT not knowing a single thing about nuclear energy" "I'm going to be talking about the functionality and the benefits and the problems associated nuclear" "In 1951, the first nuclear reactor to produce electricity was the experimental breeder reactor, the EDR1" "From 1975 to 2002, there was this huge boom in nuclear energy, which is about this little chunk over here" "You can see that nothing really happened between the 90s and the 2000s"
+
+ROUGE-1: 1.71, ROUGE-2: 1.58, ROUGE-L: 1.62
+BERTScore: 52.16
+
+==============================================
+==================== [93/100] ====================
+Summary:
+Professor Steven Smith: I want to talk today about Aristotle's discovery of America. He says Aristotle discovered the American Constitution 1,500 or 2,000 years before it was written. Smith: Aristotle's proposal for a mixture of oligarchy and democracy seems, in many ways, to anticipate James Madison's call for a government where powers must be separated. But Aristotle's mixed constitution differs from ours still in certain important respects, he says. He doesn't so much insist, as you will see in your reading, on the actual separation of functions of government. the back door. On Friday, let me just remind you, Il Principe. We'll study Machiavelli. On this very partisan note I conclude. On Thursday, we'll study the life of the Italian statesman and play a game of chess with him. We're going to see how well he can play the game of poker. I'm looking forward to it. I hope you'll join us for the game on Friday night at 8 p.m. ET on CNN. the back door. On Friday, let me just remind you, Il Principe. We'll study Machiavelli. On this very partisan note I conclude. On Thursday, we'll study the life of the Italian statesman and play a game of chess with him. We're going to see how well he can play the game of poker. I'm looking forward to it. I hope you'll join us for the game on Friday night at 8 p.m. ET on CNN.
+
+ROUGE-1: 7.33, ROUGE-2: 4.34, ROUGE-L: 5.04
+BERTScore: 54.53
+
+==============================================
+==================== [94/100] ====================
+Summary:
+SNLI is the Stanford Natural Language Inference Corpus-- MultiNLI, and Adversarial NLI. SNLI is a big data set. It has over 550,000 training examples. And it has dev and test sets. Each have 10,000 examples balanced across the three classes. We estimate human performance at 92% for SNLI, because Sam Bowman has been curating that data. We can mark progress on SNLI because we can mark back into our underlying domain that you might have in mind. SNLI and MultiNLI into Turkish. XNLI is a bunch of assessment data sets that is dev-test splits for more than a dozen languages. Those are human-created translations that could be used to benchmark multilingual NLI systems. So there's a wide world of tasks you can explore, and I think that makes NLI a really exciting space in which to develop original systems, and projects, and so forth. And those could be interesting for seeing how well a model can grapple with variation that comes in very specific and technical domains. unanimous gold label. And we rate the overall human level of agreement at about 91.2% for the gold labels. And the overall Fleiss kappa measured interannotator agreement was 0.7, which is a high rate of agreement. And then for the leaderboard, you can check out this link here. Sam has been good about curating all the systems that enter. It's clear at this point, for example, that ensembles of deep learning methods are the best for this problem.
+
+ROUGE-1: 17.53, ROUGE-2: 16.36, ROUGE-L: 9.74
+BERTScore: 61.25
+
+==============================================
+==================== [95/100] ====================
+Summary:
+In a perfectly competitive market, the firm is a price-taker. No matter how many units they produce, they're just going to be able to get that same market price. A firm in an imperfectly competitive market will have their own firm-specific demand curve. The price that they get in the market is higher than the marginal cost and the marginal revenue at that point. Folks are willing to pay more than that marginal cost, but you still have no motivation to produce more.
+
+ROUGE-1: 21.16, ROUGE-2: 19.73, ROUGE-L: 21.16
+BERTScore: 65.43
+
+==============================================
+==================== [96/100] ====================
+Summary:
+Rigidity is really about the lack of motion. In infinitesimal motion, you can think about this in the absence of a motion. You need some smoothness. If there's a way to get started moving, that doesn't actually mean you could actually move. So we're going to need some linear algebra. That's one thing that's useful. So the idea is we think about rigidity-- does a linkage move or not-- to the first order. First order means first derivative. still buy them at the hardware store. That's it. You can't buy them online. You have to buy them from the store. They are not available online. They can be bought at the store, but you have to pay for them in cash. They're not available on the internet. You must buy them in the store to get them. You cannot buy them on the Internet. They must be bought from the hardware stores. That is it. They have to be bought in the stores. I'm saying is if it's non-zero for some choice of C, then it should be non- zero for this choice ofC. And if you find such a configuration C-- or I guess we call this a realization C-- then that C is generic. So it's not useful in a computable way, but it's a definition. It's a little bit nicer. And now there's a bunch of fun facts about infinitesimal motions still buy them at the hardware store.
+
+ROUGE-1: 4.08, ROUGE-2: 3.46, ROUGE-L: 3.46
+BERTScore: 61.52
+
+==============================================
+==================== [97/100] ====================
+Summary:
+Chess has been known as a tool of military strategy, a metaphor for human affairs, and a benchmark of genius. The game was originally known as chaturanga– a Sanskrit word for "four divisions" With its spread to Sassanid Persia, it acquired its current name and terminology– "chess," derived from "shah," meaning king. Chess-playing computers had been developed for decades, but Deep Blue’s triumph over Garry Kasparov in 1997 was the first time a machine had defeated a sitting champion.
+
+ROUGE-1: 21.34, ROUGE-2: 20.34, ROUGE-L: 21.34
+BERTScore: 63.36
+
+==============================================
+==================== [98/100] ====================
+Summary:
+this week will probably go live tomorrow uh not quite sure yet but you'll try to get it up as soon as possible so I guess like without further Ado let's Jump Right In. I'm gonna go somewhat into detail into what representation learning is and I think this should sort of cap out the last few weeks of deep learning um and probably give you a more comprehensive understanding of what deep learning actually is doing. So I guess before we jump into deep learning let's talk a bit about shallow learning. In terms of neural networks embeddings are pretty important so they are often described as lower dimensional learns continuous Vector representations of discrete variables. Embeddings are useful because they can reduce the dimensionality of your categorical variables for example and meaningfully represent them in the transform space. The idea is that if we can directly work with the significant somehow find a way to represent this line using just one variable instead of three that's going to be better because a high dimensional data can be very complex. and that will have a homework so if you ever need to review uh the topics from this lecture so to work on that homework this slide deck should be up on the website again if you feel free to do that. That is it for today a second pause. Back to the page you came from. The slide deck for this lecture is now available on our website again. Click through the slide deck to see the rest of the lecture. The lecture will be available again on the site later this week. Aryan is presenting today's lecture on pre-training with Verona. Aryan is one of the facilitators for this decal. The lecture will be on Advanced Techniques and as software CV. There is a homework for this entire cluster which is high Crush notebook that should be due next Tuesday even though this lecture doesn't have any homework. There will also be a lecture on SSL for CV and that will be that there will be a slide deck for that. The slide deck should be up on the website again if you feel free to do that.
+
+ROUGE-1: 7.91, ROUGE-2: 6.81, ROUGE-L: 6.83
+BERTScore: 61.60
+
+==============================================
+==================== [99/100] ====================
+Summary:
+Third lecture on Foundation mulative AI. Next time we'll talk about stable diffusion image generation. We'll have two guest speakers and then we'll end with the lecture on AI ethics and regulation as well as a panel. We apply this self-supervised learning where we learn without label data so we can get as much data as we want because there's no human being in the loop. There's no limit how much we can scale this up and what we get from this by learning from observation and learning from the data directly is a very contextual understanding of meaning. the World by looking at videos right you can even sort to understand how human beings work even better because you can see people being upset or sad or happy whatever right in in a video and start picking these cues up. You can connect the vision part to the text part and get a multimodality model that's able to do both in a really really sophisticated way uh also something that I think these these people are working on all right thank you thank you for your time and good luck with your book. Force things to comply to Simple Rules right it kind of abandons our ability to understand and compress what we're seeing and deals with that chaos directly that's why AI is so powerful and so humanlike. CTP was trained at a scale with an amount of data and parameters that we never seen before so this is a a year old now but this is I think this was 3.5 or something the first version it was using 175 billion parameters and just training the the final model cost around $5 million just in in Compu electricity bills.
+
+ROUGE-1: 4.85, ROUGE-2: 4.56, ROUGE-L: 3.77
+BERTScore: 63.69
+
+==============================================
+==================== [100/100] ====================
+Summary:
+The EM algorithm is an unsupervised version of k-means GMM. In GMM, you guess randomly an assignment of every point to the cluster, the probability. You guess where they're probabilistically linked, that is, what's the probability of these points belong to cluster one, this point belongs to cluster two. And then once you have that, you then solve some estimation problem that looks like a traditional supervised learning. The decomposition is quite important. And we're going to try and kind of abstract that away. do this when you have something that sums to 1. It's not more complicated than what I wrote here, but make sure independently you go through it and ask questions. In the next class, as I said, what we're going to see is this notion of factor analysis. And that is going to tell us how to apply EM to a different kind of setting, which, at first glance, will look kind of impossible to do without a latent variable model. And I think that's all I want to say. Just means I have an internal solver that's fast and I kind of trust, and I have something on the outside that's a latent variable that I'm like splitting up the modeling. It's one of a number of decomposition strategies. Doesn't mean it's the only way to solve it, though. All right, so the question is, how do we construct L of t? And I claim we know everything else. OK? So let's look term by term. So here, I'm just introducing Q. And this way, set the thetas, do a descent on them, or ascent in this case. Do argmax.
+
+ROUGE-1: 3.73, ROUGE-2: 3.55, ROUGE-L: 3.28
+BERTScore: 66.26
+
+==============================================

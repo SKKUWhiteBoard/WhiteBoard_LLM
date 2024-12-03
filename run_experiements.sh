@@ -7,7 +7,7 @@ THRESHOLDS=(0.7 0.8 0.9)
 METHODS=("ward" "single" "complete" "average")
 
 # 12GB 기준 배치 크기 고정
-BATCH_SIZE=12  # 추정치. 필요하면 조정 가능.
+BATCH_SIZE=16  # 추정치. 필요하면 조정 가능.
 
 # 실험 번호
 EXPERIMENT_ID=1

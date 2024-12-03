@@ -1,0 +1,4 @@
+rouge1: mean=18.905, var=223.750, min=2.886, max=75.594
+rouge2: mean=16.505, var=167.238, min=2.418, max=74.187
+rougeL: mean=12.648, var=102.803, min=1.837, max=53.862
+bert_score: mean=63.040, var=27.718, min=53.588, max=84.869

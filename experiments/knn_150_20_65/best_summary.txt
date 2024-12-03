@@ -1,0 +1,3 @@
+Best index: 67
+
+The average velocity depends on the time interval t to t plus delta t while the person has displaced a certain amount of vector delta r. So, as a vector, we have delta x over delta t i hat. This component here is what we call the component of the average velocity. And, again as before, this component can be positive, zero, or negative depending on the sine of delta x. And now what we want to do is consider what happens in the limit as delta t becomes smaller and smaller. And that will enable us to introduce our concept of instantaneous velocity.

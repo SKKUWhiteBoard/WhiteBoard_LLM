@@ -4,6 +4,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 from transformers import AutoTokenizer, AutoModel
+from sent2vec.vectorizer import Vectorizer
 
 def segmentate_sentence(full_text: str, n_word: int, n_overlap: int=0, fix_size: bool=False) -> List[str]:
     """
@@ -65,6 +66,27 @@ def encode_segments(segments: List[str], model_name: str='sentence-transformers/
         embeddings = F.normalize(embeddings, p=normalize, dim=1)
 
     return embeddings.numpy()
+
+def encode_sent2vec(segments: List[str], normalize: int=2) -> np.ndarray:
+    """
+    segment list를 입력받아 embedding을 반환
+
+    Args:
+    - segments: segment list
+    - model_name: model name
+
+    Returns:
+    - np.ndarray: embeddings
+    """
+
+    vectorizer = Vectorizer()
+    vectorizer.run(segments)
+    vectors = vectorizer.vectors
+
+    if normalize:
+        vectors = F.normalize(torch.tensor(vectors), p=normalize, dim=1)
+
+    return vectors.numpy()
 
 # Testing
 if __name__ == "__main__":

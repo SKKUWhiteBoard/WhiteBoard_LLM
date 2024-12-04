@@ -4,6 +4,7 @@ import seaborn as sns
 # pip install rouge_score bert_score
 from rouge_score import rouge_scorer
 from bert_score import score as bert_score
+from .segment_embedding import *
 
 
 def calculate_rouge_scores(original_text, summary):
@@ -40,6 +41,24 @@ def calculate_bert_score(original_text, summary, model="bert-base-uncased"):
     P, R, F = bert_score([summary], [original_text], model_type=model, lang="en")
     return F.mean().item()
 
+
+def calculate_sementic_similarity(original_text, summary, sent2vec=True):
+    """
+    Sent2vec의 유사도를 이용한 sementic_similarity 계산.
+    
+    Args:
+    - original_text (str): 원본 텍스트.
+    - summary (str): 요약 텍스트.
+    - model (str): 사용할 BERT 모델의 이름 (default: "bert-base-uncased").
+    
+    Returns:
+    - float: sementic_similarity.
+    """
+    embeddings = encode_sent2vec([summary, original_text])
+    sementic_similarity = cosine_similarity(embeddings[0], embeddings[1])
+
+    return sementic_similarity
+    
 
 def calculate_rouge_matrices(texts):
     """

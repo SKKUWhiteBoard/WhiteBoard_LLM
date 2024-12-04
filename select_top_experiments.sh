@@ -33,12 +33,12 @@ done
 # 종합 점수 기준 상위 5개 선택
 echo "Top 5 experiments (by total score):" > "$OUTPUT_FILE"
 echo "Total Score | BERTScore | Experiment Path" >> "$OUTPUT_FILE"
-sort -nr "$TEMP_FILE" | head -n 5 >> "$OUTPUT_FILE"
+sort -nr "$TEMP_FILE" | head -n 20 >> "$OUTPUT_FILE"
 
 # BERTScore 기준 상위 10개 선택
 echo -e "\nTop 10 experiments (by BERTScore):" >> "$OUTPUT_FILE"
 echo "BERTScore | Experiment Path" >> "$OUTPUT_FILE"
-sort -nr "$TEMP_FILE_BERT" | head -n 10 >> "$OUTPUT_FILE"
+sort -nr "$TEMP_FILE_BERT" | head -n 20 >> "$OUTPUT_FILE"
 
 # 결과 출력
 cat "$OUTPUT_FILE"

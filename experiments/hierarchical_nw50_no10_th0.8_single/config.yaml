@@ -1,0 +1,29 @@
+experiment_name: "hierarchical_nw50_no10_th0.8_single"
+
+mini_batch:
+  size: 16
+
+data:
+  source: "opensource"
+  opensource: "ccdv/govreport-summarization"
+  youtube: "WhiteboardLLM/Data"
+  index_set: 1
+
+segment:
+  args:
+    n_word: 50
+    n_overlap: 10
+    fix_size: False
+
+concat:
+  method: "concate_hierarchical_clustering"
+  args:
+    threshold: 0.8
+    method: "single"
+
+summary:
+  args:
+    min_length: 100
+    max_length: 1024
+
+save_summaries: True

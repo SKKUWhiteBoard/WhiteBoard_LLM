@@ -78,8 +78,11 @@ def encode_sent2vec(segments: List[str], normalize: int = 2, model_weight='sever
     Returns:
     - np.ndarray: Array of embeddings.
     """
-    tokenizer = AutoTokenizer.from_pretrained(model_weight)
-    model = AutoModel.from_pretrained(model_weight)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModel.from_pretrained(model_name)
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model = model.to(device)
 
     inputs = tokenizer(segments, padding=True, truncation=True, return_tensors="pt", max_length=512)
     

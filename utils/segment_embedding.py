@@ -4,7 +4,6 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 from transformers import AutoTokenizer, AutoModel
-from sent2vec.vectorizer import Vectorizer
 
 def segmentate_sentence(full_text: str, n_word: int, n_overlap: int=0, fix_size: bool=False) -> List[str]:
     """
@@ -67,26 +66,31 @@ def encode_segments(segments: List[str], model_name: str='sentence-transformers/
 
     return embeddings.numpy()
 
-def encode_sent2vec(segments: List[str], normalize: int=2) -> np.ndarray:
+def encode_sent2vec(segments: List[str], normalize: int = 2, model_weight='severinsimmler/xlm-roberta-longformer-large-16384') -> np.ndarray:
     """
-    segment list를 입력받아 embedding을 반환
+    Encode a list of text segments into embeddings using a transformer model.
 
     Args:
-    - segments: segment list
-    - model_name: model name
+    - segments (List[str]): List of text segments to encode.
+    - normalize (int, optional): p-norm value for normalization (default: 2). 
+                                 Set to 0 to skip normalization.
 
     Returns:
-    - np.ndarray: embeddings
+    - np.ndarray: Array of embeddings.
     """
+    tokenizer = AutoTokenizer.from_pretrained(model_weight)
+    model = AutoModel.from_pretrained(model_weight)
 
-    vectorizer = Vectorizer()
-    vectorizer.run(segments)
-    vectors = vectorizer.vectors
+    inputs = tokenizer(segments, padding=True, truncation=True, return_tensors="pt", max_length=512)
+    
+    with torch.no_grad():
+        outputs = model(**inputs)
+        embeddings = outputs.last_hidden_state.mean(dim=1)  # Mean pooling
 
     if normalize:
-        vectors = F.normalize(torch.tensor(vectors), p=normalize, dim=1)
+        embeddings = F.normalize(embeddings, p=normalize, dim=1)
 
-    return vectors.numpy()
+    return embeddings.numpy()
 
 # Testing
 if __name__ == "__main__":

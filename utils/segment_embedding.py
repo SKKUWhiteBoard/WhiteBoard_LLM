@@ -79,9 +79,12 @@ def encode_sent2vec(segments: List[str], normalize: int = 2, model_weight='sever
     - np.ndarray: Array of embeddings.
     """
     tokenizer = AutoTokenizer.from_pretrained(model_weight)
-    model = AutoModel.from_pretrained(model_weight)
+    model = AutoModel.from_pretrained(model_weight).to('cuda')
 
-    inputs = tokenizer(segments, padding=True, truncation=True, return_tensors="pt", max_length=512)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model = model.to(device)
+
+    inputs = tokenizer(segments, padding=True, truncation=True, return_tensors="pt", max_length=512).to(device)
     
     with torch.no_grad():
         outputs = model(**inputs)
@@ -90,7 +93,7 @@ def encode_sent2vec(segments: List[str], normalize: int = 2, model_weight='sever
     if normalize:
         embeddings = F.normalize(embeddings, p=normalize, dim=1)
 
-    return embeddings.numpy()
+    return embeddings.cpu().numpy()
 
 # Testing
 if __name__ == "__main__":

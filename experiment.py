@@ -100,21 +100,21 @@ for di, text in enumerate(datasets):
     s = time.time()
     
     rouge1, rouge2, rougeL = calculate_rouge_scores(text, batch_summaries)
-    b_score = calculate_bert_score(text, batch_summaries)
+    s_score = calculate_sementic_similarity(text, batch_summaries)
 
     # scale score * 100
     rouge1, rouge2, rougeL = rouge1*100, rouge2*100, rougeL*100
-    b_score = b_score * 100
+    s_score = s_score * 100
 
     e = time.time()
     print("Done", f"{e-s:.2f} sec")
     
     print(f"=> ROUGE-1: {rouge1:.2f}, ROUGE-2: {rouge2:.2f}, ROUGE-L: {rougeL:.2f}")
-    print(f"=> BERTScore: {b_score:.2f}")
+    print(f"=> BERTScore: {s_score:.2f}")
 
     # ========================== [Post-process] ========================
-    if b_score > max_score: # score는 대소비교 가능한 1가지 방식을 이용
-        max_score = b_score
+    if s_score > max_score: # score는 대소비교 가능한 1가지 방식을 이용
+        max_score = s_score
         best_summary = batch_summaries
         best_index = di
         # 원본 텍스트의 index는 indices[di]로 찾을 수 있음
@@ -123,20 +123,30 @@ for di, text in enumerate(datasets):
         'rouge1': rouge1,
         'rouge2': rouge2,
         'rougeL': rougeL,
-        'bert_score': b_score
+        'bert_score': s_score
     })
     print(f"Total: {time.time()-init_s:.2f} sec")
 
     # append summary and scores to text file (cummulative)
-    # if there is no file, create one
-    if config.save_summaries:
-        with open(f'experiments/{config.experiment_name}/summaries.txt', 'a') as f:
-            f.write(f"==================== [{di+1}/{len(datasets)}] ====================\n")
-            # f.write(f"Original text:\n{text}\n\n")
-            f.write(f"Summary:\n{batch_summaries}\n\n")
-            f.write(f"ROUGE-1: {rouge1:.2f}, ROUGE-2: {rouge2:.2f}, ROUGE-L: {rougeL:.2f}\n")
-            f.write(f"BERTScore: {b_score:.2f}\n\n")
-            f.write("==============================================\n")
+    # Ensure directories exist
+    base_path = f'experiments/{config.experiment_name}'
+    summaries_dir = os.path.join(base_path, 'summaries')
+    os.makedirs(summaries_dir, exist_ok=True)
+
+    # Save the summary in a separate file
+    summary_path = f'experiments/{config.experiment_name}/summaries/summary_{di+1}.txt'
+    with open(summary_path, 'w') as f:
+        f.write(f"Summary:\n{batch_summaries}\n\n")
+
+    # Append ROUGE scores to ROUGE_scores.txt
+    rouge_path = f'experiments/{config.experiment_name}/ROUGE_scores.txt'
+    with open(rouge_path, 'a') as f:
+        f.write(f"[{di+1}] ROUGE-1: {rouge1:.2f}\tROUGE-2: {rouge2:.2f}\tROUGE-L: {rougeL:.2f}\n")
+
+    # Append semantic scores to Semantic_scores.txt
+    semantic_path = f'experiments/{config.experiment_name}/Semantic_scores.txt'
+    with open(semantic_path, 'a') as f:
+        f.write(f"[{di+1}] Semantic Score: {s_score:.2f}\n")
 
 print("===============================================")
 

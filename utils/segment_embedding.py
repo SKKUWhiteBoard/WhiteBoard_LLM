@@ -78,6 +78,7 @@ def encode_sent2vec(segments: List[str], normalize: int = 2, model_weight='sever
     Returns:
     - np.ndarray: Array of embeddings.
     """
+
     tokenizer = AutoTokenizer.from_pretrained(model_weight)
     model = AutoModel.from_pretrained(model_weight).to('cuda')
 

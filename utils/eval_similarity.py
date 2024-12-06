@@ -43,7 +43,7 @@ def calculate_bert_score(original_text, summary, model="bert-base-uncased"):
     return F.mean().item()
 
 
-def calculate_sementic_similarity(original_text, summary, sent2vec=True):
+def calculate_semantic_similarity(original_text, summary, sent2vec=True):
     """
     Sent2vec의 유사도를 이용한 sementic_similarity 계산.
     

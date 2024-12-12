@@ -1,5 +1,7 @@
 # WhiteBoard SLLM (swe3032)
 
+![segment img](https://github.com/user-attachments/assets/73323869-e15e-41c6-b948-8c948cc24f27)
+
 ```
 ├── LICENSE
 ├── README.md
